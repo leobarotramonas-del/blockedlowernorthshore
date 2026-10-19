@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import { services } from '../../data/site';
+import { faqSchema, pageFaqs } from '../../data/faqs';
+---
+<BaseLayout title="Blocked Drain Services Lower North Shore" description="Explore professional blocked drain services across the Lower North Shore: toilet and sewer clearing, water jetting, CCTV inspections, root removal and drain repairs." schema={faqSchema(pageFaqs.services)}>
+  <PageHero label="Drain Services" title="Blocked drain services matched to the cause." intro="Choose the symptom or professional method you want to understand. Every service page explains warning signs, common causes, equipment and the practical repair path." image="/images/drain-camera-inspection.webp" imageAlt="Drain plumber carrying out a CCTV pipe inspection" />
+  <section class="section service-directory">
+    <p>If you are unsure which service fits, <a href="/contact/">contact the drain team</a> and describe what the drain is doing. You do not need to diagnose it yourself. You can also check our <a href="/service-areas/">Lower North Shore service areas</a>.</p>
+    {services.map((service) => <article><h2>{service.name}</h2><p>{service.summary}</p><ul>{service.details.map((detail) => <li>{detail}</li>)}</ul><a class="text-link" href={`/services/${service.slug}/`}>Understand {service.name}</a></article>)}
+  </section>
+  <FaqSection title="Blocked Drain Service Questions" intro="How clearing, camera inspection, water jetting and repairs fit together." items={pageFaqs.services} />
+  <CtaBand title="Not Sure Which Drain Service You Need?" />
+</BaseLayout>

@@ -1,0 +1,8 @@
+---
+import { areas, services } from '../data/site';
+const { path } = Astro.props;
+const segments = path.split('/').filter(Boolean);
+const labels: Record<string,string> = {services:'Services','service-areas':'Service areas',about:'About',contact:'Contact',privacy:'Privacy',terms:'Terms','404':'Page not found'};
+const name = (s:string) => areas.find(a=>a.slug===s)?.name ?? services.find(a=>a.slug===s)?.name ?? labels[s] ?? s;
+---
+{segments.length > 0 && <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li>{segments.map((segment:string,i:number)=><li>{i===segments.length-1?<span aria-current="page">{name(segment)}</span>:<a href={'/'+segments.slice(0,i+1).join('/')+'/'}>{name(segment)}</a>}</li>)}</ol></nav>}

@@ -1,0 +1,14 @@
+---
+import { areas, services, site } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="footer-brand">
+      <a class="brand brand--text" href="/"><strong>ANTONS</strong><span>BLOCKED DRAINS</span><small>LOWER NORTH SHORE</small></a>
+      <p>{site.name} is provided by {site.operator}. Professional blocked-drain services under NSW contractor licence {site.licence}.</p>
+    </div>
+    <div><h2>Services</h2>{services.map((item) => <a href={`/services/${item.slug}/`}>{item.name}</a>)}</div>
+    <div><h2>Service Areas</h2>{areas.map((area) => <a href={`/service-areas/${area.slug}/`}>{area.name}</a>)}</div>
+    <div><h2>Contact</h2><a href={site.phoneHref}>{site.phoneDisplay}</a><a href="/contact/">Contact Us</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div>
+  </div>
+</footer>

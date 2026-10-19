@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import FaqSection from '../components/FaqSection.astro';
+import { areas, site } from '../data/site';
+import { faqSchema, pageFaqs } from '../data/faqs';
+---
+<BaseLayout title="Contact a Lower North Shore Drain Plumber" description={`Call Antons Blocked Drains Lower North Shore on ${site.phoneDisplay} for drain clearing, CCTV inspection and repair enquiries. Urgent calls answered 24/7.`} schema={faqSchema(pageFaqs.contact)}>
+  <PageHero label="Contact" title="Tell us what the drain is doing." intro="For a faster assessment, share the full address, affected fixtures, when the symptoms began and whether wastewater is overflowing." image="/images/service-vehicle-equipment.webp" imageAlt="Antons plumber retrieving a fittings case from a stocked service vehicle" />
+  <section class="contact-panel"><div><h2>Call</h2><a href={site.phoneHref}>{site.phoneDisplay}</a><p>Urgent drain calls are taken 24 hours, 7 days a week.</p><p>Review our <a href="/services/">blocked drain services</a> or call if you are unsure which one fits.</p></div><div><h2>Coverage</h2><p>{areas.map((area) => area.name).join(', ')}. Current coverage is confirmed by full street address.</p><p>Explore our <a href="/service-areas/">service areas</a> for property and access considerations.</p></div><div><h2>Licence</h2><p>{site.operator}<br />NSW contractor licence {site.licence}</p></div></section>
+  <FaqSection title="Before You Call" intro="What to prepare, what to stop using and how urgent drain calls are handled." items={pageFaqs.contact} />
+</BaseLayout>

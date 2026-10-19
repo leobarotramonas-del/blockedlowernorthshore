@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import UndergroundExplorer from '../../components/UndergroundExplorer.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import { areas, services } from '../../data/site';
+import { faqSchema } from '../../data/faqs';
+export function getStaticPaths(){return areas.map(area=>({params:{slug:area.slug},props:{area}}));}
+const { area } = Astro.props;
+const relevant = services.filter(s=>area.relevantServices.includes(s.slug));
+const nearby = areas.filter(a=>area.neighbours.includes(a.slug));
+const schema = [{ '@type':'Service',name:area.title,description:area.intro,serviceType:'Blocked drain diagnosis, clearing and repair',areaServed:{'@type':'Place',name:area.name+', NSW '+area.postcode,address:{'@type':'PostalAddress',addressLocality:area.name,postalCode:area.postcode,addressRegion:'NSW',addressCountry:'AU'}}},faqSchema(area.faqs)];
+---
+<BaseLayout title={area.title} description={area.description} schema={schema}>
+<PageHero label={area.name} title={area.title} intro={area.intro} image={area.image} imageAlt={area.imageAlt}/>
+{area.slug === 'naremburn' && <UndergroundExplorer />}
+<section class:list={["section", area.slug !== 'naremburn' ? "detail-grid" : "slim-section"]}>
+{area.slug !== 'naremburn' && <div><h2>What may be happening underground</h2><p>{area.localIssue}</p><p>Tell us about rising toilet water, slow wastes, gurgling, overflowing gullies or pits holding water. One affected fixture may have a local restriction; several affected fixtures can point further along the connected line.</p></div>}
+<div><h2>Plan access before the visit</h2><p>{area.access}</p><p>{area.localOrientation}</p><p>Current coverage is confirmed by full street address. Call with the symptoms and urgency to confirm the next available response.</p></div>
+</section>
+<section class="section method-panel"><div><h2>Diagnosis before a clearing method</h2><p>{area.diagnosis}</p><p>Restoring flow and repairing a defect are separate tasks. Where damaged joints, poor fall or a failed section are found, the evidence and proposed repair scope are explained before agreement.</p></div><div><h2>Safe first actions</h2><ul><li>Stop using fixtures connected to a backing-up line.</li><li>Keep people and pets away from wastewater.</li><li>Avoid chemical cleaners and tell the plumber about products already used.</li><li>Stay clear of water near electrical equipment, unstable ground and heavy pit covers.</li></ul><p>Urgent calls are taken 24 hours, 7 days a week. Do not enter a pit or confined space to investigate.</p></div></section>
+<section class="section slim-section"><h2>Methods relevant to this property context</h2><div class="service-list">{relevant.map(service=><a class="service-row" href={'/services/'+service.slug+'/'}><h3>{service.name}</h3><p>{service.summary}</p><span>Read the method</span></a>)}</div><p>Unsure which fits? Explore the <a href="/services/">complete drain-service guide</a> or <a href="/contact/">describe the symptoms by phone</a>.</p></section>
+<FaqSection title={area.name+' drain questions'} items={area.faqs}/>
+<section class="section nearby"><h2>Nearby locality guides</h2><p>Different streets and building types can need different access arrangements.</p><div class="area-links">{nearby.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><a href="/service-areas/">All Lower North Shore service areas</a></section>
+<CtaBand title={'Discuss your '+area.name+' drain'}/>
+</BaseLayout>

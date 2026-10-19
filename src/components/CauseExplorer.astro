@@ -1,0 +1,89 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+const causes = [
+ {id:'roots',label:'Roots',title:'Clearing the roots is only part of the answer.',cause:'Roots can enter cracks and open joints, then grow across the flow path.',action:'We assess access and pipe condition, select suitable root-clearing equipment and use CCTV where needed to investigate the entry point.',reason:'Removing roots may restore flow. Identifying the opening helps explain why they returned and whether a separate repair is needed.',image:'/images/root-removal-excavation.webp',alt:'Antons technician holding removed roots beside a drainage excavation',position:'50% 20%',link:'/services/tree-root-blockages/',cta:'Explore root blockage services'},
+ {id:'grease',label:'Grease & residue',title:'The pipe needs the right cleaning method.',cause:'Fats, soap, hair and sediment can reduce the space available for water to pass.',action:'We establish the affected section and choose mechanical cleaning or controlled water jetting to suit the obstruction and pipework.',reason:'The most forceful tool is not always suitable. Equipment and nozzle selection matter, followed by a flow check.',image:'/images/residential-drain-clearing.webp',alt:'Antons plumber working with a drain hose at an outdoor access point',position:'50% 60%',link:'/services/high-pressure-water-jetting/',cta:'Explore professional water jetting'},
+ {id:'objects',label:'Wipes & objects',title:'Find the obstruction before choosing the tool.',cause:'Wipes and foreign objects can lodge in a trap or catch further along a drainage line.',action:'We distinguish a local fixture blockage from a downstream restriction, then choose suitable retrieval, mechanical clearing or inspection equipment.',reason:'That assessment helps avoid forcing an object further in or using equipment that is unsuitable for the fixture.',image:'/images/drain-camera-inspection.webp',alt:'Antons plumber inspecting a drain with a camera and monitor',position:'50% 50%',link:'/services/blocked-toilets/',cta:'Explore blocked toilet services'},
+ {id:'damage',label:'Broken pipework',title:'A broken pipe needs more than another clearing.',cause:'A displaced, crushed or failed pipe section can keep catching debris.',action:'We use inspection and locating equipment where appropriate to establish the defect, consider access and explain a targeted repair scope.',reason:'Locating the problem helps plan excavation. Clearing a restriction and repairing damaged pipework are different jobs.',image:'/images/wall-side-pipe-repair.webp',alt:'Replacement drainage pipework exposed beside a house wall',position:'50% 40%',link:'/services/drain-repairs/',cta:'Explore targeted drain repairs'},
+];
+---
+<section class="cause-explorer" data-cause-explorer aria-labelledby="causes-title">
+ <header><h2 id="causes-title">A blockage is a symptom.<br />The cause decides the fix.</h2><p>Explore four possible causes. See what changes inside the pipe and how our professional drain plumbers approach each one.</p></header>
+ <div class="cause-choices" role="group" aria-label="Explore blockage causes">
+  {causes.map((cause,i)=><button type="button" data-cause={cause.id} aria-controls={`cause-${cause.id}`} aria-pressed={i===0?'true':'false'}>
+   <span class="cause-label">{cause.label}<span aria-hidden="true">+</span></span>
+   <svg viewBox="0 0 240 140" aria-hidden="true">
+    <path d="M0 38H240M0 103H240" stroke="#8197a9" stroke-width="12"/>
+    <path d="M0 45H240V96H0Z" fill="#f6f2e9"/>
+    <path d="M10 78H61M176 78H228M220 71L228 78L220 85" stroke="#1755ba" stroke-width="3" fill="none"/>
+    {cause.id==='roots' && <g stroke="#8b5b34" stroke-width="5" fill="none" stroke-linecap="round"><path d="M116 3L111 32L126 60L118 90M110 34L94 58L98 82M124 57L143 76M116 5L143 24L149 53"/></g>}
+    {cause.id==='grease' && <g fill="#a57530"><path d="M70 44H172L163 55L144 59L132 54L116 63L96 58L83 62Z"/><path d="M64 96L82 85L101 82L126 85L145 77L161 85L176 96Z"/></g>}
+    {cause.id==='objects' && <g fill="#cbd9e3" stroke="#526d82" stroke-width="2"><path d="M92 49L125 59L147 47L158 72L140 88L112 83L90 92L82 68Z"/><path d="M92 49L112 68L90 92M125 59L112 68L140 88" fill="none"/></g>}
+    {cause.id==='damage' && <g><path d="M108 30L120 54L111 68L128 83L116 113" stroke="#0b203b" stroke-width="12" fill="none"/><path d="M136 44L149 58L151 87" stroke="#8b5b34" stroke-width="4" fill="none"/></g>}
+   </svg>
+   <span class="cause-choice-hint">Explore this cause</span>
+  </button>)}
+ </div>
+ <p class="cause-instruction">Hover or focus to preview. Click or tap to select a cause.</p>
+ <div class="cause-panels">
+  {causes.map(cause=><article id={`cause-${cause.id}`} data-cause-panel={cause.id}>
+   <figure><ResponsiveImage src={cause.image} alt={cause.alt} widths={[360,480,768]} quality={65} sizes="(max-width: 760px) calc(100vw - 72px), 400px" loading="lazy" style={{objectPosition:cause.position}}/><figcaption>Antons on the job. Photographs illustrate our work, not a diagnosis of your drain.</figcaption></figure>
+   <div class="cause-explanation"><h3>{cause.title}</h3><p>{cause.cause}</p><dl><dt>How our plumbers approach it</dt><dd>{cause.action}</dd><dt>Why professional assessment matters</dt><dd>{cause.reason}</dd></dl><a href={cause.link}>{cause.cta}<span aria-hidden="true"> →</span></a></div>
+  </article>)}
+ </div>
+ <p class="cause-note">Symptoms alone cannot confirm the cause. We assess the line, explain the evidence and agree the work before proceeding.</p>
+</section>
+<script>
+ document.querySelectorAll<HTMLElement>('[data-cause-explorer]').forEach(section=>{
+  const buttons=[...section.querySelectorAll<HTMLButtonElement>('[data-cause]')];
+  const panels=[...section.querySelectorAll<HTMLElement>('[data-cause-panel]')];
+  let chosen='roots';
+  const show=(id:string)=>{
+   buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.cause===id)));
+   panels.forEach(panel=>{const active=panel.dataset.causePanel===id;panel.toggleAttribute('data-current',active);panel.inert=!active;panel.setAttribute('aria-hidden',String(!active));});
+  };
+  buttons.forEach(button=>{
+   const id=button.dataset.cause!;
+   button.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')show(id);});
+   button.addEventListener('focus',()=>show(id));
+   button.addEventListener('click',()=>{chosen=id;show(id);});
+   button.addEventListener('keydown',event=>{if(event.key==='Escape'){chosen='roots';show(chosen);buttons[0].focus();}});
+  });
+  section.addEventListener('pointerleave',()=>{if(!section.contains(document.activeElement))show(chosen);});
+  section.setAttribute('data-ready','');show(chosen);
+ });
+</script>
+<style>
+ .cause-explorer{background:#0b203b;color:#fff;padding:var(--pad);}
+ header{max-width:760px;margin-bottom:2rem;}
+ header h2{font-size:clamp(2.4rem,4vw,3.5rem);line-height:1.04;margin:0 0 1rem;}
+ header p{max-width:62ch;color:#d5dfec;}
+ .cause-choices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;}
+ .cause-choices button{min-width:0;text-align:left;border:1px solid #61788f;background:#112c48;color:#fff;padding:0;cursor:pointer;transition:background 160ms ease-out,border-color 160ms ease-out;}
+ .cause-choices button[aria-pressed="true"],.cause-choices button:hover{background:#194b9b;border-color:#a9c8ff;}
+ .cause-label{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:1rem 1rem 0;font:700 1.5rem 'Saira Extra Condensed',sans-serif;}
+ .cause-label>span{font-family:Barlow,sans-serif;font-size:1.4rem;}
+ .cause-choices svg{display:block;width:100%;height:auto;}
+ .cause-choice-hint{display:block;padding:0 1rem .8rem;color:#dbe8f6;font-size:.8rem;}
+ .cause-instruction{color:#d5dfec;font-size:.9rem;margin:1rem 0 1.5rem;}
+ .cause-panels article{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);background:#f4f2ec;color:#0b203b;margin-bottom:1rem;}
+ [data-ready] .cause-panels{display:grid;align-items:start;}
+ [data-ready] .cause-panels article{grid-area:1/1;margin:0;align-self:stretch;}
+ [data-ready] .cause-panels article:not([data-current]){visibility:hidden;pointer-events:none;}
+ [data-ready] article[data-current] .cause-explanation{animation:reveal 180ms ease-out;}
+ figure{margin:0;display:flex;flex-direction:column;background:#e3e7e4;}
+ figure :global(img){width:100%;height:300px;object-fit:cover;display:block;}
+ figcaption{padding:.75rem 1rem;font-size:.8rem;line-height:1.5;color:#314a5b;}
+ .cause-explanation{padding:1.8rem;}
+ h3{font-size:2.2rem;line-height:1.1;margin:0 0 .8rem;}
+ .cause-explanation p,.cause-explanation dd{font-size:1rem;line-height:1.6;color:#263e53;}
+ dt{font-weight:700;margin-top:1rem;}
+ dd{margin:.3rem 0 0;}
+ .cause-explanation a{display:inline-block;color:#164fae;font-weight:700;text-decoration:underline;text-underline-offset:4px;padding:.7rem 0;}
+ button:focus-visible,a:focus-visible{outline:3px solid #75b8ff;outline-offset:4px;}
+ .cause-explanation a:focus-visible{outline-color:#164fae;}
+ .cause-note{max-width:80ch;color:#d5dfec;font-size:.9rem;margin:1.5rem 0 0;}
+ @keyframes reveal{from{opacity:.5;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+ @media(max-width:760px){.cause-explorer{padding:2.5rem 1.25rem;}.cause-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}.cause-label{font-size:1.25rem;padding:.7rem .6rem 0;}.cause-choice-hint{padding:0 .6rem .65rem;font-size:.75rem;}.cause-panels article{grid-template-columns:1fr;}.cause-explanation{padding:1.25rem;}figure :global(img){height:230px;}h3{font-size:2rem;}}
+ @media(prefers-reduced-motion:reduce){.cause-choices button{transition:none;}[data-ready] article[data-current] .cause-explanation{animation:none;}}
+</style>

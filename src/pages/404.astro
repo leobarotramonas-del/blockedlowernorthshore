@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+<BaseLayout title="Page not found" description="Find drain services, local coverage or phone contact after a missing page." noindex canonicalPath="/404/"><section class="not-found"><h1>We cannot find that page.</h1><p>The address may have changed. Find the drain information you need below, or call with the symptoms.</p><div class="hero-actions"><a class="home-button" href="/services/">Drain services</a><a class="home-button" href="/service-areas/">Service areas</a><a class="call-button" href={site.phoneHref}>Call {site.phoneDisplay}</a></div><p><a href="/contact/">Contact details</a> or <a href="/">return to the homepage</a>.</p></section></BaseLayout>

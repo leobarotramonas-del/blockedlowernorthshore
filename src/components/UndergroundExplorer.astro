@@ -1,0 +1,155 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+const topics = [
+  { id: 'roots', label: 'Root entry', title: 'Roots find a way into the pipe.', text: 'Fine roots can enter an open joint or crack and grow into a dense obstruction. Clearing the roots may restore flow, while the entry point can still need repair.', symptom: 'A drain that clears, then blocks again.', check: 'CCTV inspection can show roots and the condition of the joint.', image: '/images/roots-removed-technician.webp', alt: 'Antons technician holding a long root mass removed from drainage', position: '50% 35%' },
+  { id: 'joint', label: 'Displaced joint', title: 'A small step can catch passing waste.', text: 'Movement can leave adjoining pipe sections out of alignment. The edge may catch waste or allow roots to enter through the gap.', symptom: 'Repeated restrictions at the same point.', check: 'A camera and locator help establish where a damaged section sits.', image: '/images/wall-side-pipe-repair.webp', alt: 'Replacement pipework and junctions exposed beside a house wall', position: '50% 40%', caption: 'Replacement pipework shown; an example of repair work.' },
+  { id: 'low', label: 'Low section', title: 'A dip can hold water and debris.', text: 'Where a pipe has settled, water may remain in a low section. Material can collect there and gradually reduce the space available for flow.', symptom: 'Slow drainage that returns after clearing.', check: 'Inspection helps distinguish deposits from a fall or structural problem.' },
+  { id: 'backup', label: 'Water backing up', title: 'The symptom can appear upstream.', text: 'A restriction further along the connected line can make water rise at a lower fixture or outdoor opening. The place that overflows is not always the blockage location.', symptom: 'Several fixtures gurgle or back up together.', check: 'The plumber compares affected fixtures and checks accessible branches.', image: '/images/drain-camera-inspection.webp', alt: 'Plumber using a camera and monitor at a drain access opening', position: '50% 50%', caption: 'Camera inspection helps investigate the connected line.' },
+];
+---
+<section class="underground section" aria-labelledby="underground-title" data-explorer>
+  <header class="underground__heading">
+    <h2 id="underground-title">See what could be happening underground.</h2>
+    <p>A slow drain is the symptom. Explore the pipe below to see some possible causes.</p>
+  </header>
+  <div class="underground__layout">
+    <div class="underground__scene">
+      <div class="underground__canvas">
+        <svg viewBox="0 0 720 530" role="img" aria-labelledby="drain-map-title drain-map-desc">
+          <title id="drain-map-title">Illustrative cutaway of a house and underground drain</title>
+          <desc id="drain-map-desc">A drain runs from the house through sloping ground. Explore water backing up near the house, a displaced joint, roots entering a pipe, and debris collecting in a low section. These are alternative possibilities, not a diagnosis.</desc>
+          <defs>
+            <pattern id="soil-marks" width="42" height="34" patternUnits="userSpaceOnUse"><path d="M8 18h4M29 7h3" stroke="#c7b6a1" stroke-width="2"/></pattern>
+          </defs>
+          <path d="M0 240L720 280V530H0Z" fill="#e7ddce"/>
+          <path d="M0 240L720 280V530H0Z" fill="url(#soil-marks)"/>
+          <path d="M0 240L720 280" stroke="#819477" stroke-width="9"/>
+          <!-- Geometric elevation and pipe schematic, not a site plan. -->
+          <path d="M48 239V134L150 62L252 134V254" fill="#fffdf7" stroke="#102e4a" stroke-width="4"/>
+          <path d="M32 143L150 59L268 143" fill="none" stroke="#102e4a" stroke-width="9" stroke-linejoin="round"/>
+          <path d="M81 160H120V198H81ZM181 159H220V198H181Z" fill="#d8e7ed" stroke="#102e4a" stroke-width="3"/>
+          <path d="M144 253V209H175V255" fill="#d7c6ae" stroke="#102e4a" stroke-width="3"/>
+          <text x="150" y="35" text-anchor="middle" class="map-label">HOUSE</text>
+          <text x="580" y="80" text-anchor="middle" class="map-label">GARDEN</text>
+          <path d="M476 267V122M476 169L440 137M476 198L512 158M476 144L494 117" stroke="#66785d" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <path d="M476 268L458 293L442 315M458 293L483 318L493 352M476 274L504 294L527 320M483 318L460 348" fill="none" stroke="#8b6745" stroke-width="4" stroke-linecap="round"/>
+          <path d="M109 213V308Q109 339 146 339H268L295 351H493Q524 351 550 374Q576 397 606 397H720" fill="none" stroke="#42566a" stroke-width="30" stroke-linejoin="round"/>
+          <path d="M109 213V308Q109 339 146 339H268L295 351H493Q524 351 550 374Q576 397 606 397H720" fill="none" stroke="#fffaf0" stroke-width="22" stroke-linejoin="round"/>
+          <path d="M124 342H260M301 354H476M558 397H708" fill="none" stroke="#5e9cb9" stroke-width="6"/>
+          <path class="flow-line" d="M134 339H250M305 351H430M618 392H701" fill="none" stroke="#1755ba" stroke-width="3" stroke-dasharray="8 18"/>
+          <g class="map-focus" data-map="roots"><path d="M461 330L468 345L453 358M478 327L484 345L472 360M490 332L491 352" fill="none" stroke="#8b542b" stroke-width="5" stroke-linecap="round"/><circle cx="476" cy="348" r="32"/></g>
+          <g class="map-focus" data-map="joint"><path d="M267 322V354M293 334V368" stroke="#42566a" stroke-width="5"/><circle cx="281" cy="346" r="30"/></g>
+          <g class="map-focus" data-map="low"><path d="M552 386Q575 405 610 404" stroke="#a17944" stroke-width="9" fill="none"/><circle cx="583" cy="389" r="32"/></g>
+          <g class="map-focus" data-map="backup"><path d="M109 302V258M102 269L109 258L116 269" stroke="#1755ba" stroke-width="4" fill="none"/><circle cx="109" cy="280" r="31"/></g>
+          <text x="39" y="481" class="map-note">Illustrative layout · not to scale</text>
+          <path d="M609 473H672M664 466L672 473L664 480" stroke="#42566a" stroke-width="2" fill="none"/>
+          <text x="637" y="503" text-anchor="middle" class="map-note">Downstream</text>
+        </svg>
+        <div class="underground__points" role="group" aria-label="Explore possible drain problems">
+          {topics.map(topic => <button type="button" class={`drain-point drain-point--${topic.id}`} data-topic={topic.id} aria-controls={`drain-detail-${topic.id}`} aria-pressed="false"><span class="drain-point__mark" aria-hidden="true">+</span><span>{topic.label}</span></button>)}
+        </div>
+      </div>
+      <p class="underground__hint">Hover to explore. Click or tap to keep an explanation open.</p>
+      <button type="button" class="underground__unpin" data-unpin hidden>Unpin explanation</button>
+    </div>
+    <div class="underground__details" aria-live="polite" aria-atomic="true">
+      {topics.map((topic, index) => <article id={`drain-detail-${topic.id}`} data-detail={topic.id} data-active={index === 0 ? '' : undefined}>
+        {topic.image ? <figure><ResponsiveImage src={topic.image} alt={topic.alt!} widths={[360,480,768]} sizes="(max-width: 850px) calc(100vw - 64px), 380px" loading="lazy" style={{objectPosition: topic.position}} />{topic.caption && <figcaption>{topic.caption}</figcaption>}</figure> : <figure class="low-pipe"><svg viewBox="0 0 400 210" role="img" aria-label="Magnified diagram of water and deposits collecting in a sagging pipe"><path d="M0 55H60C140 55 120 139 207 139S286 55 355 55H400" stroke="#465e71" stroke-width="66" fill="none"/><path d="M0 55H60C140 55 120 139 207 139S286 55 355 55H400" stroke="#fffaf0" stroke-width="54" fill="none"/><path d="M115 117Q145 166 207 166T302 117Z" fill="#9ec9d9"/><path d="M139 143Q206 180 275 143L262 157Q207 181 151 156Z" fill="#98723f"/><text x="200" y="198" text-anchor="middle" fill="#17334d" font-size="15">Water and deposits collect in the dip</text></svg><figcaption>Illustration of a low pipe section.</figcaption></figure>}
+        <div class="underground__detail-copy"><h3>{topic.title}</h3><p>{topic.text}</p><dl><dt>What you might notice</dt><dd>{topic.symptom}</dd><dt>How we investigate</dt><dd>{topic.check}</dd></dl></div>
+      </article>)}
+    </div>
+  </div>
+  <p class="underground__footnote">These are possible causes, not a diagnosis of your property. Tell us where water appears and which fixtures are affected.</p>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-explorer]').forEach(explorer => {
+    const buttons = [...explorer.querySelectorAll<HTMLButtonElement>('[data-topic]')];
+    const panels = [...explorer.querySelectorAll<HTMLElement>('[data-detail]')];
+    const unpin = explorer.querySelector<HTMLButtonElement>('[data-unpin]')!;
+    let selected = 'roots';
+    let pinned = false;
+    function select(id: string) {
+      selected = id;
+      panels.forEach(panel => {
+        const active = panel.dataset.detail === id;
+        panel.toggleAttribute('data-active', active);
+        panel.setAttribute('aria-hidden', String(!active));
+        panel.inert = !active;
+      });
+      buttons.forEach(button => {
+        button.dataset.active = String(button.dataset.topic === id);
+        button.setAttribute('aria-pressed', String(pinned && button.dataset.topic === id));
+      });
+      explorer.querySelectorAll<SVGGElement>('[data-map]').forEach(part => part.classList.toggle('is-active', part.dataset.map === id));
+      unpin.hidden = !pinned;
+    }
+    buttons.forEach(button => {
+      const id = button.dataset.topic!;
+      button.addEventListener('pointerenter', event => { if (event.pointerType === 'mouse' && !pinned) select(id); });
+      button.addEventListener('focus', () => { if (!pinned) select(id); });
+      button.addEventListener('click', () => { pinned = !(pinned && selected === id); select(id); });
+    });
+    unpin.addEventListener('click', () => { pinned = false; select(selected); buttons.find(button => button.dataset.topic === selected)?.focus(); });
+    explorer.addEventListener('keydown', event => { if (event.key === 'Escape' && pinned) { pinned = false; select(selected); buttons.find(button => button.dataset.topic === selected)?.focus(); } });
+    explorer.setAttribute('data-ready', '');
+    select(selected);
+  });
+</script>
+
+<style>
+  .underground { padding-bottom: 2.5rem; }
+  .underground__heading { max-width: 700px; margin-bottom: 2rem; }
+  .underground__heading h2 { max-width: 22ch; text-wrap: balance; }
+  .underground__heading p { max-width: 56ch; }
+  .underground__layout { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr); background: #edf1ef; }
+  .underground__scene { min-width: 0; align-self: start; }
+  .underground__canvas { position: relative; }
+  .underground__canvas > svg { width: 100%; height: auto; display: block; }
+  .map-label { font: 600 14px Barlow, sans-serif; letter-spacing: 1.4px; fill: #42566a; }
+  .map-note { font: 14px Barlow, sans-serif; fill: #42566a; }
+  .map-focus circle { fill: none; stroke: transparent; stroke-width: 3; transition: stroke 180ms ease-out; }
+  .map-focus.is-active circle { stroke: #1755ba; }
+  .flow-line { animation: drain-flow 2.5s linear 1; }
+  @keyframes drain-flow { to { stroke-dashoffset: -52; } }
+  .drain-point { position: absolute; display: flex; align-items: center; gap: 5px; color: #102e4a; font: 600 13px Barlow, sans-serif; background: #fffdf7; border: 1px solid #82919c; padding: 6px 9px 6px 5px; min-height: 44px; cursor: pointer; box-shadow: 0 3px 10px #102e4a12; white-space: nowrap; }
+  .drain-point__mark { display: grid; place-items: center; width: 25px; height: 25px; font-size: 22px; background: #e6eef5; color: #1755ba; }
+  .drain-point[data-active="true"], .drain-point:hover { background: #174fba; border-color: #174fba; color: white; }
+  .drain-point:focus-visible, .underground__unpin:focus-visible { outline: 3px solid #0b2545; outline-offset: 4px; }
+  .drain-point--backup { left: 3%; top: 40%; }
+  .drain-point--joint { left: 25%; top: 75%; }
+  .drain-point--roots { left: 55%; top: 52%; }
+  .drain-point--low { right: 3%; top: 79%; }
+  .underground__hint { padding: 1rem 1.25rem 0; font-size: .9rem; margin: 0; }
+  .underground__unpin { margin: .5rem 1.25rem 1.25rem; padding: .3rem 0; font: inherit; color: #174fba; text-decoration: underline; text-underline-offset: 4px; border: 0; background: none; cursor: pointer; min-height: 44px; }
+  .underground__details { background: #0b203b; color: #fff; min-height: 600px; }
+  [data-ready] .underground__details { display: grid; align-items: start; }
+  [data-ready] .underground__details article { grid-area: 1 / 1; }
+  [data-ready] .underground__details article:not([data-active]) { visibility: hidden; pointer-events: none; }
+  [data-ready] .underground__details article[data-active] { animation: detail-reveal 180ms ease-out; }
+  @keyframes detail-reveal { from { opacity: .45; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+  .underground__details figure { margin: 0; }
+  .underground__details figure :global(img) { width: 100%; height: 240px; object-fit: cover; display: block; }
+  .underground__details figcaption { padding: .55rem 1.4rem 0; color: #cedbe8; font-size: .8rem; }
+  .underground__detail-copy { padding: 1.4rem; }
+  .underground__detail-copy h3 { font-size: 2rem; line-height: 1.08; margin: 0 0 .75rem; }
+  .underground__detail-copy p, .underground__detail-copy dd { color: #d9e4ee; font-size: .95rem; line-height: 1.6; }
+  .underground__detail-copy dl { margin-bottom: 0; }
+  .underground__detail-copy dt { font-weight: 700; font-size: .9rem; margin-top: 1rem; }
+  .underground__detail-copy dd { margin: .2rem 0 0; }
+  .low-pipe > svg { display: block; width: 100%; height: 240px; background: #edf1ef; }
+  .underground__footnote { font-size: .9rem; max-width: 80ch; margin-top: 1.25rem; }
+  @media(max-width: 1000px) and (min-width: 851px) { .drain-point { font-size: 11px; gap: 3px; padding-right: 5px; } }
+  @media(max-width: 850px) {
+    .underground__layout { grid-template-columns: 1fr; }
+    .underground__details { min-height: 610px; }
+    .underground__hint { padding-bottom: 1rem; }
+    .underground__details figure :global(img), .low-pipe > svg { height: 230px; }
+  }
+  @media(max-width: 480px) {
+    .underground__points { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 0 10px 8px; }
+    .drain-point { position: static; font-size: 12px; white-space: normal; text-align: left; }
+    .underground__details { min-height: 660px; }
+  }
+  @media(prefers-reduced-motion: reduce) { .flow-line, [data-ready] .underground__details article[data-active] { animation: none; } .map-focus circle { transition: none; } }
+</style>

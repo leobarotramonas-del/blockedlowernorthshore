@@ -1,0 +1,274 @@
+{
+  "blocked-toilets": {
+    "intro": "A toilet that rises instead of draining needs careful assessment. Stop flushing and call with the symptoms, especially if other fixtures are backing up.",
+    "safe": "Stop flushing and keep the bathroom clear of wastewater. Do not force rods or improvised tools through the pan, and tell the plumber if chemical cleaner has been added.",
+    "local": "In Kirribilli and Neutral Bay apartments, identify whether other bathrooms are affected and arrange common-line access. At a North Sydney office, give the floor and service entrance rather than only the lobby address.",
+    "limit": "A pan obstruction may suit toilet-safe retrieval or mechanical clearing. Jetting is considered for suitable downstream pipework, not forced through every fixture. A cracked or collapsed drain needs a separate repair.",
+    "related": [
+      "sewer-drain-blockages",
+      "blocked-sinks-showers",
+      "cctv-drain-inspections"
+    ],
+    "areas": [
+      "kirribilli",
+      "neutral-bay",
+      "north-sydney"
+    ],
+    "qa": [
+      [
+        "Why does water rise when I flush?",
+        "A restriction may prevent the flush from passing through the trap or downstream line. Stop flushing; nearby gurgling or backups help indicate whether the issue extends beyond the pan."
+      ],
+      [
+        "Can a dropped object be pushed through?",
+        "Forcing it further can lodge it deeper or damage the fixture. Tell the plumber what was dropped so retrieval can be considered."
+      ],
+      [
+        "Why is the shower backing up too?",
+        "Connected fixtures may share a restricted branch or sewer. The lowest opening can show the overflow even when the toilet first revealed the problem."
+      ],
+      [
+        "Does removing the toilet always solve it?",
+        "No. Removal may help access a local obstruction, but a downstream fault needs its own investigation."
+      ]
+    ]
+  },
+  "blocked-sinks-showers": {
+    "intro": "Slow kitchen sinks, shower puddles and bubbling floor wastes can begin locally or reveal a deeper branch restriction. Describe which fixtures are affected before choosing a treatment.",
+    "safe": "Stop adding water to the affected waste. Remove only loose surface debris if it can be reached safely; avoid chemical products and do not dismantle contaminated pipework.",
+    "local": "Chatswood and Artarmon units may need shared branch access beyond the bathroom. In Crows Nest renovations, tell us which wastes were added or moved so the original and newer connections can be considered.",
+    "limit": "Trap cleaning or a compact mechanical machine may be enough for a local restriction. Persistent symptoms across several fixtures warrant downstream investigation. Clearing cannot correct a poorly graded or damaged branch.",
+    "related": [
+      "sewer-drain-blockages",
+      "high-pressure-water-jetting",
+      "cctv-drain-inspections"
+    ],
+    "areas": [
+      "chatswood",
+      "artarmon",
+      "crows-nest"
+    ],
+    "qa": [
+      [
+        "Why does the shower pool while the basin works?",
+        "Hair or soap may be restricting the shower trap or branch. One normal fixture does not prove the entire drainage system is clear."
+      ],
+      [
+        "Can grease block a kitchen waste even with hot water?",
+        "Fats can cool and collect downstream. Flushing hot water does not reliably remove a developed deposit and may move it elsewhere."
+      ],
+      [
+        "What does a bubbling floor waste mean?",
+        "Air may be moving through a restricted connected branch. Report which other fixtures are in use when it happens."
+      ],
+      [
+        "Should I dismantle the trap before calling?",
+        "Do not dismantle contaminated or unfamiliar pipework. Describe access beneath the sink and any product already used; the plumber can plan safe handling."
+      ]
+    ]
+  },
+  "sewer-drain-blockages": {
+    "intro": "Several fixtures backing up or an overflowing outdoor gully can indicate a sewer restriction. Keep clear of wastewater and stop using connected toilets, wastes and appliances.",
+    "safe": "Stop connected water use and keep people and pets away from overflow. Do not lift heavy covers, enter pits or approach wastewater near electrical equipment.",
+    "local": "St Leonards and Milsons Point buildings may have remote common access, plant areas or pumped drainage. In Naremburn, changing levels can make the lowest fixture reveal a restriction further along the line.",
+    "limit": "Jetting may clear suitable deposits, wipes or roots when the pipe permits it. CCTV can investigate recurrence after visibility improves. Collapsed pipework, failed joints and poor fall need repair planning rather than repeated clearing alone.",
+    "related": [
+      "high-pressure-water-jetting",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "areas": [
+      "st-leonards",
+      "milsons-point",
+      "naremburn"
+    ],
+    "qa": [
+      [
+        "Why does an outdoor gully overflow?",
+        "It may provide an escape point when downstream flow is restricted. Avoid contact and report which indoor fixtures are also affected."
+      ],
+      [
+        "Can I keep using the washing machine?",
+        "Stop appliances connected to the affected line. Additional discharge can worsen an overflow while the restriction remains."
+      ],
+      [
+        "Does CCTV happen before clearing?",
+        "Sometimes, but standing wastewater or a dense blockage may hide the pipe. Access and visibility determine the useful sequence."
+      ],
+      [
+        "Is a shared sewer automatically my responsibility?",
+        "Responsibility depends on the actual drainage route and ownership. Building contacts, plans and the relevant approval process should be checked."
+      ]
+    ]
+  },
+  "stormwater-drains": {
+    "intro": "A pit holding water, an overflowing downpipe connection or repeated yard ponding needs the inlet and downstream route checked. Rain-related symptoms do not all have the same cause.",
+    "safe": "Stay out of floodwater and keep clear of electrical equipment and unstable ground. Do not lift heavy pit covers or enter a drain. Describe the water path from a safe position.",
+    "local": "Mosman terraces and Cammeray retaining structures need careful attention to levels and access. Lane Cove garden pits can collect leaf litter, but the downstream pipe still needs checking when surface cleaning is not enough.",
+    "limit": "Wet extraction, pit cleaning or suitable jetting may remove leaves and sediment. A crushed pipe, inadequate fall or layout problem requires a separately assessed remedy. Clearing cannot increase a pipe beyond its design capacity.",
+    "related": [
+      "high-pressure-water-jetting",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "areas": [
+      "mosman",
+      "cammeray",
+      "lane-cove"
+    ],
+    "qa": [
+      [
+        "Why does a pit remain full after rain?",
+        "Sediment, roots, a restricted outlet or a damaged line may prevent discharge. The inlet and downstream route need checking."
+      ],
+      [
+        "Is water beside a retaining wall a drain blockage?",
+        "It may have several causes. Keep away from unstable ground; a drainage assessment does not replace assessment of the wall itself."
+      ],
+      [
+        "Can jetting fix a stormwater layout problem?",
+        "It can remove suitable obstruction but cannot change inadequate fall or a failed layout. Those findings need a separate scope."
+      ],
+      [
+        "Should sewer and rainwater enter the same line?",
+        "They should be treated as different systems during diagnosis. Report any suspected cross-connection for professional assessment rather than attempting to change it."
+      ]
+    ]
+  },
+  "high-pressure-water-jetting": {
+    "intro": "Controlled water jetting can remove suitable deposits and obstructions from an accessible drain. The nozzle and operating method must match the material, pipe condition and safe access.",
+    "safe": "Do not attempt to handle a professional jetting hose or open an affected drain. Keep others clear of the work area and disclose any chemicals already poured into the system.",
+    "local": "Longueville and Greenwich garden runs need a clear hose route and suitable opening. Artarmon shared properties may require management approval and access to the larger line before jetting is appropriate.",
+    "limit": "Jetting can cut or flush suitable grease, roots and sediment. A foreign object may need retrieval; fragile, broken or collapsed pipe may require another method. Root cutting does not seal the entry defect.",
+    "related": [
+      "tree-root-blockages",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "areas": [
+      "longueville",
+      "greenwich",
+      "artarmon"
+    ],
+    "qa": [
+      [
+        "Does higher pressure always clear better?",
+        "No. Nozzle choice, flow, condition and operator control matter. Excess force is not a substitute for assessing the line."
+      ],
+      [
+        "Will jetting remove a solid object?",
+        "Some objects need retrieval instead of being pushed deeper. Tell the plumber about known dropped or flushed items."
+      ],
+      [
+        "Why inspect after jetting?",
+        "Restored visibility may reveal roots, open joints or damage that explain recurrence. Inspection is recommended when it adds useful evidence."
+      ],
+      [
+        "Is root cutting the same as repairing the pipe?",
+        "No. It may restore the opening through which water flows while leaving the defect that admitted the roots."
+      ]
+    ]
+  },
+  "cctv-drain-inspections": {
+    "intro": "A camera can show the condition of accessible pipework and help explain a recurring blockage. It is a diagnostic tool, with useful results dependent on access and visibility.",
+    "safe": "Keep previous reports and drainage plans ready, but do not open covers or enter confined spaces. Stop connected water use if the line is overflowing.",
+    "local": "Wollstonecraft garden slopes and Greenwich long runs can benefit from relating camera findings to surface locations. In Chatswood buildings, plans and service-area keys help establish which branch is being inspected.",
+    "limit": "CCTV does not clear a blockage. Standing wastewater, bends, diameter changes and collapsed sections can limit inspection. A locator may help relate a visible fault to the surface, subject to signal and access conditions.",
+    "related": [
+      "high-pressure-water-jetting",
+      "tree-root-blockages",
+      "drain-repairs"
+    ],
+    "areas": [
+      "wollstonecraft",
+      "greenwich",
+      "chatswood"
+    ],
+    "qa": [
+      [
+        "Can a camera see through standing wastewater?",
+        "Visibility may be limited or absent. Suitable clearing may need to happen first, depending on the accessible section."
+      ],
+      [
+        "Will the camera clear the blockage?",
+        "No. Inspection and clearing are different tasks. A camera helps identify visible conditions rather than remove an obstruction."
+      ],
+      [
+        "Can every defect be located precisely from above?",
+        "A detectable camera position can guide locating, but depth, interference and access affect the result. Limitations should be explained."
+      ],
+      [
+        "Should I keep earlier inspection footage?",
+        "Yes. It can provide useful history and help compare a known location with the current findings."
+      ]
+    ]
+  },
+  "tree-root-blockages": {
+    "intro": "Roots inside a drain usually indicate an entry opening that needs investigation. Clearing growth may restore flow; understanding the defective joint or pipe is a separate step.",
+    "safe": "Stop connected water use during a backup and avoid chemical root treatments. Do not dig around trees or buried services based on a suspected pipe route.",
+    "local": "Lane Cove, Willoughby and Wollstonecraft have property contexts where mature gardens and older drainage may coincide. This makes root entry worth considering, not something to diagnose from tree cover alone.",
+    "limit": "Suitable root-cutting nozzles can remove growth from an accessible line. CCTV may show the opening and locating can guide repair planning. Clearing does not prevent regrowth through an unrepaired defect.",
+    "related": [
+      "high-pressure-water-jetting",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "areas": [
+      "lane-cove",
+      "willoughby",
+      "wollstonecraft"
+    ],
+    "qa": [
+      [
+        "Do roots break into every pipe near a tree?",
+        "No. An existing opening or defective joint can allow entry. Nearby vegetation alone is not evidence of an internal blockage."
+      ],
+      [
+        "Why do roots return after clearing?",
+        "An unrepaired opening can allow new growth. The recurring interval and inspection evidence help inform the next step."
+      ],
+      [
+        "Should I remove a tree to fix the drain?",
+        "A blocked drain does not establish which tree is involved or whether removal is appropriate. Assess the pipe defect first."
+      ],
+      [
+        "Is scheduled cutting a structural repair?",
+        "No. Maintenance clearing and repair have different purposes. Ask what evidence supports each proposed scope."
+      ]
+    ]
+  },
+  "drain-repairs": {
+    "intro": "When diagnosis reveals a damaged or failed drain, repair planning starts with the evidence and safe access. The work should address the identified defect rather than guess at a buried route.",
+    "safe": "Keep people away from subsiding or contaminated ground. Do not excavate a suspected pipe route. Share known service plans and arrange the appropriate owner or strata authority.",
+    "local": "Mosman terraces and Cammeray retaining structures constrain excavation routes. McMahons Point narrow passages may affect materials handling and reinstatement. The actual location determines the practical repair scope.",
+    "limit": "CCTV and locating may help identify a failed section. Excavation tools, compatible pipe, compliant fittings, bedding and backfill are chosen for the site. Clearing cannot repair cracks, collapse or poor support; repair boundaries and reinstatement must be agreed.",
+    "related": [
+      "cctv-drain-inspections",
+      "tree-root-blockages",
+      "sewer-drain-blockages"
+    ],
+    "areas": [
+      "mosman",
+      "cammeray",
+      "mcmahons-point"
+    ],
+    "qa": [
+      [
+        "How is a repair location selected?",
+        "Available camera findings, locating and site information guide the position. Nearby services and access are considered before excavation."
+      ],
+      [
+        "Will every drain fault need replacement?",
+        "No. Some are maintenance obstructions. Repair is considered where evidence shows a defect that clearing cannot correct."
+      ],
+      [
+        "What materials may be used?",
+        "Compatible drainage pipe, fittings and suitable bedding or backfill depend on the existing system and agreed compliant repair scope."
+      ],
+      [
+        "What happens after the pipe is repaired?",
+        "The work is checked and flow tested as appropriate. Discuss backfill, surface reinstatement and any remaining investigation separately."
+      ]
+    ]
+  }
+}

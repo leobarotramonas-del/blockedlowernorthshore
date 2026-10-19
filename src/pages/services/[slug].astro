@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import FaqSection from '../../components/FaqSection.astro';
+import { areas, services } from '../../data/site';
+import guidance from '../../data/service-guidance.json';
+import { faqSchema, serviceFaqs } from '../../data/faqs';
+export function getStaticPaths(){return services.map(service=>({params:{slug:service.slug},props:{service}}));}
+const { service } = Astro.props;
+const g = guidance[service.slug];
+const selected = areas.filter(a=>g.areas.includes(a.slug));
+const related = services.filter(s=>g.related.includes(s.slug));
+const schema = [{'@type':'Service',name:service.name+' Lower North Shore',description:g.intro,serviceType:service.name,areaServed:areas.map(a=>({'@type':'Place',name:a.name+', NSW '+a.postcode}))},faqSchema(serviceFaqs[service.slug])];
+---
+<BaseLayout title={service.name+' Lower North Shore'} description={service.summary+' Practical Lower North Shore guidance on diagnosis, suitable methods and safe access.'} schema={schema}>
+<PageHero label="Drain service" title={service.name+' Lower North Shore'} intro={g.intro} image={service.image} imageAlt={service.imageAlt}/>
+<section class="section detail-grid"><div><h2>Signs you may notice</h2><ul>{service.signs.map(s=><li>{s}</li>)}</ul></div><div><h2>Possible causes</h2><ul>{service.causes.map(s=><li>{s}</li>)}</ul><p>Symptoms help guide investigation, but cannot confirm the cause on their own.</p></div></section>
+<section class="section safety"><h2>What to do before the visit</h2><p>{g.safe}</p><p>If water is near electrical equipment or ground is unstable, stay clear and explain the hazard when calling. Urgent calls are taken 24 hours, 7 days a week.</p></section>
+<section class="section method-panel"><div><h2>How diagnosis guides the work</h2><p>{service.method}</p><p>{g.limit}</p><p>Flow is checked after suitable clearing or repair. Maintenance advice and any remaining structural issue are explained separately.</p></div><div><h2>Tools and materials</h2><ul>{service.tools.map(s=><li>{s}</li>)}</ul><p>The operator selects the equipment for the obstruction, pipe condition and safe access. The most forceful method is not always appropriate.</p></div></section>
+<section class="section"><h2>Local access changes the approach</h2><p>{g.local}</p><div class="area-links">{selected.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><p>See the <a href="/service-areas/">full Lower North Shore coverage guide</a>. Current coverage is confirmed by full street address.</p></section>
+<section class="section"><h2>Related drainage guidance</h2><div class="service-list">{related.map(s=><a class="service-row" href={'/services/'+s.slug+'/'}><h3>{s.name}</h3><p>{s.summary}</p><span>Read the guide</span></a>)}</div><p><a href="/about/">Provider and licence information</a> or <a href="/contact/">contact the drain team</a>.</p></section>
+<FaqSection title={service.name+' questions'} items={serviceFaqs[service.slug]}/>
+<CtaBand title={'Talk through '+service.name.toLowerCase().replace('cctv', 'CCTV')}/>
+</BaseLayout>

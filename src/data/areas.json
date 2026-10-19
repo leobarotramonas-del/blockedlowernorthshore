@@ -1,0 +1,1019 @@
+[
+  {
+    "slug": "north-sydney",
+    "name": "North Sydney",
+    "postcode": "2060",
+    "property": "apartments, offices and shared building services",
+    "intro": "A toilet backing up on an office floor needs a different access plan from a slow sink in a detached home. In North Sydney, identify the building and floor, then tell us whether neighbouring occupiers have reported the same symptoms.",
+    "localIssue": "Wastewater at a lower fixture may point to a shared downstream restriction. Kitchen grease, unsuitable flushed material and a damaged junction are possibilities, but the building layout must be established before a line is opened.",
+    "diagnosis": "The plumber compares affected branches and authorised access points before choosing mechanical clearing or jetting. CCTV can investigate recurrence once visibility improves. A restored outlet does not establish that every shared branch is sound.",
+    "access": "Provide the loading entrance, basement clearance and a contact with service-area keys. Clarify who can approve work on shared pipework.",
+    "neighbours": [
+      "neutral-bay",
+      "crows-nest",
+      "waverton"
+    ],
+    "relevantServices": [
+      "sewer-drain-blockages",
+      "cctv-drain-inspections",
+      "blocked-toilets"
+    ],
+    "title": "Blocked Drains North Sydney NSW 2060",
+    "description": "Blocked drain in North Sydney 2060? Guidance for apartments, offices and shared building services. Call to confirm coverage and safe access.",
+    "localOrientation": "St Leonards Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/drain-camera-inspection.webp",
+    "imageAlt": "Drain camera and monitor beside accessible pipework",
+    "faqs": [
+      {
+        "question": "Should I check other floors before calling?",
+        "answer": "Report already-known problems on other floors, but do not delay a call about sewage. Those reports help distinguish a fixture fault from a shared restriction."
+      },
+      {
+        "question": "Can equipment come through an office lobby?",
+        "answer": "The safe route depends on building rules and equipment size. Arrange an approved loading or service entrance with management."
+      },
+      {
+        "question": "Does a basement overflow mean that basement drain is blocked?",
+        "answer": "Not necessarily. The lowest opening can show a fault further downstream. The plumber traces the connected system."
+      },
+      {
+        "question": "Who approves an office building drain repair?",
+        "answer": "Identify the owner or representative authorised to approve investigation and repairs. Shared-line responsibility needs clarification before a repair scope is agreed."
+      },
+      {
+        "question": "What should I prepare for a North Sydney drain call?",
+        "answer": "Provide the loading entrance, basement clearance and a contact with service-area keys. Clarify who can approve work on shared pipework. Share the full North Sydney address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my North Sydney property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "chatswood",
+    "name": "Chatswood",
+    "postcode": "2067",
+    "property": "high-density buildings and established residential streets",
+    "intro": "In Chatswood, first distinguish a slow waste in one apartment from a shared building backup or a house drain. Give the street address and unit number, then describe which fixtures respond when water is used.",
+    "localIssue": "One kitchen waste may contain grease or food residue; simultaneous bathroom backups can indicate a restriction beyond the fixture. At an older house, roots or mixed-age pipe joints may warrant investigation.",
+    "diagnosis": "Building plans and access guide tower investigations. At a house, an outdoor opening may allow jetting followed by camera inspection. Neither building height nor property age confirms the obstruction.",
+    "access": "Confirm service-lift rules, a building contact and common-property access. For a house, describe side passages and renovated bathroom connections.",
+    "neighbours": [
+      "artarmon",
+      "willoughby",
+      "lane-cove"
+    ],
+    "relevantServices": [
+      "blocked-sinks-showers",
+      "sewer-drain-blockages",
+      "cctv-drain-inspections"
+    ],
+    "title": "Blocked Drains Chatswood NSW 2067",
+    "description": "Blocked drain in Chatswood 2067? Guidance for high-density buildings and established residential streets. Call to confirm coverage and safe access.",
+    "localOrientation": "Chatswood Oval is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/drain-inspection-overhead.webp",
+    "imageAlt": "Overhead view of an Antons plumber feeding a line into a drain opening",
+    "faqs": [
+      {
+        "question": "Why does my apartment sink bubble when another fixture runs?",
+        "answer": "Air movement can accompany a restricted branch. Describe which fixture triggers it and whether other units have symptoms; do not deliberately add water to a backing-up system."
+      },
+      {
+        "question": "Should strata be contacted about one blocked sink?",
+        "answer": "A trap may be within the unit while a deeper branch may be shared. Have approval arrangements ready if investigation reaches common property."
+      },
+      {
+        "question": "Can an older house have several pipe materials?",
+        "answer": "Renovations can leave different materials and junctions in one system. Plans and camera findings help select a suitable method."
+      },
+      {
+        "question": "Will a camera reach every apartment waste?",
+        "answer": "Bends, pipe diameter, access and standing wastewater limit visibility. The plumber explains which section can be inspected."
+      },
+      {
+        "question": "What should I prepare for a Chatswood drain call?",
+        "answer": "Confirm service-lift rules, a building contact and common-property access. For a house, describe side passages and renovated bathroom connections. Share the full Chatswood address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Chatswood property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "lane-cove",
+    "name": "Lane Cove",
+    "postcode": "2066",
+    "property": "leafy residential blocks, apartments and sloping gardens",
+    "intro": "A recurring blockage at a Lane Cove home deserves more than another attempt at the nearest waste. On a leafy or sloping block, the affected section may be behind the house and difficult to reach without planning.",
+    "localIssue": "Roots may enter a defective joint, while soil and leaves can restrict stormwater pits. Separate sewer symptoms from rain-related ponding: these involve different systems even when they appear in the same yard.",
+    "diagnosis": "After establishing the line and safe opening, the plumber clears suitable deposits and considers CCTV with locating for repeated faults. This helps explain a possible repair before disturbing a finished garden.",
+    "access": "Describe rear-yard access, side-gate width, steps and retaining walls. Secure pets and share the position of visible inspection openings.",
+    "neighbours": [
+      "longueville",
+      "greenwich",
+      "artarmon"
+    ],
+    "relevantServices": [
+      "tree-root-blockages",
+      "stormwater-drains",
+      "cctv-drain-inspections"
+    ],
+    "title": "Blocked Drains Lane Cove NSW 2066",
+    "description": "Blocked drain in Lane Cove 2066? Guidance for leafy residential blocks, apartments and sloping gardens. Call to confirm coverage and safe access.",
+    "localOrientation": "Longueville Road is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/root-removal-excavation.webp",
+    "imageAlt": "Antons technician showing removed roots with the drainage excavation behind him",
+    "faqs": [
+      {
+        "question": "Does a leafy garden prove roots are blocking the sewer?",
+        "answer": "No. Trees are context, not a diagnosis. Camera evidence or recovered material is needed to identify root intrusion."
+      },
+      {
+        "question": "Can the drain be inspected without digging through the garden?",
+        "answer": "A suitable existing opening may permit camera inspection and locating. If access is absent, the plumber explains the options first."
+      },
+      {
+        "question": "What if equipment cannot pass the side gate?",
+        "answer": "Give the clear width, steps and route length. Do not dismantle fencing before the equipment approach is agreed."
+      },
+      {
+        "question": "Why is a stormwater pit full after leaves are removed?",
+        "answer": "The connected line may contain sediment or roots, or the outlet may be restricted. Surface cleaning does not confirm downstream capacity."
+      },
+      {
+        "question": "What should I prepare for a Lane Cove drain call?",
+        "answer": "Describe rear-yard access, side-gate width, steps and retaining walls. Secure pets and share the position of visible inspection openings. Share the full Lane Cove address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Lane Cove property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "mosman",
+    "name": "Mosman",
+    "postcode": "2088",
+    "property": "terraced homes, mature gardens and harbour-side slopes",
+    "intro": "For a Mosman property on several levels, describe where water appears relative to the house and street. A lower terrace overflow may be the visible end of a restriction elsewhere.",
+    "localIssue": "Roots can exploit open joints and sediment can collect in stormwater runs. Water crossing paving does not establish whether the pipe is blocked, an inlet is obstructed or the layout needs assessment.",
+    "diagnosis": "Accessible pits and the private drainage route are checked first. Suitable jetting may remove deposits; CCTV and a locator can relate repeated faults to a terrace. Structural constraints shape any separate repair scope.",
+    "access": "Mention steep driveways, steps, retaining walls and distance from parking to the drain. Do not enter floodwater or climb into a pit.",
+    "neighbours": [
+      "cremorne",
+      "neutral-bay"
+    ],
+    "relevantServices": [
+      "stormwater-drains",
+      "tree-root-blockages",
+      "drain-repairs"
+    ],
+    "title": "Blocked Drains Mosman NSW 2088",
+    "description": "Blocked drain in Mosman 2088? Guidance for terraced homes, mature gardens and harbour-side slopes. Call to confirm coverage and safe access.",
+    "localOrientation": "Balmoral Foreshore is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/garden-drain-junction.webp",
+    "imageAlt": "Replacement drainage junction and access pipe in an excavated garden trench",
+    "faqs": [
+      {
+        "question": "Should I lift a pit lid during heavy rain?",
+        "answer": "Do not open heavy or flooded pits. Observe from safety and explain where water collects; concealed openings and moving water create hazards."
+      },
+      {
+        "question": "Can jetting solve every terrace drainage problem?",
+        "answer": "It can remove suitable obstructions. It cannot correct inadequate fall, a broken outlet or a layout requiring redesign."
+      },
+      {
+        "question": "Will a repair need access through my garden?",
+        "answer": "It depends on the located fault and available route. Discuss planting, steps and retaining structures before agreeing excavation and reinstatement."
+      },
+      {
+        "question": "Does harbour proximity identify the blockage cause?",
+        "answer": "No. Foreshore orientation helps describe levels and access, but the actual inlet, private line and outlet need assessment."
+      },
+      {
+        "question": "What should I prepare for a Mosman drain call?",
+        "answer": "Mention steep driveways, steps, retaining walls and distance from parking to the drain. Do not enter floodwater or climb into a pit. Share the full Mosman address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Mosman property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "neutral-bay",
+    "name": "Neutral Bay",
+    "postcode": "2089",
+    "property": "apartments, shared drains and constrained parking",
+    "intro": "If a Neutral Bay apartment has a backing-up shower, note whether the toilet and kitchen are also affected. This helps decide whether to begin at a fixture or investigate a shared branch.",
+    "localIssue": "Hair and soap may restrict bathroom wastes, while wipes and other material can obstruct downstream lines. Shared pipework can carry a fault beyond the unit where wastewater first appears.",
+    "diagnosis": "Investigation starts with affected fixtures and authorised openings. Compact tools may suit a local branch. Jetting and camera inspection depend on access to the larger line and its condition.",
+    "access": "Arrange a strata contact, service keys and a loading plan. Mention inspection openings inside another unit or behind a common gate.",
+    "neighbours": [
+      "north-sydney",
+      "cremorne",
+      "cammeray"
+    ],
+    "relevantServices": [
+      "blocked-sinks-showers",
+      "sewer-drain-blockages",
+      "blocked-toilets"
+    ],
+    "title": "Blocked Drains Neutral Bay NSW 2089",
+    "description": "Blocked drain in Neutral Bay 2089? Guidance for apartments, shared drains and constrained parking. Call to confirm coverage and safe access.",
+    "localOrientation": "Forsyth Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/blocked-drains.webp",
+    "imageAlt": "Antons plumber feeding a drain hose into an open pit beside an apartment building",
+    "faqs": [
+      {
+        "question": "Should neighbours keep using water during a shared backup?",
+        "answer": "Notify building management promptly so connected use can be addressed. Do not assume which units share the pipe without checking the layout."
+      },
+      {
+        "question": "Can a shower backup come from the sewer?",
+        "answer": "A downstream restriction can appear at a low shower waste. The sequence of symptoms helps choose an access point."
+      },
+      {
+        "question": "What if the inspection point is inside another unit?",
+        "answer": "Ask the authorised building contact to arrange entry. Do not enter neighbouring property or open service covers without permission."
+      },
+      {
+        "question": "Is parking information useful when booking?",
+        "answer": "Yes. A safe unloading point and the route to the drain affect equipment planning. Give restrictions during the call."
+      },
+      {
+        "question": "What should I prepare for a Neutral Bay drain call?",
+        "answer": "Arrange a strata contact, service keys and a loading plan. Mention inspection openings inside another unit or behind a common gate. Share the full Neutral Bay address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Neutral Bay property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "st-leonards",
+    "name": "St Leonards",
+    "postcode": "2065",
+    "property": "towers, mixed-use buildings and managed basements",
+    "intro": "A St Leonards call can involve a unit, office or common basement. Give the building entrance and level as well as the postal address: the drain access may be remote from the affected fixture.",
+    "localIssue": "Shared branches can move visible symptoms away from the obstruction. A basement pit may belong to a pumped system rather than a gravity drain, so identifying the system comes first.",
+    "diagnosis": "Available plans and accessible openings help separate local restrictions from shared-line problems. CCTV may document recurrence after clearing. Pump or control faults need their own assessment and are not solved simply by jetting.",
+    "access": "Provide loading arrangements, clearance limits, inductions and a manager with plant-area access. Report alarms from a safe position without touching electrical controls.",
+    "neighbours": [
+      "crows-nest",
+      "artarmon",
+      "greenwich"
+    ],
+    "relevantServices": [
+      "sewer-drain-blockages",
+      "cctv-drain-inspections",
+      "stormwater-drains"
+    ],
+    "title": "Blocked Drains St Leonards NSW 2065",
+    "description": "Blocked drain in St Leonards 2065? Guidance for towers, mixed-use buildings and managed basements. Call to confirm coverage and safe access.",
+    "localOrientation": "Newlands Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/bathroom-drain-repair.webp",
+    "imageAlt": "Plumber working on a bathroom floor drain",
+    "faqs": [
+      {
+        "question": "Is every basement overflow a blocked gravity drain?",
+        "answer": "No. Some systems rely on pumps. Report visible alarms and tell management; the system must be identified before work is recommended."
+      },
+      {
+        "question": "Can the technician use resident parking?",
+        "answer": "Clearance and building access need confirmation. Arrange approved unloading and a safe service route."
+      },
+      {
+        "question": "Should a tenant approve common-line repairs?",
+        "answer": "Owner or strata approval may be needed. Identify the responsible representative before agreeing the repair scope."
+      },
+      {
+        "question": "What helps investigate a mixed-use building?",
+        "answer": "Drainage plans, affected levels and the timing of backups help distinguish tenancy branches from a shared downstream line."
+      },
+      {
+        "question": "What should I prepare for a St Leonards drain call?",
+        "answer": "Provide loading arrangements, clearance limits, inductions and a manager with plant-area access. Report alarms from a safe position without touching electrical controls. Share the full St Leonards address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my St Leonards property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Notify building management about common-area or electrical hazards. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "crows-nest",
+    "name": "Crows Nest",
+    "postcode": "2065",
+    "property": "compact lots, older services and mixed residential buildings",
+    "intro": "On a compact Crows Nest property, a drain may run below a side passage or through several renovated sections. Describe both the fixture problem and the available equipment route.",
+    "localIssue": "Grease, hair and unsuitable flushed items can obstruct drains. In older or altered pipework, rough joints and changes of direction may catch debris, making recurrence worth inspecting.",
+    "diagnosis": "Local wastes may respond to mechanical clearing. For deeper recurrence, accessible camera inspection and locating help identify the affected point before a narrow passage is opened for repair.",
+    "access": "Tell us about shared passages, locked gates, floor protection and unloading space. Keep renovation drainage plans available if you have them.",
+    "neighbours": [
+      "st-leonards",
+      "naremburn",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "blocked-sinks-showers",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "title": "Blocked Drains Crows Nest NSW 2065",
+    "description": "Blocked drain in Crows Nest 2065? Guidance for compact lots, older services and mixed residential buildings. Call to confirm coverage and safe access.",
+    "localOrientation": "Willoughby Road is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/subfloor-access-technician.webp",
+    "imageAlt": "Technician with a headlamp and tool bag beside a subfloor access opening",
+    "faqs": [
+      {
+        "question": "Can a compact machine suit a narrow property?",
+        "answer": "It may suit an accessible branch depending on diameter and obstruction. Narrow access alone does not select the correct method."
+      },
+      {
+        "question": "Why did a drain block after renovations?",
+        "answer": "A changed connection or debris may be relevant, but timing is not proof. Share the work history for assessment."
+      },
+      {
+        "question": "Must paving be removed for camera inspection?",
+        "answer": "An existing opening may be sufficient. If suitable access is absent, practical options are explained before work proceeds."
+      },
+      {
+        "question": "What should I say about a shared side passage?",
+        "answer": "Explain who controls access, its width and whether neighbours need notice. This helps plan an authorised equipment route."
+      },
+      {
+        "question": "What should I prepare for a Crows Nest drain call?",
+        "answer": "Tell us about shared passages, locked gates, floor protection and unloading space. Keep renovation drainage plans available if you have them. Share the full Crows Nest address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Crows Nest property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "willoughby",
+    "name": "Willoughby",
+    "postcode": "2068",
+    "property": "established homes, trees and mixed-age renovation pipework",
+    "intro": "For a Willoughby home with an older sewer and a newer bathroom extension, drainage history matters. Tell us which fixtures were added and whether the same section has blocked before.",
+    "localIssue": "Different materials and old joints may create points where debris or roots collect. A new fixture can still connect to an older downstream pipe; bathroom age does not date the entire sewer.",
+    "diagnosis": "The plumber compares connected fixtures, establishes access and clears suitable obstructions. CCTV and locating can distinguish a recurring joint defect from maintenance deposits and inform a targeted repair.",
+    "access": "Share renovation plans, previous camera findings and any known easement. Mention rear access and structures above the suspected pipe route.",
+    "neighbours": [
+      "chatswood",
+      "naremburn",
+      "artarmon"
+    ],
+    "relevantServices": [
+      "tree-root-blockages",
+      "drain-repairs",
+      "cctv-drain-inspections"
+    ],
+    "title": "Blocked Drains Willoughby NSW 2068",
+    "description": "Blocked drain in Willoughby 2068? Guidance for established homes, trees and mixed-age renovation pipework. Call to confirm coverage and safe access.",
+    "localOrientation": "Willoughby Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/stormwater-pit-installation.webp",
+    "imageAlt": "Stormwater pit and connecting pipe being installed beside a house",
+    "faqs": [
+      {
+        "question": "Can a new bathroom drain into old pipework?",
+        "answer": "Yes. Renovations may retain downstream drainage. Plans and inspection help identify where old and new sections meet."
+      },
+      {
+        "question": "Are previous camera reports useful?",
+        "answer": "They can identify a known issue, although current conditions still need checking. Keep footage or reports available if you have them."
+      },
+      {
+        "question": "Does clearing roots repair an old joint?",
+        "answer": "No. Cutting roots can restore flow while leaving the opening. Any repair recommendation should be explained separately."
+      },
+      {
+        "question": "Should I identify a drainage easement?",
+        "answer": "Share plans showing one. Access, ownership and approval need checking before work involving a shared route or neighbouring land."
+      },
+      {
+        "question": "What should I prepare for a Willoughby drain call?",
+        "answer": "Share renovation plans, previous camera findings and any known easement. Mention rear access and structures above the suspected pipe route. Share the full Willoughby address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Willoughby property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "artarmon",
+    "name": "Artarmon",
+    "postcode": "2064",
+    "property": "apartments and established homes with restricted service access",
+    "intro": "Artarmon drain work needs an access plan suited to the property. A unit block may have common inspection points, while an established house may leave only a narrow side route.",
+    "localIssue": "One slow sink may involve its trap; several affected bathrooms suggest investigation further downstream. Roots or displaced joints are possibilities, not conclusions based on the property style.",
+    "diagnosis": "An accessible opening and the affected section are established before choosing compact mechanical equipment or suitable jetting. Short-lived relief may warrant CCTV to inspect reachable pipework.",
+    "access": "Provide building contacts, gate access and common-drain locations. Mention stairs or shared driveways that require notice before use.",
+    "neighbours": [
+      "chatswood",
+      "st-leonards",
+      "willoughby"
+    ],
+    "relevantServices": [
+      "blocked-sinks-showers",
+      "sewer-drain-blockages",
+      "high-pressure-water-jetting"
+    ],
+    "title": "Blocked Drains Artarmon NSW 2064",
+    "description": "Blocked drain in Artarmon 2064? Guidance for apartments and established homes with restricted service access. Call to confirm coverage and safe access.",
+    "localOrientation": "Hampden Road is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/service-vehicle-equipment.webp",
+    "imageAlt": "Antons plumber retrieving a fittings case from a stocked service vehicle",
+    "faqs": [
+      {
+        "question": "Does one slow waste mean the whole building must stop using water?",
+        "answer": "Stop using the affected fixture and report wider symptoms. Management can help coordinate connected occupiers if a shared backup is suspected."
+      },
+      {
+        "question": "What if the common drain is behind a locked gate?",
+        "answer": "Arrange access through the building representative. An unavailable service route can prevent investigation even when the unit is open."
+      },
+      {
+        "question": "Can jetting be used in a small apartment waste?",
+        "answer": "Not automatically. Small branches, traps or fragile joints may require another tool. Assessment determines the suitable method."
+      },
+      {
+        "question": "Why does a blockage return after a brief clear?",
+        "answer": "Remaining deposits, root entry or damage can still restrict flow. Report how quickly it returned and which fixtures changed."
+      },
+      {
+        "question": "What should I prepare for a Artarmon drain call?",
+        "answer": "Provide building contacts, gate access and common-drain locations. Mention stairs or shared driveways that require notice before use. Share the full Artarmon address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Artarmon property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "naremburn",
+    "name": "Naremburn",
+    "postcode": "2065",
+    "property": "sloping streets, mature vegetation and older drainage routes",
+    "intro": "On a Naremburn block with changing levels, the lowest drain may show a problem first. Describe the overflow relative to the house and street rather than assuming it marks the blockage.",
+    "localIssue": "Older joints can admit roots and a displaced or low section may retain debris. Distinguish rain-related ponding from wastewater appearing when indoor fixtures are used.",
+    "diagnosis": "The plumber traces the connected line, finds safe access and clears suitable obstructions. CCTV and surface locating can help explain repeated low-point backups before selecting a repair position.",
+    "access": "Mention steep steps, rear access, retaining walls and visible inspection openings. Explain access arrangements if the route passes another property.",
+    "neighbours": [
+      "crows-nest",
+      "cammeray",
+      "willoughby"
+    ],
+    "relevantServices": [
+      "sewer-drain-blockages",
+      "tree-root-blockages",
+      "cctv-drain-inspections"
+    ],
+    "title": "Blocked Drains Naremburn NSW 2065",
+    "description": "Blocked drain in Naremburn 2065? Guidance for sloping streets, mature vegetation and older drainage routes. Call to confirm coverage and safe access.",
+    "localOrientation": "Naremburn Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/roots-removed-technician.webp",
+    "imageAlt": "Antons technician holding a long root mass removed from drainage",
+    "faqs": [
+      {
+        "question": "Why is only the lowest floor waste overflowing?",
+        "answer": "It may be the first escape point for a downstream restriction. That does not prove the floor waste itself caused the problem."
+      },
+      {
+        "question": "Can ground movement affect drainage?",
+        "answer": "It can change joints or support, but inspection is needed to establish whether your pipe is affected. Recurrence at one point is useful history."
+      },
+      {
+        "question": "Should I describe rainfall as well as fixture use?",
+        "answer": "Yes. Note the timing without deliberately adding water to test an overflowing system. This helps separate sewer and stormwater investigations."
+      },
+      {
+        "question": "How can a fault be located on a slope?",
+        "answer": "A camera and electronic locator may relate an internal finding to a surface position. Access and signal conditions limit what can be established."
+      },
+      {
+        "question": "What should I prepare for a Naremburn drain call?",
+        "answer": "Mention steep steps, rear access, retaining walls and visible inspection openings. Explain access arrangements if the route passes another property. Share the full Naremburn address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Naremburn property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "cammeray",
+    "name": "Cammeray",
+    "postcode": "2062",
+    "property": "steep blocks, retaining walls and rear stormwater routes",
+    "intro": "A Cammeray stormwater problem may appear below a driveway or behind a retaining wall. Keep clear of unstable ground and explain the water path, including whether it occurs only during rain.",
+    "localIssue": "Leaves and sediment reduce pit capacity; roots or damaged pipework may restrict the connected line. Water at a retaining wall needs care because drain clearing does not establish structural condition.",
+    "diagnosis": "Accessible pits and outlets are assessed before cleaning. Wet extraction or jetting may remove suitable deposits; CCTV and locating can investigate repeat restrictions. A failed section needs a separate repair scope.",
+    "access": "Give driveway grade, steps, rear-gate and parking details. Mention walls or visible ground movement without approaching hazardous edges.",
+    "neighbours": [
+      "naremburn",
+      "neutral-bay",
+      "cremorne"
+    ],
+    "relevantServices": [
+      "stormwater-drains",
+      "drain-repairs",
+      "cctv-drain-inspections"
+    ],
+    "title": "Blocked Drains Cammeray NSW 2062",
+    "description": "Blocked drain in Cammeray 2062? Guidance for steep blocks, retaining walls and rear stormwater routes. Call to confirm coverage and safe access.",
+    "localOrientation": "Tunks Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/narrow-side-drain-excavation.webp",
+    "imageAlt": "Antons plumber excavating a narrow passage between a house and fence",
+    "faqs": [
+      {
+        "question": "Should I dig beside a wet retaining wall?",
+        "answer": "No. Stay away from unstable or saturated ground. Drain and structural concerns need appropriate assessment."
+      },
+      {
+        "question": "Will cleaning a pit stop water crossing the driveway?",
+        "answer": "Only if the restriction caused it. Inlet position, pipe condition and downstream capacity may also need investigation."
+      },
+      {
+        "question": "What if the rear yard has only stair access?",
+        "answer": "Describe steps and route width when calling. Safe equipment handling must account for the approach."
+      },
+      {
+        "question": "Can sewer and rainwater problems look similar outdoors?",
+        "answer": "Both can overflow, but need different investigation. Report timing and odour without touching the water."
+      },
+      {
+        "question": "What should I prepare for a Cammeray drain call?",
+        "answer": "Give driveway grade, steps, rear-gate and parking details. Mention walls or visible ground movement without approaching hazardous edges. Share the full Cammeray address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Cammeray property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "cremorne",
+    "name": "Cremorne",
+    "postcode": "2090",
+    "property": "apartments, harbour slopes and mature gardens",
+    "intro": "For a Cremorne enquiry, explain whether the fault is inside a unit, in a common drain or on a garden terrace. The access and approval path can differ within one property.",
+    "localIssue": "Shared sewer branches can back up into low fixtures. Outdoor stormwater pits may hold leaves or sediment, and roots are possible where underground joints are defective.",
+    "diagnosis": "Investigation separates sewer symptoms from rainwater flow before selecting an opening. Mechanical tools or jetting may restore flow; CCTV is useful where roots, damage or recurrence remain concerns.",
+    "access": "Arrange a strata contact and describe parking, stair access and common gates. For terraced gardens, locate the last visible pit or inspection opening.",
+    "neighbours": [
+      "mosman",
+      "neutral-bay",
+      "cammeray"
+    ],
+    "relevantServices": [
+      "sewer-drain-blockages",
+      "stormwater-drains",
+      "tree-root-blockages"
+    ],
+    "title": "Blocked Drains Cremorne NSW 2090",
+    "description": "Blocked drain in Cremorne 2090? Guidance for apartments, harbour slopes and mature gardens. Call to confirm coverage and safe access.",
+    "localOrientation": "Primrose Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/garden-drain-clearing.webp",
+    "imageAlt": "Antons plumber with a drain hose in a garden beside the service vehicle",
+    "faqs": [
+      {
+        "question": "Who arranges common outdoor drain access?",
+        "answer": "A strata or building representative can arrange keys and approval. Reporting symptoms does not necessarily authorise a shared-line repair."
+      },
+      {
+        "question": "Can roots affect an apartment sewer?",
+        "answer": "They can enter defective underground sections regardless of building type. Evidence is needed to identify them as the cause."
+      },
+      {
+        "question": "Why does the pit fill only during rainfall?",
+        "answer": "That timing points towards stormwater, but the inlet and downstream route still need checking. Note how long water remains afterwards."
+      },
+      {
+        "question": "Should I book clearing or camera inspection first?",
+        "answer": "Describe the symptoms rather than choosing equipment. Standing wastewater may need clearing before a camera gives useful views."
+      },
+      {
+        "question": "What should I prepare for a Cremorne drain call?",
+        "answer": "Arrange a strata contact and describe parking, stair access and common gates. For terraced gardens, locate the last visible pit or inspection opening. Share the full Cremorne address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Cremorne property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "kirribilli",
+    "name": "Kirribilli",
+    "postcode": "2061",
+    "property": "dense housing, narrow entries and shared services",
+    "intro": "At a Kirribilli property, the route to the drain may be as important as its symptoms. Narrow entries and stairs call for clear access details before equipment arrives.",
+    "localIssue": "A recurring toilet backup can involve its trap or a shared downstream branch. Older connections may catch wipes or debris; symptoms alone do not establish pipe damage.",
+    "diagnosis": "The plumber checks affected fixtures and authorised openings, using toilet-safe or compact tools where appropriate. Deeper faults may need accessible jetting and CCTV. Repair planning accounts for the restricted route.",
+    "access": "Provide entrance details, stair count, passage width and the building contact. Mention unloading restrictions and openings in another occupied space.",
+    "neighbours": [
+      "milsons-point",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "blocked-toilets",
+      "sewer-drain-blockages",
+      "drain-repairs"
+    ],
+    "title": "Blocked Drains Kirribilli NSW 2061",
+    "description": "Blocked drain in Kirribilli 2061? Guidance for dense housing, narrow entries and shared services. Call to confirm coverage and safe access.",
+    "localOrientation": "Bradfield Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/ryde-emergency-plumber-drain.webp",
+    "imageAlt": "Plumber working at an open outdoor drain pit",
+    "faqs": [
+      {
+        "question": "Should I keep flushing a toilet that rises?",
+        "answer": "Stop flushing. Repeated use can turn a restriction into an overflow. Report any nearby fixtures that also back up."
+      },
+      {
+        "question": "Can equipment pass a narrow entry?",
+        "answer": "Give clear widths, steps and landings so appropriate tools and safe handling can be planned."
+      },
+      {
+        "question": "Does shared drainage always mean a strata building?",
+        "answer": "No. Different properties or occupancies can share sections. Plans help clarify layout and approval requirements."
+      },
+      {
+        "question": "Can a damaged section have a targeted repair?",
+        "answer": "A located defect may support one, depending on condition, surrounding services and access. The method is not assumed before assessment."
+      },
+      {
+        "question": "What should I prepare for a Kirribilli drain call?",
+        "answer": "Provide entrance details, stair count, passage width and the building contact. Mention unloading restrictions and openings in another occupied space. Share the full Kirribilli address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Kirribilli property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "milsons-point",
+    "name": "Milsons Point",
+    "postcode": "2061",
+    "property": "apartment towers, plant areas and common basements",
+    "intro": "When reporting a Milsons Point blockage, include the tower entrance, apartment level and building-manager contact. The visible fixture and service opening may sit several levels apart.",
+    "localIssue": "Wastewater in a low common area may indicate a downstream restriction. A pump-related fault can cause a different problem. Building plans help distinguish these possibilities.",
+    "diagnosis": "The plumber identifies the system and safe access before selecting equipment. CCTV can document reachable sections after clearing. Electrical or pump concerns require appropriate separate investigation.",
+    "access": "Confirm basement clearance, loading times, service lifts and plant-room authorisation. Avoid water near electrical equipment and report alarms safely.",
+    "neighbours": [
+      "kirribilli",
+      "lavender-bay",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "sewer-drain-blockages",
+      "cctv-drain-inspections",
+      "blocked-sinks-showers"
+    ],
+    "title": "Blocked Drains Milsons Point NSW 2061",
+    "description": "Blocked drain in Milsons Point 2061? Guidance for apartment towers, plant areas and common basements. Call to confirm coverage and safe access.",
+    "localOrientation": "Bradfield Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/team.webp",
+    "imageAlt": "Antons team beside a blue service vehicle",
+    "faqs": [
+      {
+        "question": "What matters beyond my apartment number?",
+        "answer": "Give the entrance, level, building contact and common-area symptoms to help locate service access."
+      },
+      {
+        "question": "Should I enter a flooded basement to inspect a pit?",
+        "answer": "No. Water near electrical equipment is hazardous. Stay clear and notify management while explaining the visible situation by phone."
+      },
+      {
+        "question": "Can one camera inspection prove every tower drain is clear?",
+        "answer": "It establishes only what is accessible and visible. The inspected section and limitations should be explained."
+      },
+      {
+        "question": "Why are service-lift arrangements relevant?",
+        "answer": "They determine how equipment can reach the work area safely. Confirm access and building procedures before attendance."
+      },
+      {
+        "question": "What should I prepare for a Milsons Point drain call?",
+        "answer": "Confirm basement clearance, loading times, service lifts and plant-room authorisation. Avoid water near electrical equipment and report alarms safely. Share the full Milsons Point address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Milsons Point property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Notify building management about common-area or electrical hazards. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "mcmahons-point",
+    "name": "McMahons Point",
+    "postcode": "2060",
+    "property": "established streets, tight access and sloping shared drainage",
+    "intro": "For a McMahons Point home with narrow frontage or a shared side route, give access details early. Recurring drainage symptoms need an investigation that accounts for the pipework and route to it.",
+    "localIssue": "Older joints, renovation connections and flushed material can contribute to restrictions. On sloping ground, an overflow may appear below the fault, so a wet surface does not reliably locate a repair.",
+    "diagnosis": "The affected branch is established and cleared where suitable. Camera and locating evidence can guide recurrent-fault investigation. Nearby services and reinstatement are considered before agreeing pipe replacement.",
+    "access": "Mention shared gates, steps and narrow passages. Explain known constraints around established building fabric and who can authorise work.",
+    "neighbours": [
+      "lavender-bay",
+      "waverton",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "cctv-drain-inspections",
+      "drain-repairs",
+      "blocked-toilets"
+    ],
+    "title": "Blocked Drains McMahons Point NSW 2060",
+    "description": "Blocked drain in McMahons Point 2060? Guidance for established streets, tight access and sloping shared drainage. Call to confirm coverage and safe access.",
+    "localOrientation": "Blues Point Reserve is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/wall-side-pipe-repair.webp",
+    "imageAlt": "New drainage pipework and junctions laid beside a house wall",
+    "faqs": [
+      {
+        "question": "Does age alone mean a drain is too fragile to clear?",
+        "answer": "No. Known condition and access guide the method. Brittle or damaged sections need care rather than assumptions based only on age."
+      },
+      {
+        "question": "Why locate a defect before opening the side path?",
+        "answer": "Relating camera findings to the surface reduces uncertainty about the work position, subject to access and visibility limits."
+      },
+      {
+        "question": "What if neighbours share the gate?",
+        "answer": "Arrange authorised entry and notice through the owner or manager. A shared-looking route does not establish access rights."
+      },
+      {
+        "question": "Does a pipe repair include paving reinstatement?",
+        "answer": "Discuss the scope explicitly. Materials, excavation extent and access affect what is proposed and agreed."
+      },
+      {
+        "question": "What should I prepare for a McMahons Point drain call?",
+        "answer": "Mention shared gates, steps and narrow passages. Explain known constraints around established building fabric and who can authorise work. Share the full McMahons Point address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my McMahons Point property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "lavender-bay",
+    "name": "Lavender Bay",
+    "postcode": "2060",
+    "property": "foreshore terrain, established properties and limited access",
+    "intro": "A Lavender Bay enquiry benefits from a clear description of levels and entrances. Tell us whether the affected drain is above or below street level and whether access runs through a building or passage.",
+    "localIssue": "Older runs may have root entry or displaced joints, while stormwater can carry sediment. Foreshore proximity helps orientation but does not establish the cause of a blockage.",
+    "diagnosis": "The plumber separates wastewater from rain-related symptoms and finds a safe opening. Suitable clearing may restore flow; repeat problems can warrant CCTV and locating before a limited-access repair.",
+    "access": "Describe stairs, passage width, locked areas and distance from unloading to the drain. Mention shared-service approvals and keep people away from overflow.",
+    "neighbours": [
+      "mcmahons-point",
+      "milsons-point",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "stormwater-drains",
+      "cctv-drain-inspections",
+      "drain-repairs"
+    ],
+    "title": "Blocked Drains Lavender Bay NSW 2060",
+    "description": "Blocked drain in Lavender Bay 2060? Guidance for foreshore terrain, established properties and limited access. Call to confirm coverage and safe access.",
+    "localOrientation": "Clark Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/licensed-plumber-portrait.webp",
+    "imageAlt": "Plumber beside a stocked service vehicle",
+    "faqs": [
+      {
+        "question": "Is water below street level always stormwater?",
+        "answer": "No. Wastewater can emerge at low fixtures too. Describe timing and odour without contacting the water."
+      },
+      {
+        "question": "Can a long stair route affect the investigation?",
+        "answer": "Yes. Equipment and hose routes need safe handling plans. Mention levels and restricted landings when booking."
+      },
+      {
+        "question": "Should I use chemicals before calling?",
+        "answer": "Avoid them when the cause is unknown, particularly where standing water remains. Tell the plumber about any product already added."
+      },
+      {
+        "question": "Can a camera show the complete foreshore-side line?",
+        "answer": "Only accessible sections with adequate visibility can be inspected. Bends, water and damaged pipework can limit the view."
+      },
+      {
+        "question": "What should I prepare for a Lavender Bay drain call?",
+        "answer": "Describe stairs, passage width, locked areas and distance from unloading to the drain. Mention shared-service approvals and keep people away from overflow. Share the full Lavender Bay address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Lavender Bay property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "wollstonecraft",
+    "name": "Wollstonecraft",
+    "postcode": "2065",
+    "property": "leafy slopes, apartment blocks and established gardens",
+    "intro": "A repeated blockage beneath a planted Wollstonecraft slope may require both drainage investigation and common-property access. Explain whether the line serves one residence or several.",
+    "localIssue": "Roots may enter existing defects and low sections can hold debris. An apartment floor-waste backup does not prove roots are involved, even when mature trees surround the building.",
+    "diagnosis": "The plumber compares symptoms, identifies an opening and clears the accessible restriction with a suitable method. CCTV can show joints or roots; locating helps relate findings to garden paths.",
+    "access": "Arrange a strata representative where necessary. Describe steps, common gates, steep paths and inspection openings concealed by stored items.",
+    "neighbours": [
+      "waverton",
+      "greenwich",
+      "st-leonards"
+    ],
+    "relevantServices": [
+      "tree-root-blockages",
+      "cctv-drain-inspections",
+      "sewer-drain-blockages"
+    ],
+    "title": "Blocked Drains Wollstonecraft NSW 2065",
+    "description": "Blocked drain in Wollstonecraft 2065? Guidance for leafy slopes, apartment blocks and established gardens. Call to confirm coverage and safe access.",
+    "localOrientation": "Berry Island Reserve is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/west-ryde-drainage-trench.webp",
+    "imageAlt": "Exposed drainage pipework in an open trench",
+    "faqs": [
+      {
+        "question": "Should a tree be removed because a drain is blocked?",
+        "answer": "A blockage does not identify a responsible tree. Inspection and advice about the pipe defect come before garden decisions."
+      },
+      {
+        "question": "Can roots regrow after cutting?",
+        "answer": "They may return through an unrepaired opening. Clearing and repair address different parts of the problem."
+      },
+      {
+        "question": "Who can open common garden service points?",
+        "answer": "Arrange an authorised building representative. Do not lift heavy or contaminated covers yourself."
+      },
+      {
+        "question": "How can I help identify a hidden inspection opening?",
+        "answer": "Share plans or its last known position. Move only safe stored items; do not dig into contaminated ground to find it."
+      },
+      {
+        "question": "What should I prepare for a Wollstonecraft drain call?",
+        "answer": "Arrange a strata representative where necessary. Describe steps, common gates, steep paths and inspection openings concealed by stored items. Share the full Wollstonecraft address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Wollstonecraft property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "waverton",
+    "name": "Waverton",
+    "postcode": "2060",
+    "property": "sloping blocks, tree cover and older private pipework",
+    "intro": "For a Waverton property, note whether the same drain keeps blocking and whether it is on the lower side of the block. This history is more useful than guessing the buried pipe route.",
+    "localIssue": "Roots, deteriorated joints or debris retained in a low section can cause recurrence. A sudden obstruction may instead be a foreign object, so the setting is only one part of diagnosis.",
+    "diagnosis": "Clearing begins from a suitable opening. If recurrence suggests a remaining fault, CCTV and locating can identify the affected position. Flow testing checks the immediate result without proving unseen pipe condition.",
+    "access": "Tell us about rear paths, steep driveways, trees near known pipes and previous excavation. Provide safe access without removing heavy lids.",
+    "neighbours": [
+      "wollstonecraft",
+      "mcmahons-point",
+      "north-sydney"
+    ],
+    "relevantServices": [
+      "tree-root-blockages",
+      "drain-repairs",
+      "high-pressure-water-jetting"
+    ],
+    "title": "Blocked Drains Waverton NSW 2060",
+    "description": "Blocked drain in Waverton 2060? Guidance for sloping blocks, tree cover and older private pipework. Call to confirm coverage and safe access.",
+    "localOrientation": "Balls Head Reserve is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/residential-drain-clearing.webp",
+    "imageAlt": "Antons plumber feeding a drain hose into a garden access point beside service vehicles",
+    "faqs": [
+      {
+        "question": "What history helps with a recurring blockage?",
+        "answer": "Explain frequency, affected fixtures and what previous clearing found. Keep any report or footage ready."
+      },
+      {
+        "question": "Can a pipe flow while still having a defect?",
+        "answer": "Yes. Water can pass a cracked joint or low section after clearing. Camera findings can reveal a separate structural problem."
+      },
+      {
+        "question": "Will rear-yard access be needed?",
+        "answer": "Possibly, if suitable openings or the affected section are there. Explain the route and constraints during the call."
+      },
+      {
+        "question": "Is jetting always appropriate for an older sewer?",
+        "answer": "No. Condition, access and obstruction matter. Fragile or collapsed sections may need a different approach or repair."
+      },
+      {
+        "question": "What should I prepare for a Waverton drain call?",
+        "answer": "Tell us about rear paths, steep driveways, trees near known pipes and previous excavation. Provide safe access without removing heavy lids. Share the full Waverton address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Waverton property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "greenwich",
+    "name": "Greenwich",
+    "postcode": "2065",
+    "property": "foreshore slopes, garden access and longer private drains",
+    "intro": "A Greenwich home may have a considerable distance between the fixture and sewer access. Describe the known private route and previous symptoms without assuming the nearest tree is responsible.",
+    "localIssue": "Long runs can contain several joints and changes in level. Roots, sediment or damage may restrict flow, but rainwater and wastewater need tracing as separate systems.",
+    "diagnosis": "Accessible points guide the investigation and choice of clearing equipment. CCTV with locating can relate a recurring defect to the garden instead of relying on surface symptoms alone.",
+    "access": "Provide gate width, slope and hose-route obstacles. Share any easement plan, secure pets and describe the distance from parking to the work area.",
+    "neighbours": [
+      "longueville",
+      "wollstonecraft",
+      "st-leonards"
+    ],
+    "relevantServices": [
+      "cctv-drain-inspections",
+      "tree-root-blockages",
+      "stormwater-drains"
+    ],
+    "title": "Blocked Drains Greenwich NSW 2065",
+    "description": "Blocked drain in Greenwich 2065? Guidance for foreshore slopes, garden access and longer private drains. Call to confirm coverage and safe access.",
+    "localOrientation": "Gore Creek Reserve is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/garden-drain-bedding.webp",
+    "imageAlt": "White drainage pipe laid on gravel bedding in an open garden trench",
+    "faqs": [
+      {
+        "question": "Can a long drain need several access points?",
+        "answer": "It may. Length, bends and condition limit equipment reach. Available openings are assessed before selecting the approach."
+      },
+      {
+        "question": "Can I report both sewer and stormwater symptoms?",
+        "answer": "Yes. Describe both when booking so the scope can be considered. Separate systems may need different access and tools."
+      },
+      {
+        "question": "What should I say about a garden easement?",
+        "answer": "Provide the plan and known access arrangements. Responsibility and permission need clarification before work beyond your authorised scope."
+      },
+      {
+        "question": "Does a locator replace a drainage plan?",
+        "answer": "No. It relates a detectable camera position to the surface. Plans and surrounding-service information remain useful for repairs."
+      },
+      {
+        "question": "What should I prepare for a Greenwich drain call?",
+        "answer": "Provide gate width, slope and hose-route obstacles. Share any easement plan, secure pets and describe the distance from parking to the work area. Share the full Greenwich address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Greenwich property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  },
+  {
+    "slug": "longueville",
+    "name": "Longueville",
+    "postcode": "2066",
+    "property": "larger leafy gardens, long pipe runs and gated access",
+    "intro": "For a Longueville home with a long garden drain, explain where equipment can enter and where the last visible opening sits. A slow house outlet may relate to a restriction further along the private run.",
+    "localIssue": "Roots are possible where joints are defective, and stormwater can collect soil and leaves. Clearing only the nearest inlet may leave a downstream restriction unresolved.",
+    "diagnosis": "The plumber checks the connected system and clears suitable obstructions from an accessible opening. For repeat problems, CCTV and locating can distinguish root entry, damage or retained debris before repair planning.",
+    "access": "Describe gates, turning space, garden paths, pets and retaining structures. Have contacts and plans available for any shared drainage route.",
+    "neighbours": [
+      "lane-cove",
+      "greenwich"
+    ],
+    "relevantServices": [
+      "tree-root-blockages",
+      "high-pressure-water-jetting",
+      "drain-repairs"
+    ],
+    "title": "Blocked Drains Longueville NSW 2066",
+    "description": "Blocked drain in Longueville 2066? Guidance for larger leafy gardens, long pipe runs and gated access. Call to confirm coverage and safe access.",
+    "localOrientation": "Aquatic Park is a local orientation reference. Give the full street address and actual entrance when booking; a landmark does not identify your drainage or access.",
+    "image": "/images/blocked-drain-excavation.webp",
+    "imageAlt": "Plumber excavating underground pipework",
+    "faqs": [
+      {
+        "question": "Should every garden gate be unlocked?",
+        "answer": "Arrange the agreed safe route and secure pets. Identify the gate leading to the drain; unrelated areas need not be opened."
+      },
+      {
+        "question": "Can leaves cause a deeper stormwater restriction?",
+        "answer": "Leaves can combine with soil downstream. The connected line may need assessment if pit cleaning does not restore flow."
+      },
+      {
+        "question": "Will root cutting fix a broken joint?",
+        "answer": "It can remove suitable growth but does not repair the opening. Inspection can inform a separate repair recommendation."
+      },
+      {
+        "question": "Why ask about driveway turning space?",
+        "answer": "Parking and unloading affect the safe equipment route. Explain restrictions before attendance so access can be planned."
+      },
+      {
+        "question": "What should I prepare for a Longueville drain call?",
+        "answer": "Describe gates, turning space, garden paths, pets and retaining structures. Have contacts and plans available for any shared drainage route. Share the full Longueville address, symptoms and urgency so current coverage and the next available response can be confirmed."
+      },
+      {
+        "question": "What if wastewater overflows at my Longueville property?",
+        "answer": "Stop using connected fixtures and keep people and pets away. Avoid chemicals and do not lift heavy drain covers. Urgent calls are taken 24 hours, 7 days a week. Explain the affected area and safe-access restrictions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "antons-blocked-drains-lower-north-shore",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build && npm run check:site && npm run check:links && npm run check:performance && npm run check:content",
+    "images": "node scripts/optimize-images.mjs",
+    "preview": "astro preview",
+    "check": "astro check",
+    "check:site": "node scripts/check-site.mjs",
+    "check:performance": "node scripts/check-performance.mjs",
+    "check:links": "node scripts/check-internal-links.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "check:responsive": "node scripts/check-responsive.mjs",
+    "check:lighthouse": "node scripts/lighthouse.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@fontsource/barlow": "^5.2.6",
+    "@fontsource/saira-extra-condensed": "^5.2.6",
+    "astro": "^7.4.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "lighthouse": "^13.5.0",
+    "playwright-core": "^1.63.0"
+  }
+}

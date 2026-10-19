@@ -1,0 +1,73 @@
+---
+import '@fontsource/barlow/latin-400.css';
+import '@fontsource/barlow/latin-600.css';
+import '@fontsource/barlow/latin-700.css';
+import '@fontsource/saira-extra-condensed/latin-700.css';
+import bodyFont from '@fontsource/barlow/files/barlow-latin-400-normal.woff2?url';
+import headingFont from '@fontsource/saira-extra-condensed/files/saira-extra-condensed-latin-700-normal.woff2?url';
+import '../styles/global.css';
+
+
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Header from '../components/Header.astro';
+import CallBar from '../components/CallBar.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { pageSchema } from '../data/schema';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  schema?: Record<string, unknown> | Record<string, unknown>[];
+  showFooter?: boolean;
+  noindex?: boolean;
+}
+
+const { title, description, canonicalPath = Astro.url.pathname, schema, showFooter = true, noindex = false } = Astro.props;
+const baseUrl = Astro.site!.href;
+const allowIndexing = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
+const canonical = new URL(canonicalPath, baseUrl).toString();
+const socialImage = new URL('/images/blocked-drains.webp', baseUrl).href;
+const pageTitle = title.includes(site.shortName) ? title : `${title} | ${site.shortName}`;
+const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description, schema);
+---
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={allowIndexing ? 'index,follow,max-image-preview:large' : 'noindex,nofollow'} />
+    <meta name="theme-color" content="#071A35" />
+    <meta name="geo.region" content="AU-NSW" />
+    <meta name="geo.placename" content="The Lower North Shore, New South Wales" />
+    <link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={headingFont} as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/png" sizes="150x150" href="/favicon-antons.png" />
+    <link rel="apple-touch-icon" sizes="300x300" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content="Drain plumber using professional blocked-drain equipment" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content="Drain plumber using professional blocked-drain equipment" />
+    {!noindex && <><link rel="canonical" href={canonical} /><link rel="alternate" hreflang="en-AU" href={canonical} /><link rel="alternate" hreflang="x-default" href={canonical} /></>}
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+    <Header />
+    <main id="main" class:list={{ 'inner-page': canonicalPath !== '/' }}><Breadcrumbs path={canonicalPath} /><slot /></main>
+    {showFooter && <Footer />}
+    <CallBar />
+  </body>
+</html>
