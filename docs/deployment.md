@@ -1,5 +1,5 @@
 # Deployment checklist and redirects
-Status: local only. Repository, Worker name, DNS, TLS and build integration are not configured or verified.
+Status, 20 October 2026: source code is saved at https://github.com/leobarotramonas-del/blockedlowernorthshore on main. The user requested code storage only. Hosting, Worker name, DNS, TLS and build integration are not configured. The following is reference material for a future hosting request, not an active deployment plan.
 The static assets config uses force-trailing-slash and 404-page handling; dist/404.html is Astro's custom error page. Verify missing URLs return HTTP 404 after deployment, rather than a 200 fallback.
 At Cloudflare configure one canonical-host redirect for requests where the host is www.blockeddrainslowernorthshore.com.au or the scheme is HTTP. Target HTTPS non-www, preserve the original path, enable query-string preservation and use HTTP 301. Scope it to the two confirmed site hostnames; do not redirect unrelated domains.
 Example expression for target URL: concat("https://blockeddrainslowernorthshore.com.au", http.request.uri.path). Preserve query string separately. Configure HTTPS/TLS before switching traffic.
@@ -13,3 +13,4 @@ Configuration references checked 19 October 2026:
 - https://developers.cloudflare.com/rules/url-forwarding/single-redirects/settings/
 
 Local Astro preview verifies a missing URL returns the custom page with HTTP 404. The explicit /404/ resource itself returns 200; this is not a soft-404 fallback for missing routes. Recheck actual missing URLs on Cloudflare after launch.
+
