@@ -1,4 +1,6 @@
 ---
+import { titleCase } from "../../utils/title-case";
+import WorkStandards from '../../components/WorkStandards.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaBand from '../../components/CtaBand.astro';
@@ -8,7 +10,8 @@ import { faqSchema, pageFaqs } from '../../data/faqs';
 ---
 <BaseLayout title="Blocked Drain Service Areas Lower North Shore" description="Explore twenty Lower North Shore drainage guides, from North Sydney and Chatswood to Mosman and Longueville. Plan safe access and confirm coverage by address." schema={faqSchema(pageFaqs.serviceAreas)}>
   <PageHero label="Service Areas" title="Blocked drain plumbers across the Lower North Shore." intro="Trees, slope, property age, access and shared services change how a blocked drain should be investigated. Choose your area for useful local context and booking guidance." image="/images/team.webp" imageAlt="Three plumbers beside a blue service vehicle" />
-  <section class="section area-directory"><p><a href="/contact/">Contact us with the full address</a> to confirm coverage and the next available response. Each local guide includes a familiar landmark or street to help orient your call, plus practical drainage and access details. For clearing and repair methods, explore our <a href="/services/">blocked drain services</a>.</p>{areas.map((area) => <article><p>NSW {area.postcode}</p><h2>{area.name}</h2><p>{area.localIssue}.</p><a class="text-link" href={`/service-areas/${area.slug}/`}>Blocked drains {area.name}</a></article>)}</section>
+  <section class="section area-directory"><p><a href="/contact/">Contact us with the full address</a> to confirm coverage and the next available response. Give the actual entrance as well as the address, especially for units, shared driveways or rear access. For clearing and repair methods, explore our <a href="/services/">blocked drain services</a>.</p>{areas.map((area) => <article><p>NSW {area.postcode}</p><h2>{titleCase(area.name)}</h2><p>{area.localIssue}</p><a class="text-link" href={`/service-areas/${area.slug}/`}>Blocked drains {area.name}</a></article>)}</section>
+  <WorkStandards mode="areas" />
   <FaqSection title="Questions About Lower North Shore Coverage" intro="How address checks, access, urgent calls and licensing work." items={pageFaqs.serviceAreas} />
   <CtaBand title="Check Your Lower North Shore Address" />
 </BaseLayout>

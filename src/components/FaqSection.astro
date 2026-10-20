@@ -1,4 +1,5 @@
 ---
+import { titleCase } from "../utils/title-case";
 import type { FaqItem } from '../data/faqs';
 
 interface Props {
@@ -12,7 +13,7 @@ const { title, intro, items, id = 'page-faq-title' } = Astro.props;
 ---
 <section class="local-faq" aria-labelledby={id}>
   <div class="local-faq__heading">
-    <h2 id={id}>{title}</h2>
+    <h2 id={id}>{titleCase(title)}</h2>
     {intro && <p>{intro}</p>}
   </div>
   <div class="local-faq__list">

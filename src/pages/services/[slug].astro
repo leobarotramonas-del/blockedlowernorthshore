@@ -1,4 +1,6 @@
 ---
+import { titleCase } from "../../utils/title-case";
+import ServiceFieldNotes from '../../components/ServiceFieldNotes.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaBand from '../../components/CtaBand.astro';
@@ -15,11 +17,13 @@ const schema = [{'@type':'Service',name:service.name+' Lower North Shore',descri
 ---
 <BaseLayout title={service.name+' Lower North Shore'} description={service.summary+' Practical Lower North Shore guidance on diagnosis, suitable methods and safe access.'} schema={schema}>
 <PageHero label="Drain service" title={service.name+' Lower North Shore'} intro={g.intro} image={service.image} imageAlt={service.imageAlt}/>
-<section class="section detail-grid"><div><h2>Signs you may notice</h2><ul>{service.signs.map(s=><li>{s}</li>)}</ul></div><div><h2>Possible causes</h2><ul>{service.causes.map(s=><li>{s}</li>)}</ul><p>Symptoms help guide investigation, but cannot confirm the cause on their own.</p></div></section>
-<section class="section safety"><h2>What to do before the visit</h2><p>{g.safe}</p><p>If water is near electrical equipment or ground is unstable, stay clear and explain the hazard when calling. Urgent calls are taken 24 hours, 7 days a week.</p></section>
-<section class="section method-panel"><div><h2>How diagnosis guides the work</h2><p>{service.method}</p><p>{g.limit}</p><p>Flow is checked after suitable clearing or repair. Maintenance advice and any remaining structural issue are explained separately.</p></div><div><h2>Tools and materials</h2><ul>{service.tools.map(s=><li>{s}</li>)}</ul><p>The operator selects the equipment for the obstruction, pipe condition and safe access. The most forceful method is not always appropriate.</p></div></section>
-<section class="section"><h2>Local access changes the approach</h2><p>{g.local}</p><div class="area-links">{selected.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><p>See the <a href="/service-areas/">full Lower North Shore coverage guide</a>. Current coverage is confirmed by full street address.</p></section>
-<section class="section"><h2>Related drainage guidance</h2><div class="service-list">{related.map(s=><a class="service-row" href={'/services/'+s.slug+'/'}><h3>{s.name}</h3><p>{s.summary}</p><span>Read the guide</span></a>)}</div><p><a href="/about/">Provider and licence information</a> or <a href="/contact/">contact the drain team</a>.</p></section>
+<nav class="page-contents" aria-label="On this page"><a href="#inspection-notes">Inspection Notes</a><a href="#aftercare">Aftercare</a><a href="#page-faq-title">Common Questions</a></nav>
+<section class="section detail-grid"><div><h2>Signs You May Notice</h2><ul>{service.signs.map(s=><li>{s}</li>)}</ul></div><div><h2>Possible Causes</h2><ul>{service.causes.map(s=><li>{s}</li>)}</ul><p>Symptoms help guide investigation, but cannot confirm the cause on their own.</p></div></section>
+<section class="section safety"><h2>What to Do before the Visit</h2><p>{g.safe}</p><p>If water is near electrical equipment or ground is unstable, stay clear and explain the hazard when calling. Urgent calls are taken 24 hours, 7 days a week.</p></section>
+<section class="section method-panel"><div><h2>How Diagnosis Guides the Work</h2><p>{service.method}</p><p>{g.limit}</p><p>Flow is checked after suitable clearing or repair. Maintenance advice and any remaining structural issue are explained separately.</p></div><div><h2>Tools and Materials</h2><ul>{service.tools.map(s=><li>{s}</li>)}</ul><p>The operator selects the equipment for the obstruction, pipe condition and safe access. The most forceful method is not always appropriate.</p></div></section>
+<section class="section"><h2>Access Planning for Your Drain</h2><p>{g.local}</p><div class="area-links">{selected.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><p>See the <a href="/service-areas/">full Lower North Shore coverage guide</a>. Current coverage is confirmed by full street address.</p></section>
+<section class="section"><h2>Related Drainage Guidance</h2><div class="service-list">{related.map(s=><a class="service-row" href={'/services/'+s.slug+'/'}><h3>{titleCase(s.name)}</h3><p>{s.summary}</p><span>Read the guide</span></a>)}</div><p><a href="/about/">Provider and licence information</a> or <a href="/contact/">contact the drain team</a>.</p></section>
+<ServiceFieldNotes slug={service.slug}/>
 <FaqSection title={service.name+' questions'} items={serviceFaqs[service.slug]}/>
 <CtaBand title={'Talk through '+service.name.toLowerCase().replace('cctv', 'CCTV')}/>
 </BaseLayout>

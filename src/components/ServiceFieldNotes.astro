@@ -1,0 +1,25 @@
+---
+import { titleCase } from "../utils/title-case";
+import { fieldNotes } from '../data/field-notes';
+import ResponsiveImage from './ResponsiveImage.astro';
+const { slug } = Astro.props;
+const note = fieldNotes[slug];
+---
+<section class="field-feature" id="inspection-notes" aria-labelledby="field-title">
+  <figure>
+    <ResponsiveImage src={note.image} alt={note.alt} widths={[360,600,900]} sizes="(max-width: 760px) calc(100vw - 32px), 40vw" loading="lazy" />
+    <figcaption>From the Antons work photo collection.</figcaption>
+  </figure>
+  <div class="field-feature__copy">
+    <h2 id="field-title">{titleCase(note.title)}</h2>
+    <p class="field-question">{note.question}</p>
+    <p>{note.evidence}</p>
+    <h3>How the Finding Changes the Work</h3>
+    <p>{note.decision}</p>
+    <a href="/about/">Meet the Team behind the Assessment</a>
+  </div>
+</section>
+<section class="section aftercare" id="aftercare" aria-labelledby="aftercare-title">
+  <div><h2 id="aftercare-title">After the Immediate Problem Is Resolved</h2><p>A useful result includes knowing what to watch for next.</p></div>
+  <div><h3>Day-to-Day Care</h3><p>{note.care}</p><h3>When to Call Again</h3><p>{note.follow}</p></div>
+</section>

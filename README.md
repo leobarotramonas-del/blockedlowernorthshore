@@ -45,6 +45,6 @@ Repository: https://github.com/leobarotramonas-del/blockedlowernorthshore, branc
 Worker name: blockedlowernorthshore. Root directory: /.
 Build command: npm run build. Deploy command: npx wrangler deploy.
 
-The 20 October 2026 build passed, but deployment failed because the Worker name was still a placeholder. wrangler.jsonc now uses the confirmed Worker name. Verify the next Cloudflare build and deployment before treating the website as live.
+Production deployment verified on 20 October 2026. Worker version 26598cd4 was rebuilt with PUBLIC_ALLOW_INDEXING=true in Cloudflare Production build variables, with user approval.
 
-Builds remain non-indexable by default. Set PUBLIC_ALLOW_INDEXING=true only when deliberately launching on the intended production domain, https://blockeddrainslowernorthshore.com.au/. Domain routing, TLS and redirects still require verification. See docs/deployment.md for post-launch checks.
+Local builds remain non-indexable by default. Cloudflare Production builds explicitly set PUBLIC_ALLOW_INDEXING=true for https://blockeddrainslowernorthshore.com.au/. The live robots.txt allows crawling and references the 35-page sitemap. A Cloudflare Single Redirect matches the exact www hostname and redirects HTTP/HTTPS requests to the HTTPS apex domain with status 301, preserving path and query string. Both www robots URLs were verified to resolve to 200. See docs/deployment.md for post-launch checks.

@@ -1,4 +1,5 @@
 ---
+import { titleCase } from '../utils/title-case';
 import '@fontsource/barlow/latin-400.css';
 import '@fontsource/barlow/latin-600.css';
 import '@fontsource/barlow/latin-700.css';
@@ -29,7 +30,7 @@ const baseUrl = Astro.site!.href;
 const allowIndexing = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
 const canonical = new URL(canonicalPath, baseUrl).toString();
 const socialImage = new URL('/images/blocked-drains.webp', baseUrl).href;
-const pageTitle = title.includes(site.shortName) ? title : `${title} | ${site.shortName}`;
+const pageTitle = titleCase(title.includes(site.shortName) ? title : `${title} | ${site.shortName}`);
 const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description, schema);
 ---
 <!doctype html>

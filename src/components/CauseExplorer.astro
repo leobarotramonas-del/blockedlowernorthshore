@@ -1,4 +1,5 @@
 ---
+import { titleCase } from "../utils/title-case";
 import ResponsiveImage from './ResponsiveImage.astro';
 const causes = [
  {id:'roots',label:'Roots',title:'Clearing the roots is only part of the answer.',cause:'Roots can enter cracks and open joints, then grow across the flow path.',action:'We assess access and pipe condition, select suitable root-clearing equipment and use CCTV where needed to investigate the entry point.',reason:'Removing roots may restore flow. Identifying the opening helps explain why they returned and whether a separate repair is needed.',image:'/images/root-removal-excavation.webp',alt:'Antons technician holding removed roots beside a drainage excavation',position:'50% 20%',link:'/services/tree-root-blockages/',cta:'Explore root blockage services'},
@@ -8,10 +9,10 @@ const causes = [
 ];
 ---
 <section class="cause-explorer" data-cause-explorer aria-labelledby="causes-title">
- <header><h2 id="causes-title">A blockage is a symptom.<br />The cause decides the fix.</h2><p>Explore four possible causes. See what changes inside the pipe and how our professional drain plumbers approach each one.</p></header>
+ <header><h2 id="causes-title">A Blockage Is a Symptom.<br />The Cause Decides the Fix.</h2><p>Explore four possible causes. See what changes inside the pipe and how our professional drain plumbers approach each one.</p></header>
  <div class="cause-choices" role="group" aria-label="Explore blockage causes">
   {causes.map((cause,i)=><button type="button" data-cause={cause.id} aria-controls={`cause-${cause.id}`} aria-pressed={i===0?'true':'false'}>
-   <span class="cause-label">{cause.label}<span aria-hidden="true">+</span></span>
+   <span class="cause-label">{titleCase(cause.label)}<span aria-hidden="true">+</span></span>
    <svg viewBox="0 0 240 140" aria-hidden="true">
     <path d="M0 38H240M0 103H240" stroke="#8197a9" stroke-width="12"/>
     <path d="M0 45H240V96H0Z" fill="#f6f2e9"/>
@@ -27,8 +28,8 @@ const causes = [
  <p class="cause-instruction">Hover or focus to preview. Click or tap to select a cause.</p>
  <div class="cause-panels">
   {causes.map(cause=><article id={`cause-${cause.id}`} data-cause-panel={cause.id}>
-   <figure><ResponsiveImage src={cause.image} alt={cause.alt} widths={[360,480,768]} quality={65} sizes="(max-width: 760px) calc(100vw - 72px), 400px" loading="lazy" style={{objectPosition:cause.position}}/><figcaption>Antons on the job. Photographs illustrate our work, not a diagnosis of your drain.</figcaption></figure>
-   <div class="cause-explanation"><h3>{cause.title}</h3><p>{cause.cause}</p><dl><dt>How our plumbers approach it</dt><dd>{cause.action}</dd><dt>Why professional assessment matters</dt><dd>{cause.reason}</dd></dl><a href={cause.link}>{cause.cta}<span aria-hidden="true"> →</span></a></div>
+   <figure><ResponsiveImage src={cause.image} alt={cause.alt} widths={[360,480,768]} quality={65} sizes="(max-width: 760px) calc(100vw - 72px), 400px" loading="lazy" style={{objectPosition:cause.position}}/><figcaption>Antons on the job. The assessment at your property determines the next step.</figcaption></figure>
+   <div class="cause-explanation"><h3>{titleCase(cause.title)}</h3><p>{cause.cause}</p><dl><dt>How our plumbers approach it</dt><dd>{cause.action}</dd><dt>Why professional assessment matters</dt><dd>{cause.reason}</dd></dl><a href={cause.link}>{cause.cta}<span aria-hidden="true"> →</span></a></div>
   </article>)}
  </div>
  <p class="cause-note">Symptoms alone cannot confirm the cause. We assess the line, explain the evidence and agree the work before proceeding.</p>

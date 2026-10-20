@@ -16,6 +16,8 @@ for(const width of [320,375,768,1024,1440]){
   await page.waitForTimeout(150);
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
   if(overflow)errors.push(route+' overflow at '+width);
+  // Decode hidden lazy images too; inactive explorer panels intentionally defer loading.
+  await page.locator('img').evaluateAll(imgs=>Promise.allSettled(imgs.map(img=>{img.loading='eager';return img.decode();})));
   const broken=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).map(i=>i.src));
   if(broken.length)errors.push(route+' broken images: '+broken.join(','));
   if([375,1440].includes(width)){
@@ -43,7 +45,7 @@ for(const width of [320,375,768,1024,1440]){
  await context.close();
 }
 const missing=await fetch(base+'/missing-page-verification/');
-if(missing.status!==404 || !(await missing.text()).includes('We cannot find that page.'))errors.push('Missing URL did not return the custom 404 response');
+if(missing.status!==404 || !/we cannot find that page\./i.test(await missing.text()))errors.push('Missing URL did not return the custom 404 response');
 await browser.close();
 await fs.writeFile('qa/responsive-results.json',JSON.stringify({results,interactions,errors},null,2));
 console.log(JSON.stringify({viewports:5,routes:routes.length,captures:results.length,interactions,errors},null,2));

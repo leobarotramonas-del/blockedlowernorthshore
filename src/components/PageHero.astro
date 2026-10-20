@@ -1,4 +1,5 @@
 ---
+import { titleCase } from "../utils/title-case";
 import suppliedPhotos from '../data/supplied-photos.json';
 import { site } from '../data/site';
 import ResponsiveImage from './ResponsiveImage.astro';
@@ -24,7 +25,7 @@ const focalPoints: Record<string, string> = {
 <section class="page-hero">
   <div class="page-hero__copy">
     
-    <h1>{title}</h1>
+    <h1>{titleCase(title)}</h1>
     <p>{intro}</p>
     <a class="call-button" href={site.phoneHref}><span>Call Now</span><strong>{site.phoneDisplay}</strong></a>
   </div>

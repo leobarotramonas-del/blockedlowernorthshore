@@ -1,4 +1,5 @@
 ---
+import WorkStandards from '../components/WorkStandards.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
 import CtaBand from '../components/CtaBand.astro';
@@ -8,12 +9,13 @@ import { site } from '../data/site';
 import { faqSchema, pageFaqs } from '../data/faqs';
 ---
 <BaseLayout title="About Our Lower North Shore Blocked Drain Plumbers" description={`Meet the licensed blocked-drain team behind ${site.name}. Learn how experience, CCTV inspection, water jetting and clear diagnosis shape our Lower North Shore drain service.`} schema={faqSchema(pageFaqs.about)}>
-  <PageHero label="About the Team" title="Lower North Shore drain plumbers focused on the cause." intro="Cause-led diagnosis, commercial drainage equipment and a clear explanation of clearing versus structural repair." image="/images/team.webp" imageAlt="Three licensed plumbers standing beside a blue service vehicle" />
+  <PageHero label="About the Team" title="Lower North Shore drain plumbers focused on the cause." intro="We investigate the blockage, explain what we find and select equipment for the pipe and access. If damage needs a separate repair, we talk through that scope with you." image="/images/team.webp" imageAlt="Three licensed plumbers standing beside a blue service vehicle" />
   <section class="section detail-grid">
-    <div><h2>Licensed Blocked Drain Service in the Lower North Shore</h2><p>{site.name} is provided by {site.operator}. Regulated drainage work is undertaken under NSW contractor licence {site.licence}.</p><p>The dedicated website helps Lower North Shore customers find focused information about blocked toilets, sewer and stormwater drains, CCTV inspections, water jetting and drain repairs.</p></div>
+    <div><h2>Licensed Blocked Drain Service in the Lower North Shore</h2><p>{site.name} is provided by {site.operator}. Regulated drainage work is undertaken under NSW contractor licence {site.licence}.</p><p>When you call, you do not need to choose a tool or diagnose the pipe. Tell us which drains are affected, how long it has been happening and whether the problem has returned after earlier work.</p></div>
     <div><h2>Professional Drain Diagnosis and Repair</h2><p>We start with symptoms, inspect accessible pipework and choose equipment for the line. High-pressure jetting may clear the obstruction; CCTV and electronic locating can show why it returned; targeted excavation can repair a failed section.</p><p>Explore our <a href="/services/">blocked drain services</a> or <a href="/contact/">call a drain plumber</a> to discuss the next step.</p></div>
   </section>
   <section class="operator-gallery"><ResponsiveImage src="/images/drain-camera-inspection.webp" alt="CCTV drain inspection equipment used to diagnose pipe condition" sizes="(max-width: 760px) calc(100vw - 32px), 46vw" loading="lazy" /><ResponsiveImage src="/images/narrow-side-drain-excavation.webp" alt="Antons plumber excavating a narrow passage between a house and fence" sizes="(max-width: 760px) calc(100vw - 32px), 46vw" loading="lazy" /></section>
+  <WorkStandards mode="about" />
   <FaqSection title="About Our Drain Service" intro="Answers about experience, licensing, equipment and what customers can expect." items={pageFaqs.about} />
   <CtaBand />
 </BaseLayout>

@@ -1,0 +1,20 @@
+---
+import { titleCase } from "../utils/title-case";
+import { fieldNotes } from '../data/field-notes';
+const { area, relevant } = Astro.props;
+const notes = relevant.slice(0,2).map((service: {slug:string; name:string}) => ({...fieldNotes[service.slug], service}));
+---
+<section class="section property-guide" id="property-plan" aria-labelledby="property-plan-title">
+  <div class="property-guide__intro"><h2 id="property-plan-title">Plan the Investigation at Your {area.name} Property</h2>
+  <p>Planning considerations include {area.property}. Your property's actual layout matters more than its postcode. Tell us which openings are accessible and whether another household or business shares the affected line.</p>
+  <a href="/contact/">Talk through Access and Symptoms</a></div>
+  <dl class="field-register">
+    <div><dt>Before Equipment Is Chosen</dt><dd>Identify the route from the entrance to the affected drain. Mention steps, locked gates and anything that limits working space. Keep existing drain plans or previous camera findings available if you have them.</dd></div>
+    <div><dt>Before a Repair Is Agreed</dt><dd>Ask where the suspected fault is, what supports that finding and whether any section could not be inspected. Discuss access, the repair extent and reinstatement together.</dd></div>
+    <div><dt>Before Normal Use Resumes</dt><dd>Ask what the flow check showed and whether a defect remains. Keep any follow-up recommendations with your property records, especially when a shared drain is involved.</dd></div>
+  </dl>
+</section>
+<section class="section evidence-guide" id="evidence" aria-labelledby="evidence-title">
+  <div><h2 id="evidence-title">Questions That Help Explain the Diagnosis</h2><p>These are starting points for the assessment, not a diagnosis of every property in {area.name}.</p></div>
+  <div class="evidence-guide__notes">{notes.map((note: any) => <article><h3>{titleCase(note.title)}</h3><p class="field-question">{note.question}</p><p>{note.decision}</p><a href={'/services/'+note.service.slug+'/'}>Read the {note.service.name} Guide</a></article>)}</div>
+</section>

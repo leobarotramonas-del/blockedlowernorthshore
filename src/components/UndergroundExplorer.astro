@@ -1,4 +1,5 @@
 ---
+import { titleCase } from "../utils/title-case";
 import ResponsiveImage from './ResponsiveImage.astro';
 const topics = [
   { id: 'roots', label: 'Root entry', title: 'Roots find a way into the pipe.', text: 'Fine roots can enter an open joint or crack and grow into a dense obstruction. Clearing the roots may restore flow, while the entry point can still need repair.', symptom: 'A drain that clears, then blocks again.', check: 'CCTV inspection can show roots and the condition of the joint.', image: '/images/roots-removed-technician.webp', alt: 'Antons technician holding a long root mass removed from drainage', position: '50% 35%' },
@@ -9,7 +10,7 @@ const topics = [
 ---
 <section class="underground section" aria-labelledby="underground-title" data-explorer>
   <header class="underground__heading">
-    <h2 id="underground-title">See what could be happening underground.</h2>
+    <h2 id="underground-title">See What Could Be Happening Underground.</h2>
     <p>A slow drain is the symptom. Explore the pipe below to see some possible causes.</p>
   </header>
   <div class="underground__layout">
@@ -46,7 +47,7 @@ const topics = [
           <text x="637" y="503" text-anchor="middle" class="map-note">Downstream</text>
         </svg>
         <div class="underground__points" role="group" aria-label="Explore possible drain problems">
-          {topics.map(topic => <button type="button" class={`drain-point drain-point--${topic.id}`} data-topic={topic.id} aria-controls={`drain-detail-${topic.id}`} aria-pressed="false"><span class="drain-point__mark" aria-hidden="true">+</span><span>{topic.label}</span></button>)}
+          {topics.map(topic => <button type="button" class={`drain-point drain-point--${topic.id}`} data-topic={topic.id} aria-controls={`drain-detail-${topic.id}`} aria-pressed="false"><span class="drain-point__mark" aria-hidden="true">+</span><span>{titleCase(topic.label)}</span></button>)}
         </div>
       </div>
       <p class="underground__hint">Hover to explore. Click or tap to keep an explanation open.</p>
@@ -55,7 +56,7 @@ const topics = [
     <div class="underground__details" aria-live="polite" aria-atomic="true">
       {topics.map((topic, index) => <article id={`drain-detail-${topic.id}`} data-detail={topic.id} data-active={index === 0 ? '' : undefined}>
         {topic.image ? <figure><ResponsiveImage src={topic.image} alt={topic.alt!} widths={[360,480,768]} sizes="(max-width: 850px) calc(100vw - 64px), 380px" loading="lazy" style={{objectPosition: topic.position}} />{topic.caption && <figcaption>{topic.caption}</figcaption>}</figure> : <figure class="low-pipe"><svg viewBox="0 0 400 210" role="img" aria-label="Magnified diagram of water and deposits collecting in a sagging pipe"><path d="M0 55H60C140 55 120 139 207 139S286 55 355 55H400" stroke="#465e71" stroke-width="66" fill="none"/><path d="M0 55H60C140 55 120 139 207 139S286 55 355 55H400" stroke="#fffaf0" stroke-width="54" fill="none"/><path d="M115 117Q145 166 207 166T302 117Z" fill="#9ec9d9"/><path d="M139 143Q206 180 275 143L262 157Q207 181 151 156Z" fill="#98723f"/><text x="200" y="198" text-anchor="middle" fill="#17334d" font-size="15">Water and deposits collect in the dip</text></svg><figcaption>Illustration of a low pipe section.</figcaption></figure>}
-        <div class="underground__detail-copy"><h3>{topic.title}</h3><p>{topic.text}</p><dl><dt>What you might notice</dt><dd>{topic.symptom}</dd><dt>How we investigate</dt><dd>{topic.check}</dd></dl></div>
+        <div class="underground__detail-copy"><h3>{titleCase(topic.title)}</h3><p>{topic.text}</p><dl><dt>What you might notice</dt><dd>{topic.symptom}</dd><dt>How we investigate</dt><dd>{topic.check}</dd></dl></div>
       </article>)}
     </div>
   </div>

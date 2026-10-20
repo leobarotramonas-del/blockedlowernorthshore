@@ -71,3 +71,12 @@ Replaced the static cause register with four selectable pipe diagrams for roots,
 
 Full build and static checks passed. Browser checks at 375, 768 and 1440 pixels passed hover, keyboard, touch, service-link responses, reduced motion and scoped axe WCAG A/AA checks. No horizontal overflow; panel height remains identical across all four causes at each tested width. Screenshots were visually reviewed. Evidence: qa/home-causes-results.json and qa/home-causes-*.png. Local preview only.
 
+
+## 20 October 2026: Content and Expertise Sections
+
+- `npm run build` passes: Astro reports no errors, warnings or hints; all 36 pages build. Site, internal-link, performance and content checks pass.
+- Verified new inspection/aftercare sections on all eight service detail pages and planning/evidence sections on all twenty locality pages, including their in-page navigation destinations.
+- Responsive browser check passes across eight representative routes at 320, 375, 768, 1024 and 1440px, with no overflow or failed image decodes. Desktop/mobile axe checks report no violations. The check now explicitly decodes hidden lazy images in explorer panels before judging image availability.
+- Both interactive guides pass keyboard, touch, reduced-motion, stable-panel-height and accessibility checks at their three tested widths.
+- Visually reviewed the new photo essay, property guide and work standards layouts at 375 and 1440px. Existing phone contact and FAQ interactions remain functional.
+- Local preview builds retain noindex defaults. Production indexing was enabled separately in Cloudflare with user approval; the live 35-page sitemap and index/follow metadata were verified before this release. This revision is approved for GitHub commit and production deployment.
