@@ -1,5 +1,5 @@
 # Antons Blocked Drains Lower North Shore
-Local source project for the supplied domain https://blockeddrainslowernorthshore.com.au. The source is saved on the main branch of https://github.com/leobarotramonas-del/blockedlowernorthshore. The user selected GitHub code storage only on 20 October 2026. Website hosting is not enabled. The Hills District reference was read and copied selectively, never edited.
+Local source project for the supplied domain https://blockeddrainslowernorthshore.com.au. The source is saved on the main branch of https://github.com/leobarotramonas-del/blockedlowernorthshore. Cloudflare Workers Builds is now connected to this repository. The confirmed Worker name is blockedlowernorthshore. Deployment success and the live domain must be verified in Cloudflare. The Hills District reference was read and copied selectively, never edited.
 
 ## Runtime and installation
 Use Node 24 LTS (tested 24.18.0) and npm. Astro 7.4 static output is a documented security exception to the requested Astro 5 baseline; see docs/architecture-decision.md.
@@ -40,15 +40,11 @@ src/components/ResponsiveImage.astro: no upscaling, responsive candidates, expli
 docs/asset-provenance.md and docs/local-reference-sources.md: evidence and orientation sources.
 Keep the provider identity natural; do not invent prices, response times, local jobs, reviews or ratings.
 
-## Optional future hosting setup (not activated)
-The GitHub repository is confirmed. No Worker or hosting destination is configured. wrangler.jsonc deliberately contains REPLACE_WITH_CONFIRMED_WORKER_NAME. This is the only deployment placeholder and must be replaced before deployment. It intentionally remains unresolved in the local source commit until the destination is confirmed. No public-facing content placeholders remain.
-1. Obtain a new request to enable hosting and confirm the exact Worker name. Replace the placeholder. Resolve any remaining QA or business-policy review items.
-2. Create/review a clean repository excluding .env, node_modules, dist, .astro, .wrangler and qa.
-3. Connect that repository to Cloudflare Workers Builds, with main as production branch and this project as root.
-4. Configure install npm ci, build npm run build, deploy npx wrangler deploy; static assets directory dist. Set PUBLIC_ALLOW_INDEXING=true only for the production environment.
-5. Add the confirmed custom domain in Cloudflare and configure TLS. Worker and custom domain setup have not been performed.
-6. Follow docs/deployment.md for canonical redirects and post-launch checks. A push is not an automatic deployment until integration and permissions are configured and a successful build/deployment is verified.
+## Cloudflare Workers Builds
+Repository: https://github.com/leobarotramonas-del/blockedlowernorthshore, branch main.
+Worker name: blockedlowernorthshore. Root directory: /.
+Build command: npm run build. Deploy command: npx wrangler deploy.
 
-Production deployment URL: none. Intended domain: https://blockeddrainslowernorthshore.com.au/.
+The 20 October 2026 build passed, but deployment failed because the Worker name was still a placeholder. wrangler.jsonc now uses the confirmed Worker name. Verify the next Cloudflare build and deployment before treating the website as live.
 
-
+Builds remain non-indexable by default. Set PUBLIC_ALLOW_INDEXING=true only when deliberately launching on the intended production domain, https://blockeddrainslowernorthshore.com.au/. Domain routing, TLS and redirects still require verification. See docs/deployment.md for post-launch checks.
