@@ -28,6 +28,7 @@ interface Props {
 const { title, description, canonicalPath = Astro.url.pathname, schema, showFooter = true, noindex = false } = Astro.props;
 const baseUrl = Astro.site!.href;
 const allowIndexing = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
+const enableAnalytics = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true';
 const canonical = new URL(canonicalPath, baseUrl).toString();
 const socialImage = new URL('/images/blocked-drains.webp', baseUrl).href;
 const pageTitle = titleCase(title.includes(site.shortName) ? title : `${title} | ${site.shortName}`);
@@ -37,6 +38,15 @@ const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description
 <html lang="en-AU">
   <head>
     <meta charset="UTF-8" />
+    {enableAnalytics && <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}></script>
+      <script is:inline define:vars={{ measurementId: site.analyticsId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', measurementId);
+      </script>
+    </>}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
