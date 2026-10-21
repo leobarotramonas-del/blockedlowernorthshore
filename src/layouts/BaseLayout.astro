@@ -45,6 +45,19 @@ const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', measurementId);
+        document.addEventListener('click', function (event) {
+          const link = event.target instanceof Element ? event.target.closest('a[href^="tel:"]') : null;
+          if (!link) return;
+          const placement = link.closest('.mobile-call-bar') ? 'mobile_call_bar'
+            : link.closest('.mobile-menu') ? 'mobile_menu'
+            : link.closest('header') ? 'header'
+            : link.closest('footer') ? 'footer' : 'page_content';
+          gtag('event', 'phone_click', {
+            send_to: measurementId,
+            link_url: link.getAttribute('href'),
+            button_location: placement
+          });
+        });
       </script>
     </>}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
