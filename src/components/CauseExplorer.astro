@@ -28,7 +28,7 @@ const causes = [
  <p class="cause-instruction">Hover or focus to preview. Click or tap to select a cause.</p>
  <div class="cause-panels">
   {causes.map(cause=><article id={`cause-${cause.id}`} data-cause-panel={cause.id}>
-   <figure><ResponsiveImage src={cause.image} alt={cause.alt} widths={[360,480,768]} quality={65} sizes="(max-width: 760px) calc(100vw - 72px), 400px" loading="lazy" style={{objectPosition:cause.position}}/><figcaption>Antons on the job. The assessment at your property determines the next step.</figcaption></figure>
+   <figure><ResponsiveImage src={cause.image} alt={cause.alt} widths={[360,480,640,768]} format="avif" quality={42} sizes="(max-width: 760px) calc(100vw - 72px), 400px" loading="lazy" style={{objectPosition:cause.position}}/><figcaption>Antons on the job. The assessment at your property determines the next step.</figcaption></figure>
    <div class="cause-explanation"><h3>{titleCase(cause.title)}</h3><p>{cause.cause}</p><dl><dt>How our plumbers approach it</dt><dd>{cause.action}</dd><dt>Why professional assessment matters</dt><dd>{cause.reason}</dd></dl><a href={cause.link}>{cause.cta}<span aria-hidden="true"> →</span></a></div>
   </article>)}
  </div>

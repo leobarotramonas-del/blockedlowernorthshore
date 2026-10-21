@@ -39,15 +39,32 @@ const structuredData = pageSchema(baseUrl, canonicalPath, pageTitle, description
   <head>
     <meta charset="UTF-8" />
     {enableAnalytics && <>
-      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}></script>
       <script is:inline define:vars={{ measurementId: site.analyticsId }}>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', measurementId);
+        // Queue measurement immediately; let essential page assets finish first.
+        let analyticsStarted = false;
+        function loadAnalytics() {
+          if (analyticsStarted) return;
+          analyticsStarted = true;
+          const script = document.createElement('script');
+          script.async = true;
+          script.fetchPriority = 'low';
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+          document.head.appendChild(script);
+        }
+        window.addEventListener('load', loadAnalytics, { once: true });
+        document.addEventListener('pointerdown', loadAnalytics, { once: true, passive: true });
+        document.addEventListener('keydown', loadAnalytics, { once: true });
+        document.addEventListener('visibilitychange', function () {
+          if (document.visibilityState === 'hidden') loadAnalytics();
+        });
         document.addEventListener('click', function (event) {
           const link = event.target instanceof Element ? event.target.closest('a[href^="tel:"]') : null;
           if (!link) return;
+          loadAnalytics();
           const placement = link.closest('.mobile-call-bar') ? 'mobile_call_bar'
             : link.closest('.mobile-menu') ? 'mobile_menu'
             : link.closest('header') ? 'header'
