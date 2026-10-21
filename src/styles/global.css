@@ -750,3 +750,9 @@ main{
 .evidence-guide__notes article+article{margin-top:2rem;padding-top:2rem;border-top:1px solid var(--line)}
 .evidence-guide h3{font-size:2.25rem}
 @media(max-width:760px){.field-feature,.aftercare,.work-standards,.property-guide,.evidence-guide{grid-template-columns:1fr}.field-feature figure img{height:21rem;min-height:0;max-height:none}.field-feature{margin-block:2rem}.page-contents{gap:.25rem 1.25rem}.field-register>div:first-child{padding-top:1.3rem;border-top:1px solid #a8b4c2}}
+
+/* Keep off-screen homepage sections out of the initial rendering work. */
+.drain-home > section:not(.drain-hero):not(.urgent-strip) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
+}
