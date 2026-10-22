@@ -1,4 +1,5 @@
 ---
+import WeekOneGuides from "../../components/WeekOneGuides.astro";
 import { titleCase } from "../../utils/title-case";
 import ServiceFieldNotes from '../../components/ServiceFieldNotes.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -26,4 +27,5 @@ const schema = [{'@type':'Service',name:service.name+' Lower North Shore',descri
 <ServiceFieldNotes slug={service.slug}/>
 <FaqSection title={service.name+' questions'} items={serviceFaqs[service.slug]}/>
 <CtaBand title={'Talk through '+service.name.toLowerCase().replace('cctv', 'CCTV')}/>
+  <WeekOneGuides service={Astro.url.pathname} title="Guides for this service" />
 </BaseLayout>
