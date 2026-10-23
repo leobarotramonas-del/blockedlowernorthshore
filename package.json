@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && npm run check:site && npm run check:links && npm run check:performance && npm run check:content",
+    "build": "astro check && astro build && npm run check:site && npm run check:links && npm run check:performance && npm run check:content && npm run check:blog-images",
     "images": "node scripts/optimize-images.mjs",
     "preview": "astro preview",
     "check": "astro check",
@@ -14,7 +14,8 @@
     "check:links": "node scripts/check-internal-links.mjs",
     "check:content": "node scripts/check-content.mjs",
     "check:responsive": "node scripts/check-responsive.mjs",
-    "check:lighthouse": "node scripts/lighthouse.mjs"
+    "check:lighthouse": "node scripts/lighthouse.mjs",
+    "check:blog-images": "node scripts/check-blog-images.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
