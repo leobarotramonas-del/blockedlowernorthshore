@@ -335,5 +335,86 @@
     "photo": 48,
     "targetKeyword": "ground floor flat sewer backup",
     "researchStatus": "Ahrefs Australia checked 26 October 2026; unavailable metrics retained as unknown"
+  },
+  {
+    "id": "W02-07-2",
+    "title": "Drain Work Through a Narrow Side Passage: What Affects Access and Equipment?",
+    "seoTitle": "Narrow Access for Drain Clearing? Lower North Shore Guide",
+    "description": "Planning drain work through a narrow side passage? Learn which access details affect equipment, hose routes and the scope of a Lower North Shore visit.",
+    "slug": "drain-work-through-a-narrow-side-passage-what-affects-access-and-equipment",
+    "path": "/blog/drain-work-through-a-narrow-side-passage-what-affects-access-and-equipment/",
+    "indexPath": "/blog/",
+    "date": "2026-10-28",
+    "body": "<h2 id=\"show-the-complete-route-from-the-street\">Show the complete route from the street</h2>\n<p>A photograph of the open gate is a good start, but the difficult part may be farther along the house. An air-conditioning unit, low awning, raised step or sharp corner can restrict movement. Take a few wide photos from a safe position to show the full route.</p>\n<p>Measure the narrowest clear width if you can do so safely and give the measurement in centimetres. Include the space left when the gate is fully open. Tell us about fragile surfaces, loose pavers and anything that cannot be moved. Do not remove equipment or fencing before the work plan is agreed.</p>\n<h2 id=\"where-is-the-actual-drain-access-point\">Where is the actual drain access point?</h2>\n<p>The closest point to the blockage is not necessarily a suitable entry point for clearing equipment. A plumber needs to assess the available inspection opening, pipe direction and working space. A covered or buried opening may require further work before the drain can be investigated.</p>\n<p>Point out known access locations in your photos without lifting heavy covers. If the only route crosses a neighbour’s property or a common area, explain that early. Permission and safe access need organising before attendance; a convenient shortcut is not automatically available for use.</p>\n<h2 id=\"hoses-cameras-and-excavation-machinery-are-different\">Hoses, cameras and excavation machinery are different</h2>\n<h3 id=\"drain-clearing-and-inspection\">Drain clearing and inspection</h3>\n<p>Some equipment can be operated with the vehicle positioned away from the drain opening, but hose reach, bends and safe routing still matter. Our <a href=\"/services/high-pressure-water-jetting/\">Lower North Shore drain jetting service</a> assesses the blockage and access before selecting a suitable approach.</p>\n<p>A camera may help inspect accessible pipework, but it cannot guarantee passage through a complete obstruction. Ask whether inspection is planned before or after initial clearing and what happens if the opening cannot be safely reached. Avoid assuming that compact equipment removes every access limitation.</p>\n<h3 id=\"repair-work-involving-excavation\">Repair work involving excavation</h3>\n<p>A route suitable for a hose may be unsuitable for an excavator or spoil removal. Hand work, alternate access or staged work may need discussion. The repair quote should explain those constraints rather than treating drain clearing and excavation as the same visit.</p>\n<p><a href=\"https://www.safework.nsw.gov.au/your-industry/construction/construction/general-requirements/doing-excavation-work\">SafeWork NSW’s excavation guidance</a> requires information about underground services before excavation begins. Tight access does not remove that need. Existing cables, water pipes and adjoining structures must be considered when planning any digging.</p>\n<h2 id=\"prepare-the-property-without-overdoing-it\">Prepare the property without overdoing it</h2>\n<ol><li>Send route photos and available measurements with the enquiry.</li><li>Explain parking restrictions and the distance from a safe vehicle position.</li><li>Secure pets and arrange access through locked gates.</li><li>Ask which lightweight items should be moved before the visit.</li></ol>\n<p>Keep children and customers away from the proposed work route. For a shop or shared residence, discuss how pedestrian access will be maintained. Do not promise access through occupied rooms or neighbouring land without checking who can authorise it.</p>\n<p>Ask the quote to state its access assumptions. If extra labour, lifting, surface protection or reinstatement is needed, clarify whether it is included. Clear information at booking gives the team a better chance of arriving with an appropriate plan and reduces avoidable surprises.</p>",
+    "faqs": [
+      [
+        "Can you guarantee clearing from photos?",
+        "No. Photos help prepare, but the drain condition, entry point and safe setup need assessment. A suitable method can be confirmed once those details are understood."
+      ],
+      [
+        "Should I remove a fence panel first?",
+        "Wait for the access plan. Fence removal may be unnecessary and can affect security or neighbouring property. Agree on any changes and responsibilities before making them."
+      ]
+    ],
+    "check": [
+      "What photos will help with a narrow-access booking?",
+      "Send the street or driveway position, open gate, tightest section, steps and turns, and known drain access point. Include measurements where safe, and identify surfaces or equipment that must stay in place."
+    ],
+    "image": "/images/blog-w02-07-2-featured.webp",
+    "imageAlt": "Technician beside a service vehicle fitted with drain-clearing equipment",
+    "width": 960,
+    "height": 541,
+    "caption": "Vehicle positioning and the route to the drain access point both affect the work plan.",
+    "service": "/services/high-pressure-water-jetting",
+    "category": "Drain clearing",
+    "words": 790,
+    "introduction": "<p>A narrow side passage does not automatically prevent drain clearing, but it can change the equipment, hose route and labour needed. Gate width is only one part of access. Steps, tight turns, drain entry points and a safe vehicle position all need checking before a method or price can be confirmed.</p>",
+    "takeaways": [
+      "Measure the tightest clear opening, not just the gate frame.",
+      "Describe steps, corners and the full route to the drain.",
+      "Jetting access and excavation access have different requirements.",
+      "Photos help plan a visit but cannot guarantee a method will fit."
+    ],
+    "headings": [
+      {
+        "depth": 2,
+        "id": "show-the-complete-route-from-the-street",
+        "label": "Show the complete route from the street"
+      },
+      {
+        "depth": 2,
+        "id": "where-is-the-actual-drain-access-point",
+        "label": "Where is the actual drain access point?"
+      },
+      {
+        "depth": 2,
+        "id": "hoses-cameras-and-excavation-machinery-are-different",
+        "label": "Hoses, cameras and excavation machinery are different"
+      },
+      {
+        "depth": 3,
+        "id": "drain-clearing-and-inspection",
+        "label": "Drain clearing and inspection"
+      },
+      {
+        "depth": 3,
+        "id": "repair-work-involving-excavation",
+        "label": "Repair work involving excavation"
+      },
+      {
+        "depth": 2,
+        "id": "prepare-the-property-without-overdoing-it",
+        "label": "Prepare the property without overdoing it"
+      }
+    ],
+    "conclusion": "A good access brief shows the whole route and the drain entry point. That lets the proposed equipment and scope match the property, rather than relying on gate width alone.",
+    "ctaAnchor": "high-pressure drain jetting on the Lower North Shore",
+    "ctaTail": "Give us a call with your access details so we can discuss a practical drainage assessment.",
+    "ctaButton": "Call now for advice",
+    "updatedDate": "2026-10-28",
+    "serviceURL": "/services/high-pressure-water-jetting/",
+    "site": 6,
+    "serviceSlug": "high-pressure-water-jetting",
+    "photo": 17
   }
 ]
