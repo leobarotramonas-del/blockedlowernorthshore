@@ -832,5 +832,123 @@
     "image": "/images/blog-w03-07-1-featured.webp",
     "width": 960,
     "height": 541
+  },
+  {
+    "site": 6,
+    "seoTitle": "Strata Drain Clearing Reports | Lower North Shore",
+    "category": "Strata drainage",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 39,
+    "description": "Before closing a strata drain work order, check the cleared location, findings, testing, access limits and any follow-up needed on the Lower North Shore.",
+    "imageAlt": "Drain inspection camera equipment",
+    "caption": "Inspection records should identify the section assessed and any limits, rather than simply say the drain is clear.",
+    "introduction": "<p>Before closing a shared-drain work order, strata should confirm which section was cleared, what was found, how the outcome was checked and whether follow-up remains. Restored flow is useful, but does not by itself prove the entire line is structurally sound. Keep the contractor’s findings with the building’s maintenance records.</p>",
+    "takeaways": [
+      "Match the completed work to the original location and authorised scope.",
+      "Distinguish restored flow from a full condition assessment.",
+      "Record inaccessible sections and unresolved recommendations.",
+      "Assign responsibility for follow-up before closing the job."
+    ],
+    "body": "<h2 id=\"start-with-the-original-complaint\">Start with the original complaint</h2><p>A work order may begin with a resident reporting an overflowing gully or a toilet backing up. The completion note should make clear whether the contractor investigated that location and what work was undertaken. A generic invoice saying drainage cleared can be difficult to connect to a later recurrence elsewhere in the building.</p><p>Keep the reported location, affected units, date and access point together. If more than one line was involved, ask for them to be distinguished. This is especially useful where a building has several separate drainage routes and the person reviewing the invoice did not attend the visit.</p><h2 id=\"ask-what-was-found-not-just-what-equipment-was-used\">Ask what was found, not just what equipment was used</h2><p>A description of jetting or mechanical clearing tells you about the method, but not necessarily the cause. Ask what obstruction was observed and whether its location was established. The contractor should distinguish confirmed findings from possibilities that need further investigation.</p><p>Where footage or photos were supplied, request labels that connect them to the work order. A short explanation can be more useful than an unlabelled recording. Avoid treating an equipment list as a structural report on every pipe serving the property.</p><h3 id=\"keep-clearing-and-condition-assessment-separate\">Keep clearing and condition assessment separate</h3><p>A drain may flow again after an obstruction is removed while a defect remains. Equally, a clearance does not automatically establish a need for replacement. Ask what was actually inspected and what evidence supports any recommendation. A good record states the limits as clearly as the findings.</p><h2 id=\"confirm-how-the-result-was-checked\">Confirm how the result was checked</h2><p>For <a href=\"/services/sewer-drain-blockages/\">shared sewer drain clearing on the Lower North Shore</a>, ask the contractor to record the completion checks relevant to the agreed work. That might include observations of restored flow or further inspection where included. Do not assume a comprehensive camera survey was part of a basic clearance unless the scope says so.</p><p>Ask whether residents can resume normal use and whether any areas remain restricted. If a spill occurred, distinguish clearing the drain from cleaning and making affected areas suitable for use. These can require separate arrangements and should not disappear from the record simply because the pipe is flowing.</p><h2 id=\"resolve-access-limits-before-forgetting-them\">Resolve access limits before forgetting them</h2><p>The contractor may have been unable to inspect a section because of access, obstruction or the available appointment window. Record which section remains uncertain and what would be required to investigate it. Do not convert not inspected into no defect found when summarising the visit for the committee.</p><ul><li>Which line and access point were used?</li><li>What obstruction or defect was confirmed?</li><li>How was the completed work checked?</li><li>Which areas remain unassessed?</li><li>What follow-up is recommended, and why?</li></ul><p>If more work needs access through a lot or a locked service area, nominate someone to coordinate it. A recommendation without an owner or a date can remain unresolved until the next backup.</p><h2 id=\"check-responsibility-without-guessing-from-the-symptom\">Check responsibility without guessing from the symptom</h2><p>The <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">NSW Government’s strata repairs guidance</a> explains the distinction between owners corporation responsibility for common property and owners’ responsibilities within lots. The location and relevant scheme records matter. A resident reporting the problem does not automatically establish who must fund the repair.</p><p>Have the strata manager review responsibility where it is unclear, using the findings and relevant records. The drainage report should describe physical observations accurately; it should not turn an uncertain pipe location into a confident legal conclusion about liability.</p><h2 id=\"close-the-clearance-track-the-remaining-work\">Close the clearance, track the remaining work</h2><p>It can be reasonable to record that the authorised clearance is complete while keeping a separate investigation or repair item open. Make that distinction explicit. Ask for a quote tied to any confirmed defect rather than approving a broad replacement recommendation with no location or supporting evidence.</p><p>Retain the report, footage links, invoice and any resident communication in a place the next manager can find. Record recurring incidents against the same line where that connection is confirmed. That history helps future contractors understand what has already been attempted and avoids relying on scattered memories.</p>",
+    "check": [
+      "Can this work order be closed without losing follow-up?",
+      "Confirm the agreed clearance is complete, record its limits and create an assigned follow-up item for any unresolved investigation, cleaning or repair."
+    ],
+    "faqs": [
+      [
+        "Is an invoice saying drain cleared enough?",
+        "It may confirm a service was performed, but ask for the location, findings, outcome and any follow-up so the building has a useful maintenance record."
+      ],
+      [
+        "Does restored flow prove the pipe is undamaged?",
+        "No. Clearing and a full condition assessment are different scopes. Ask what was inspected and what remains uncertain."
+      ],
+      [
+        "Should every clearance include a camera survey?",
+        "Not automatically. Confirm the agreed scope and ask whether further inspection is justified by the findings or recurrence."
+      ],
+      [
+        "What should footage be labelled with?",
+        "Ask for the inspected line, access point and relevant findings to be identified so the recording can be connected to the correct work order."
+      ],
+      [
+        "Who decides whether a pipe is common property?",
+        "Have the strata manager review the relevant scheme records and responsibility where unclear. Physical location evidence helps that process."
+      ],
+      [
+        "Can we close the job if a repair is recommended?",
+        "You can distinguish a completed clearance from a separate repair item. Keep the recommendation assigned and tracked rather than losing it."
+      ],
+      [
+        "What if part of the line was inaccessible?",
+        "Record the unassessed section and the reason. Ask what access or further work would be needed to investigate it."
+      ],
+      [
+        "Does drain clearing include sewage cleanup?",
+        "Only if agreed. Confirm cleaning and access restrictions separately where an overflow affected common areas or lots."
+      ],
+      [
+        "What if the blockage returns next month?",
+        "Provide the previous report and location details. Ask the contractor to compare the recurrence with earlier findings before recommending further work."
+      ],
+      [
+        "Where should the records be kept?",
+        "Keep the report, invoice and supplied footage with the building’s maintenance records, linked to the relevant line and work order."
+      ]
+    ],
+    "conclusion": "Closing a strata drainage job should preserve a clear account of what was done and what remains. Match the result to the scope, record limitations and give every follow-up item an owner.",
+    "ctaAnchor": "sewer blockage assessment service on the Lower North Shore",
+    "ctaTail": "Give us a call with the building’s symptoms and previous reports to discuss access, clearing and the reporting your manager needs.",
+    "id": "W03-07-2",
+    "title": "After a Shared Drain Is Cleared: What Should Strata Check Before Closing the Work Order?",
+    "slug": "after-a-shared-drain-is-cleared-what-should-strata-check-before-closing-the-work-order",
+    "date": "2026-11-04",
+    "updatedDate": "2026-11-04",
+    "indexPath": "/blog/",
+    "path": "/blog/after-a-shared-drain-is-cleared-what-should-strata-check-before-closing-the-work-order/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-with-the-original-complaint",
+        "label": "Start with the original complaint"
+      },
+      {
+        "depth": 2,
+        "id": "ask-what-was-found-not-just-what-equipment-was-used",
+        "label": "Ask what was found, not just what equipment was used"
+      },
+      {
+        "depth": 3,
+        "id": "keep-clearing-and-condition-assessment-separate",
+        "label": "Keep clearing and condition assessment separate"
+      },
+      {
+        "depth": 2,
+        "id": "confirm-how-the-result-was-checked",
+        "label": "Confirm how the result was checked"
+      },
+      {
+        "depth": 2,
+        "id": "resolve-access-limits-before-forgetting-them",
+        "label": "Resolve access limits before forgetting them"
+      },
+      {
+        "depth": 2,
+        "id": "check-responsibility-without-guessing-from-the-symptom",
+        "label": "Check responsibility without guessing from the symptom"
+      },
+      {
+        "depth": 2,
+        "id": "close-the-clearance-track-the-remaining-work",
+        "label": "Close the clearance, track the remaining work"
+      }
+    ],
+    "words": 1152,
+    "image": "/images/blog-w03-07-2-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
