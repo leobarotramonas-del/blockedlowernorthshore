@@ -950,5 +950,123 @@
     "image": "/images/blog-w03-07-2-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 6,
+    "seoTitle": "Strata Drain Maintenance Plan | Lower North Shore",
+    "category": "Strata drainage",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 40,
+    "description": "Build a useful strata drain maintenance record: track blockages, inspection findings, access and follow-up work on the Lower North Shore.",
+    "imageAlt": "Drain camera findings showing roots inside a pipe",
+    "caption": "Inspection findings belong in the maintenance record alongside the location, limitations and recommended follow-up.",
+    "introduction": "<p>A useful strata drain maintenance plan records where each blockage occurred, what was found, what was cleared and what still needs investigation or repair. Link those records to access points, responsible contacts and review dates. Set inspection and maintenance intervals from the building’s evidence, rather than choosing an arbitrary cleaning schedule.</p>",
+    "takeaways": [
+      "Use a consistent location reference for each incident.",
+      "Keep findings and inspection limits, not just invoices.",
+      "Separate routine maintenance from confirmed repair needs.",
+      "Review the plan after repeat blockages or changes to the building."
+    ],
+    "body": "<h2 id=\"start-with-an-asset-and-access-record\">Start with an asset and access record</h2><p>Give each relevant drain route, pit or inspection point a reference that the manager and contractor can understand. Mark known locations on a simple plan and note where access is restricted by locked areas, parking or private courtyards. Do not invent a complete pipe route where it has not been confirmed.</p><p>Keep contact and access arrangements current. A plan is less useful if the only keyholder has moved away or the emergency contact belongs to a previous manager. Store access codes securely rather than printing them in a general resident notice.</p><h2 id=\"record-every-blockage-in-the-same-format\">Record every blockage in the same format</h2><p>Use one incident log instead of leaving the history scattered through emails. A resident’s report and the contractor’s findings are different types of evidence, so label them clearly. “Water rose in unit three’s shower” is an observation; “roots caused it” needs supporting findings.</p><ul><li>Date, time and exact affected location.</li><li>Fixtures or common areas affected.</li><li>Reported symptoms and any overflow.</li><li>Access point used and work completed.</li><li>Observed cause, uncertainty and inspection limits.</li><li>Recommended follow-up, owner and review date.</li></ul><p>Attach photographs or footage to the incident reference. Include the relevant section or timestamp where possible, so a committee member does not need to watch a long recording to understand one repair recommendation.</p><h2 id=\"keep-responsibility-separate-from-diagnosis\">Keep responsibility separate from diagnosis</h2><p><a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">NSW’s strata repair guidance</a> explains the owners corporation’s responsibility for common property and the reporting pathways for owners and tenants. Confirm the affected asset and relevant scheme documents before deciding who must arrange or pay for a particular drain repair.</p><p>A blockage being first noticed inside one lot does not, by itself, settle responsibility. Ask the manager to coordinate the scope and approvals while the contractor records findings. Avoid using a maintenance log to make unsupported allegations about a resident or business.</p><h2 id=\"choose-inspections-to-answer-a-question\">Choose inspections to answer a question</h2><p>A camera inspection is useful when it can clarify a recurring location, suspected defect or incomplete previous assessment. Ask what part of the drain was inspected and what could not be seen. Standing water, access and obstructions can affect the evidence available.</p><p>For <a href=\"/services/sewer-drain-blockages/\">sewer drain blockage assistance on the Lower North Shore</a>, provide the previous incident log before attendance. It helps frame the assessment around the repeat problem rather than starting from a vague description every time.</p><h3 id=\"do-not-mistake-clearance-for-structural-repair\">Do not mistake clearance for structural repair</h3><p>Record immediate clearing and longer-term repair recommendations as separate items. Restored flow is useful, but it does not establish that a damaged section has been repaired. Ask which findings support a proposed repair and what further investigation remains before the scope can be confirmed.</p><h2 id=\"set-a-review-programme-that-fits-the-building\">Set a review programme that fits the building</h2><p>Discuss maintenance intervals with the contractor using the observed condition, blockage history and consequences of failure. Avoid treating a monthly, quarterly or annual visit as automatically appropriate for every scheme. Where the evidence is limited, agree what information the next visit should collect.</p><p>Give each action an owner and a date for review. A recommendation without someone responsible can stay on an invoice for years. If a repair is deferred, record the decision and any interim monitoring or use instructions supplied by the contractor.</p><h2 id=\"make-resident-communication-practical\">Make resident communication practical</h2><p>Tell residents who to contact, what symptoms to report and which facilities must remain out of use during an incident. Notices should identify the affected area and access requirements without sharing unnecessary personal information. Avoid promising a reopening time before it is confirmed.</p><p>After each blockage, compare the new findings with earlier entries. Has the same location returned? Was the last recommendation completed? Have renovations, landscaping or changed use affected access? Update the plan from those answers and make the current version available to whoever manages the next callout.</p><p>Keep routine maintenance costs and proposed capital repairs distinguishable in committee records. That gives decision-makers a clearer picture of what repeated clearance is achieving and what work is still being considered, without pretending that maintenance alone guarantees a blockage-free building.</p>",
+    "check": [
+      "Does the latest incident have a next step?",
+      "Check that the location, findings, limitations, recommended work, responsible contact and review date are recorded. If the cause is uncertain, label it uncertain rather than closing the issue as repaired."
+    ],
+    "faqs": [
+      [
+        "Is a pile of invoices a maintenance plan?",
+        "Not by itself. Add location references, findings, outstanding actions and review dates so the history can guide the next decision."
+      ],
+      [
+        "How often should strata drains be cleaned?",
+        "Agree an interval based on the building’s condition and history. There is no single appropriate schedule for every scheme."
+      ],
+      [
+        "Should every blockage receive a camera inspection?",
+        "Ask what question an inspection would answer. The method and scope should follow the symptoms and available evidence."
+      ],
+      [
+        "Who owns the incident log?",
+        "Nominate a person or management role to maintain it and ensure records transfer when managers or committee members change."
+      ],
+      [
+        "Does a blockage inside a unit belong to that owner?",
+        "The first symptom does not settle responsibility. Confirm the asset and relevant scheme documents through the manager."
+      ],
+      [
+        "What should footage be labelled with?",
+        "Use the incident date, access point and inspected route, plus any useful location references or timestamps supplied by the contractor."
+      ],
+      [
+        "What if the camera cannot see everything?",
+        "Record the limitation and the recommended next step. Do not describe an incomplete inspection as proof that all pipes are sound."
+      ],
+      [
+        "Should resident names appear in notices?",
+        "Share only information needed to manage the incident and access. Keep personal details out of general notices where unnecessary."
+      ],
+      [
+        "When should the plan be reviewed?",
+        "Review it after repeat blockages, significant findings, completed repairs or changes that affect drainage use or access."
+      ],
+      [
+        "Can routine clearing replace a damaged pipe repair?",
+        "Clearing and structural repair have different purposes. Ask what the findings support and keep any outstanding repair decision visible."
+      ]
+    ],
+    "conclusion": "A strata drain plan works when the next contractor and committee can understand the history quickly. Record evidence, assign follow-up and review recurring problems before another callout repeats the same uncertainty.",
+    "ctaAnchor": "Lower North Shore sewer drain blockage service",
+    "ctaTail": "Call us with your incident history and access information to discuss assessment of recurring drainage problems.",
+    "id": "W03-07-3",
+    "title": "A Strata Drain Maintenance Plan: What to Record, Inspect and Review After Each Blockage",
+    "slug": "a-strata-drain-maintenance-plan-what-to-record-inspect-and-review-after-each-blockage",
+    "date": "2026-11-06",
+    "updatedDate": "2026-11-06",
+    "indexPath": "/blog/",
+    "path": "/blog/a-strata-drain-maintenance-plan-what-to-record-inspect-and-review-after-each-blockage/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-with-an-asset-and-access-record",
+        "label": "Start with an asset and access record"
+      },
+      {
+        "depth": 2,
+        "id": "record-every-blockage-in-the-same-format",
+        "label": "Record every blockage in the same format"
+      },
+      {
+        "depth": 2,
+        "id": "keep-responsibility-separate-from-diagnosis",
+        "label": "Keep responsibility separate from diagnosis"
+      },
+      {
+        "depth": 2,
+        "id": "choose-inspections-to-answer-a-question",
+        "label": "Choose inspections to answer a question"
+      },
+      {
+        "depth": 3,
+        "id": "do-not-mistake-clearance-for-structural-repair",
+        "label": "Do not mistake clearance for structural repair"
+      },
+      {
+        "depth": 2,
+        "id": "set-a-review-programme-that-fits-the-building",
+        "label": "Set a review programme that fits the building"
+      },
+      {
+        "depth": 2,
+        "id": "make-resident-communication-practical",
+        "label": "Make resident communication practical"
+      }
+    ],
+    "words": 1133,
+    "image": "/images/blog-w03-07-3-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
