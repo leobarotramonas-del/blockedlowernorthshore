@@ -1068,5 +1068,118 @@
     "image": "/images/blog-w03-07-3-featured.webp",
     "width": 800,
     "height": 800
+  },
+  {
+    "site": 6,
+    "category": "Strata drains",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 57,
+    "seoTitle": "Blocked Strata Drain North Sydney | Access Plan",
+    "description": "A blocked strata drain in North Sydney needs the right access and approval. Prepare fixture, unit and building details before clearing starts.",
+    "imageAlt": "Drain camera equipment at a shared property",
+    "caption": "Shared drainage work needs an authorised contact and usable access.",
+    "introduction": "<p>For a blocked strata drain in North Sydney, report which units and fixtures are affected, stop water use if sewage is backing up, and identify the manager authorised to approve work. The plumber may need access to a common inspection point, another unit or a basement. Clear approval and keys can prevent an urgent visit ending at a locked door.</p>",
+    "takeaways": [
+      "Record affected units, floors and fixtures.",
+      "Keep people away from wastewater.",
+      "Confirm who can approve common-property work.",
+      "Arrange keys and safe access before the visit."
+    ],
+    "faqs": [
+      [
+        "Who books a shared-drain plumber?",
+        "Use an authorised strata or building contact for shared work."
+      ],
+      [
+        "Should all residents stop using water?",
+        "Affected connected fixtures should be restricted when sewage is backing up."
+      ],
+      [
+        "Does a ground-floor overflow prove that unit caused it?",
+        "No. Shared-line faults can appear at the lowest opening."
+      ],
+      [
+        "Can the plumber enter another unit?",
+        "Arrange access and authorisation through the proper contact."
+      ],
+      [
+        "What if the basement is locked?",
+        "Provide keys or a person who can open it during the visit."
+      ],
+      [
+        "Should residents keep flushing?",
+        "No. More water can worsen a backup."
+      ],
+      [
+        "Is clearing the same as repair?",
+        "No. It restores flow but may leave a structural defect."
+      ],
+      [
+        "Will a camera always pass the blockage?",
+        "A complete obstruction can prevent a camera view until flow is restored."
+      ],
+      [
+        "What should the manager keep?",
+        "Keep the work report, footage if supplied and follow-up recommendation."
+      ],
+      [
+        "Who pays for the work?",
+        "That depends on the pipe location and property responsibilities; obtain advice from the manager."
+      ]
+    ],
+    "conclusion": "A shared-drain call needs a single clear account of symptoms, authority and access. Confirm what was found after clearing so the building can make the next decision.",
+    "ctaAnchor": "North Sydney sewer drain service",
+    "ctaTail": "Call Blocked Drains Lower North Shore with the affected units and authorised building contact.",
+    "body": "<h2 id=\"determine-the-extent-of-the-backup\">Determine the extent of the backup</h2><p>Ask residents to report symptoms through the building contact rather than each guessing at a separate fault. Is one basin slow, or are several units seeing wastewater at the same time? A ground-floor overflow may be the visible end of a restriction in a shared line. Note when the problem began and whether an appliance discharge triggers it, but do not deliberately run water to recreate an overflow.</p><h2 id=\"control-use-while-help-is-arranged\">Control use while help is arranged</h2><p>Tell affected occupants to stop using connected toilets, sinks and laundry appliances if wastewater is returning. Keep children and pets away from the area and avoid flooded plant rooms or electrical equipment. A building manager can pass on a concise notice identifying affected areas and the next update. Do not promise a restoration time before the plumber knows what access and clearing are possible.</p><h2 id=\"get-the-right-contact-and-keys\">Get the right contact and keys</h2><p>Provide the strata manager or committee contact who can authorise the initial investigation and any additional scope. Identify service cupboards, basement clearances, loading entrances and the known inspection points. Some North Sydney buildings have strict parking or access hours; explain those before equipment is dispatched. Keep previous drainage plans or reports available. The plumber should not have to guess which unit or common area they may enter.</p><h2 id=\"record-findings-for-the-next-decision\">Record findings for the next decision</h2><p>Ask whether the blockage was cleared, which section was reached and whether a camera view was possible afterwards. If a defect is found, note its location and the recommended repair scope. A cleared line does not prove that a damaged shared pipe is sound. NSW Fair Trading's <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata repairs guidance</a> explains the role of the owners corporation in common-property maintenance; responsibility for a particular fault still depends on the actual property and findings.</p><h2 id=\"coordinate-occupants-and-businesses\">Coordinate occupants and businesses</h2><p>A North Sydney building may have shops, offices and residents connected to shared drainage. The manager should identify any trading hours, loading restrictions and access windows that affect the visit. Give occupants a practical update if they must avoid using fixtures. Keep the message factual: the affected system, temporary restriction and next update time. Do not promise which unit is responsible before the line has been investigated.</p><h2 id=\"close-the-work-order-carefully\">Close the work order carefully</h2><p>Before normal use resumes, ask what section was cleared and whether the line could be checked. Record any remaining restriction, defect or recommended repair. Provide the report to the person managing the building and note where footage is stored. If work stopped because a locked area or additional approval was needed, record that explicitly. A work order should not be marked fully resolved while the cause remains unexamined.</p>",
+    "check": [
+      "Before booking",
+      "Write down the main symptom, when it began, who can approve access and any previous repair findings. Keep people clear of water or equipment that may be unsafe."
+    ],
+    "id": "W04-07-1",
+    "title": "Blocked Strata Drain in North Sydney: Who Needs Access Before Clearing?",
+    "slug": "blocked-strata-drain-in-north-sydney-who-needs-access-before-clearing",
+    "date": "2026-11-09",
+    "updatedDate": "2026-11-09",
+    "indexPath": "/blog/",
+    "path": "/blog/blocked-strata-drain-in-north-sydney-who-needs-access-before-clearing/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "determine-the-extent-of-the-backup",
+        "label": "Determine the extent of the backup"
+      },
+      {
+        "depth": 2,
+        "id": "control-use-while-help-is-arranged",
+        "label": "Control use while help is arranged"
+      },
+      {
+        "depth": 2,
+        "id": "get-the-right-contact-and-keys",
+        "label": "Get the right contact and keys"
+      },
+      {
+        "depth": 2,
+        "id": "record-findings-for-the-next-decision",
+        "label": "Record findings for the next decision"
+      },
+      {
+        "depth": 2,
+        "id": "coordinate-occupants-and-businesses",
+        "label": "Coordinate occupants and businesses"
+      },
+      {
+        "depth": 2,
+        "id": "close-the-work-order-carefully",
+        "label": "Close the work order carefully"
+      }
+    ],
+    "words": 794,
+    "image": "/images/blog-w04-07-1-featured.webp",
+    "width": 800,
+    "height": 450
   }
 ]
