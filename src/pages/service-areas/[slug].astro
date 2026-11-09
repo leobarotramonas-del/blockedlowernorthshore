@@ -6,7 +6,7 @@ import PageHero from '../../components/PageHero.astro';
 import UndergroundExplorer from '../../components/UndergroundExplorer.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import FaqSection from '../../components/FaqSection.astro';
-import { areas, services } from '../../data/site';
+import { areas, services, site } from '../../data/site';
 import { faqSchema } from '../../data/faqs';
 export function getStaticPaths(){return areas.map(area=>({params:{slug:area.slug},props:{area}}));}
 const { area } = Astro.props;
@@ -16,7 +16,8 @@ const schema = [{ '@type':'Service',name:area.title,description:area.intro,servi
 ---
 <BaseLayout title={area.title} description={area.description} schema={schema}>
 <PageHero label={area.name} title={area.title} intro={area.intro} image={area.image} imageAlt={area.imageAlt}/>
-<nav class="page-contents" aria-label="On this page"><a href="#property-plan">Property Planning</a><a href="#evidence">Understanding the Findings</a><a href="#page-faq-title">Common Questions</a></nav>
+<nav class="page-contents" aria-label="On this page">{area.slug === 'lavender-bay' && <a href="#lavender-booking">Before You Call</a>}<a href="#property-plan">Property Planning</a><a href="#evidence">Understanding the Findings</a><a href="#page-faq-title">Common Questions</a></nav>
+{area.slug === 'lavender-bay' && <section class="section lavender-guide" id="lavender-booking" aria-labelledby="lavender-guide-title"><div><p class="lavender-guide__label">Lavender Bay drain help</p><h2 id="lavender-guide-title">Start with the affected drain.</h2><p>A pit filling during rain and wastewater rising from a low fixture suggest different investigations. Tell us when the water appears, whether it smells like sewage and whether more than one fixture is affected. <a href="/services/stormwater-drains/">Stormwater clearing</a> may suit a blocked line; a recurring fault may call for <a href="/services/cctv-drain-inspections/">camera inspection</a>. The cause needs assessment at the property.</p><p>If wastewater is overflowing, stop using connected fixtures and keep people and pets away. Stay clear of pits and water near electrical equipment.</p></div><div class="lavender-guide__booking"><h3>What to tell us when booking</h3><ul><li>The full address and the entrance we should use, especially if the drain is below street level.</li><li>Which fixture or pit backs up, when it happens and any previous clearing or camera findings.</li><li>Stairs, passage width, locked doors and the distance from unloading to the drain.</li><li>For a shared line, the building contact and who can authorise access or further work.</li></ul><p>We can discuss safe access, the next available response and whether a separate <a href="/services/drain-repairs/">repair assessment</a> is needed.</p><a class="call-button" href={site.phoneHref}><span>Call about your drain</span><strong>{site.phoneDisplay}</strong></a></div></section>}
 {area.slug === 'naremburn' && <UndergroundExplorer />}
 <section class:list={["section", area.slug !== 'naremburn' ? "detail-grid" : "slim-section"]}>
 {area.slug !== 'naremburn' && <div><h2>What May Be Happening Underground</h2><p>{area.localIssue}</p><p>Tell us about rising toilet water, slow wastes, gurgling, overflowing gullies or pits holding water. One affected fixture may have a local restriction; several affected fixtures can point further along the connected line.</p></div>}
@@ -29,3 +30,12 @@ const schema = [{ '@type':'Service',name:area.title,description:area.intro,servi
 <section class="section nearby"><h2>Nearby Locality Guides</h2><p>Different streets and building types can need different access arrangements.</p><div class="area-links">{nearby.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><a href="/service-areas/">All Lower North Shore service areas</a></section>
 <CtaBand title={'Discuss your '+area.name+' drain'}/>
 </BaseLayout>
+<style>
+  .lavender-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,5vw,4rem);align-items:start;border-block:1px solid #bfc7d1}
+  .lavender-guide__label{font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#1954c5}
+  .lavender-guide__booking{background:#f6f5f0;border-top:4px solid #071a35;padding:clamp(1.5rem,3vw,2.25rem)}
+  .lavender-guide__booking h3{margin-top:0}
+  .lavender-guide__booking li{margin-bottom:.65rem}
+  .lavender-guide__booking .call-button{margin-top:.25rem}
+  @media(max-width:760px){.lavender-guide{grid-template-columns:1fr}.lavender-guide__booking .call-button{width:100%;flex-wrap:wrap;line-height:1.2}}
+</style>
