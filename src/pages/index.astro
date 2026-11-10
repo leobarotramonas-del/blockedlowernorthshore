@@ -20,7 +20,7 @@ const schema = [
         <h1 id="hero-title">Blocked Drains<br />Lower North Shore.</h1>
         <p>Antons Blocked Drains Lower North Shore clears blocked toilets, sewer and stormwater drains. Our licensed team investigates recurring faults, explains the options and checks drainage after the agreed work.</p>
         <div class="drain-hero__actions">
-          <a class="call-button" href={site.phoneHref}><span>Call Now</span><strong>{site.phoneDisplay}</strong></a>
+          <a class="call-button" href={site.phoneHref}><span>Call a drain plumber</span><strong>{site.phoneDisplay}</strong></a>
           <a class="home-button home-button--light" href="/services/">See Drain Services</a>
         </div>
         <p class="hero-availability">Urgent calls taken 24 hours, 7 days a week.</p>
@@ -31,31 +31,35 @@ const schema = [
       </div>
     </section>
     <section class="urgent-strip" aria-label="Immediate blocked drain advice">
-      <strong>Overflowing now?</strong><p>Stop using connected fixtures. Keep people and pets away from wastewater and avoid chemical cleaners. Stay clear of water near electrical equipment.</p><a href={site.phoneHref}>Call {site.phoneDisplay}</a>
+      <strong>Overflowing now?</strong><p>Stop using connected fixtures. Keep people and pets away from wastewater and avoid chemical cleaners. Stay clear of water near electrical equipment.</p><a class="call-button" href={site.phoneHref}><span>Call about an overflow</span><strong>{site.phoneDisplay}</strong></a>
     </section>
     <section class="drain-section home-services" aria-labelledby="services-title">
       <div class="section-heading"><h2 id="services-title">Find the Right Drain Service</h2><p>Describe the affected fixtures and when the problem happens. We assess the accessible line, explain the findings and agree the next step.</p></div>
       <div class="home-service-index">{homeServices.map(service => <a href={'/services/'+service.slug+'/'}><h3>{service.name}</h3><p>{service.summary}</p></a>)}</div>
-      <a href="/services/">Compare the drain services</a>
+      <div class="home-section-actions"><a class="call-button" href={site.phoneHref}><span>Find the right drain help</span><strong>{site.phoneDisplay}</strong></a><a href="/services/">Compare the drain services</a></div>
     </section>
-    <ProjectShowcase items={projects} title="Recent drainage projects on the Lower North Shore and across Sydney" intro="Examples from the Antons team's Sydney work show the equipment, access and pipework behind a drainage job. The photographs show work underway on completed projects." />
+    <ProjectShowcase callLabel="Discuss a similar drain problem" items={projects} title="Recent drainage projects on the Lower North Shore and across Sydney" intro="Examples from the Antons team's Sydney work show the equipment, access and pipework behind a drainage job. The photographs show work underway on completed projects." />
     <section class="drain-section home-visit" aria-labelledby="visit-title">
-      <div><h2 id="visit-title">Plan Your Drain Visit</h2><p>Tell us the address, affected fixtures, urgency and any previous clearing or camera findings. Arrange keys and a contact who can authorise work on shared pipework.</p><p>We assess access, discuss the suitable clearing method and check flow after agreed work. A damaged pipe may need a separate repair; the findings and scope are explained before you decide.</p></div>
+      <div><h2 id="visit-title">Plan Your Drain Visit</h2><p>Tell us the address, affected fixtures, urgency and any previous clearing or camera findings. Arrange keys and a contact who can authorise work on shared pipework.</p><p>We assess access, discuss the suitable clearing method and check flow after agreed work. A damaged pipe may need a separate repair; the findings and scope are explained before you decide.</p><div class="home-section-actions"><a class="call-button" href={site.phoneHref}><span>Arrange a drain assessment</span><strong>{site.phoneDisplay}</strong></a></div></div>
       <div class="home-provider"><h3>A Licensed Team</h3><p>{site.name} is operated by {site.operator}, NSW contractor licence {site.licence}.</p><blockquote>“{reviews[1].text}”<cite>{reviews[1].name}</cite></blockquote><a href="/about/">Meet the team</a></div>
     </section>
     <section class="drain-section home-coverage" aria-labelledby="areas-title">
       <div class="section-heading"><h2 id="areas-title">Lower North Shore Coverage</h2><p>From North Sydney and Lane Cove to Mosman and Neutral Bay, shared buildings, narrow passages and changes in level can affect access. Give us the full address and building contact when booking.</p></div>
       <div class="home-area-links">{areas.map(area => <a href={'/service-areas/'+area.slug+'/'}>{area.name}</a>)}</div>
-      <a href="/service-areas/">All service-area guides</a>
+      <div class="home-section-actions"><a class="call-button" href={site.phoneHref}><span>Check your address</span><strong>{site.phoneDisplay}</strong></a><a href="/service-areas/">All service-area guides</a></div>
     </section>
     <section class="drain-section faq-section" aria-labelledby="faq-title">
       <div class="section-heading"><h2 id="faq-title">Before You Book</h2></div>
-      <div class="faq-list">{homeFaqs.map(faq => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div>
+      <div class="faq-list">{homeFaqs.map(faq => <details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</div><div class="home-section-actions"><a class="call-button" href={site.phoneHref}><span>Ask the drain team</span><strong>{site.phoneDisplay}</strong></a></div>
     </section>
   </div>
-  <CtaBand title="Tell Us What Your Drain Is Doing" />
+  <CtaBand callLabel="Talk through your drain problem" title="Tell Us What Your Drain Is Doing" />
 </BaseLayout>
 <style>
+.home-section-actions{display:flex;align-items:center;flex-wrap:wrap;gap:1rem 1.5rem;margin-top:1.5rem}
+.drain-home .call-button{flex-wrap:wrap;max-width:100%;text-align:center}
+@media(max-width:480px){.urgent-strip .call-button{width:100%;justify-self:stretch}.home-section-actions .call-button{width:100%}}
+
 .home-service-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2rem;margin-bottom:1.5rem}
 .home-service-index a{color:inherit;text-decoration:none;border-top:1px solid var(--line);padding:1.25rem 0}
 .home-service-index h3{font-size:1.5rem;margin-bottom:.5rem}

@@ -1,9 +1,10 @@
 ---
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import { site } from '../data/site';
 import type { Project } from '../data/projects';
-interface Props { items: Project[]; title: string; intro?: string; }
-const { items, title, intro } = Astro.props;
+interface Props { items: Project[]; title: string; intro?: string; callLabel?: string; }
+const { items, title, intro, callLabel } = Astro.props;
 const sources = import.meta.glob<{ default: ImageMetadata }>('../../public/projects/*.webp', { eager: true });
 const photo = (name: string) => sources['../../public/projects/'+name].default;
 ---
@@ -15,8 +16,12 @@ const photo = (name: string) => sources['../../public/projects/'+name].default;
       <figcaption><h3>{item.title}</h3><p>{item.caption}</p>{item.video && <p class="project-format">Project footage · silent excerpt</p>}<a href={item.serviceHref}>{item.serviceLabel}</a></figcaption>
     </figure>)}
   </div>
+  {callLabel && <div class="project-call"><a class="call-button" href={site.phoneHref}><span>{callLabel}</span><strong>{site.phoneDisplay}</strong></a></div>}
 </section>
 <style>
+.project-call{margin-top:2rem}
+.project-call .call-button{flex-wrap:wrap;max-width:100%;text-align:center}
+
 .project-showcase{padding:clamp(2rem,5vw,4rem) var(--pad,0);border-top:1px solid var(--line);margin-block:1rem}
 .project-heading{max-width:65ch;margin-bottom:2rem}
 .project-heading h2{max-width:25ch}
