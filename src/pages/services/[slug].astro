@@ -1,4 +1,6 @@
 ---
+import ProjectShowcase from '../../components/ProjectShowcase.astro';
+import { serviceProjects, projectSchema } from '../../data/projects';
 import WeekOneGuides from "../../components/WeekOneGuides.astro";
 import { titleCase } from "../../utils/title-case";
 import ServiceFieldNotes from '../../components/ServiceFieldNotes.astro';
@@ -14,7 +16,8 @@ const { service } = Astro.props;
 const g = guidance[service.slug];
 const selected = areas.filter(a=>g.areas.includes(a.slug));
 const related = services.filter(s=>g.related.includes(s.slug));
-const schema = [{'@type':'Service',name:service.name+' Lower North Shore',description:g.intro,serviceType:service.name,areaServed:areas.map(a=>({'@type':'Place',name:a.name+', NSW '+a.postcode}))},faqSchema(serviceFaqs[service.slug])];
+const projects = serviceProjects(service.slug);
+const schema = [{'@type':'Service',name:service.name+' Lower North Shore',description:g.intro,serviceType:service.name,areaServed:areas.map(a=>({'@type':'Place',name:a.name+', NSW '+a.postcode}))},faqSchema(serviceFaqs[service.slug]), ...projectSchema(projects, Astro.url.pathname)];
 ---
 <BaseLayout title={service.name+' Lower North Shore'} description={service.summary+' Practical Lower North Shore guidance on diagnosis, suitable methods and safe access.'} schema={schema}>
 <PageHero label="Drain service" title={service.name+' Lower North Shore'} intro={g.intro} image={service.image} imageAlt={service.imageAlt}/>
@@ -25,6 +28,7 @@ const schema = [{'@type':'Service',name:service.name+' Lower North Shore',descri
 <section class="section"><h2>Access Planning for Your Drain</h2><p>{g.local}</p><div class="area-links">{selected.map(a=><a href={'/service-areas/'+a.slug+'/'}>{a.name}<span>NSW {a.postcode}</span></a>)}</div><p>See the <a href="/service-areas/">full Lower North Shore coverage guide</a>. Current coverage is confirmed by full street address.</p></section>
 <section class="section"><h2>Related Drainage Guidance</h2><div class="service-list">{related.map(s=><a class="service-row" href={'/services/'+s.slug+'/'}><h3>{titleCase(s.name)}</h3><p>{s.summary}</p><span>Read the guide</span></a>)}</div><p><a href="/about/">Provider and licence information</a> or <a href="/contact/">contact the drain team</a>.</p></section>
 <ServiceFieldNotes slug={service.slug}/>
+{projects.length > 0 && <ProjectShowcase items={projects} title="Related Work from Our Sydney Projects" intro="See the access and equipment involved in the team’s drainage work. These examples help explain the service; the assessment at your property determines the method." />}
 <FaqSection title={service.name+' questions'} items={serviceFaqs[service.slug]}/>
 <CtaBand title={'Talk through '+service.name.toLowerCase().replace('cctv', 'CCTV')}/>
   <WeekOneGuides service={Astro.url.pathname} title="Guides for this service" />

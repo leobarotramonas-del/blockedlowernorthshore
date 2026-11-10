@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import type { Project } from '../data/projects';
+interface Props { items: Project[]; title: string; intro?: string; }
+const { items, title, intro } = Astro.props;
+const sources = import.meta.glob<{ default: ImageMetadata }>('../../public/projects/*.webp', { eager: true });
+const photo = (name: string) => sources['../../public/projects/'+name].default;
+---
+<section class:list={['project-showcase', { 'project-showcase--single': items.length === 1, 'project-showcase--pair': items.length === 2 }]} aria-label={title}>
+  <div class="project-heading"><h2>{title}</h2>{intro && <p>{intro}</p>}</div>
+  <div class="project-media">
+    {items.map(item => <figure class:list={{ 'project-film': Boolean(item.video), 'project-photo': Boolean(item.image) }}>
+      {item.video ? <video controls playsinline preload="none" poster={'/projects/'+item.poster} width={item.width} height={item.height} aria-label={item.title}><source src={'/projects/'+item.video} type="video/mp4"/><a href={'/projects/'+item.video}>Watch {item.title.toLowerCase()}</a></video> : item.image && <Image src={photo(item.image)} alt={item.caption} widths={[240,480,900]} sizes="(max-width: 760px) calc((100vw - 4rem) / 2), 25vw" format="webp" quality={70} width={item.width} height={item.height} loading="lazy" />}
+      <figcaption><h3>{item.title}</h3><p>{item.caption}</p>{item.video && <p class="project-format">Project footage · silent excerpt</p>}<a href={item.serviceHref}>{item.serviceLabel}</a></figcaption>
+    </figure>)}
+  </div>
+</section>
+<style>
+.project-showcase{padding:clamp(2rem,5vw,4rem) var(--pad,0);border-top:1px solid var(--line);margin-block:1rem}
+.project-heading{max-width:65ch;margin-bottom:2rem}
+.project-heading h2{max-width:25ch}
+.project-media{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:2rem;align-items:start}
+.project-media figure{margin:0;min-width:0}
+.project-media video{display:block;width:100%;height:auto;max-height:32rem;background:#111;object-fit:contain}
+.project-media img{display:block;width:100%;height:auto}
+.project-media figcaption{margin-top:1rem}
+.project-media h3{font-size:1.35rem;line-height:1.2;margin-bottom:.5rem}
+.project-media p{font-size:1rem;line-height:1.6;margin-bottom:.75rem}
+.project-media a{display:inline-flex;align-items:center;min-height:44px;font-weight:600}
+.project-media .project-format{font-size:.875rem}
+.project-showcase--pair .project-media{grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-showcase--single .project-media{display:block}
+.project-showcase--single figure{display:grid;grid-template-columns:minmax(0,20rem) minmax(0,1fr);gap:2rem;align-items:center}
+.project-showcase--single figcaption{max-width:55ch}
+@media(max-width:760px){
+.project-media{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem 1rem}
+.project-film{grid-column:1/-1;max-width:22rem;width:100%;justify-self:center}
+.project-media h3{font-size:1.2rem}
+.project-showcase--single figure{display:block}
+.project-showcase--single figcaption{margin-top:1rem}
+}
+</style>
+
