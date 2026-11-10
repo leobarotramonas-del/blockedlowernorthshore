@@ -21,7 +21,7 @@ const schema = [
         <p>Antons Blocked Drains Lower North Shore clears blocked toilets, sewer and stormwater drains. Our licensed team investigates recurring faults, explains the options and checks drainage after the agreed work.</p>
         <div class="drain-hero__actions">
           <a class="call-button" href={site.phoneHref}><span>Call a drain plumber</span><strong>{site.phoneDisplay}</strong></a>
-          <a class="home-button home-button--light" href="/services/">See Drain Services</a>
+          <a class="hero-service-link" href="/services/">See Drain Services</a>
         </div>
         <p class="hero-availability">Urgent calls taken 24 hours, 7 days a week.</p>
       </div>
@@ -56,6 +56,8 @@ const schema = [
   <CtaBand callLabel="Talk through your drain problem" title="Tell Us What Your Drain Is Doing" />
 </BaseLayout>
 <style>
+.hero-service-link{color:#fff;text-decoration:underline;text-underline-offset:.2em;display:inline-flex;align-items:center;min-height:44px}
+
 .home-section-actions{display:flex;align-items:center;flex-wrap:wrap;gap:1rem 1.5rem;margin-top:1.5rem}
 .drain-home .call-button{flex-wrap:wrap;max-width:100%;text-align:center}
 @media(max-width:480px){.urgent-strip .call-button{width:100%;justify-self:stretch}.home-section-actions .call-button{width:100%}}
