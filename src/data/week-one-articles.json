@@ -1181,5 +1181,118 @@
     "image": "/images/blog-w04-07-1-featured.webp",
     "width": 800,
     "height": 450
+  },
+  {
+    "site": 6,
+    "category": "Sewer drain blockages",
+    "serviceSlug": "sewer-drain-blockages",
+    "photo": 41,
+    "seoTitle": "Shared Drain Defect in Neutral Bay | Strata Checklist",
+    "description": "A Neutral Bay camera inspection has found a shared drain defect. See what footage, location and scope strata should request before repair.",
+    "imageAlt": "Drain camera equipment beside an inspection opening",
+    "caption": "A clear location and report help strata decide who needs access and what work is proposed.",
+    "introduction": "<p>If a camera finds a defect in a Neutral Bay drain used by several lots, strata should request the footage, a marked location and a written description of what was actually seen. The report should explain which fixtures and lots feed the affected line, how access was gained and whether the pipe can still pass wastewater. That evidence helps the owners corporation organise the right repair and access.</p>",
+    "takeaways": [
+      "Keep the original camera footage and stills.",
+      "Record the access point and distance to the defect.",
+      "Identify affected lots and the pipe boundary.",
+      "Ask for a scoped quote and reinstatement plan."
+    ],
+    "faqs": [
+      [
+        "Does a shared line always belong to strata?",
+        "Responsibility depends on the scheme and pipe location; verify it."
+      ],
+      [
+        "What footage should be supplied?",
+        "The defect and surrounding pipe, with the route and distance."
+      ],
+      [
+        "Should the location be marked?",
+        "Yes, where locating equipment and access permit."
+      ],
+      [
+        "Can the camera prove every branch is sound?",
+        "No. It only shows sections reached and visible."
+      ],
+      [
+        "Who arranges access to a unit?",
+        "The strata manager should coordinate with the affected occupants."
+      ],
+      [
+        "Is another jet enough?",
+        "It may clear flow without correcting a structural defect."
+      ],
+      [
+        "Should the quote include restoration?",
+        "Yes, ask who makes good any disturbed surfaces."
+      ],
+      [
+        "What if sewage is overflowing?",
+        "Keep people clear and arrange urgent licensed drainage help."
+      ],
+      [
+        "Can the repair affect several lots?",
+        "Yes. Ask for the likely interruption and communication plan."
+      ],
+      [
+        "What records should strata retain?",
+        "Footage, report, approvals, quote, repair photos and testing."
+      ]
+    ],
+    "conclusion": "Strata can make a better repair decision when the camera finding is tied to a precise place and a clear access plan. Keep the evidence and scope together so owners understand the work and its limits.",
+    "ctaAnchor": "Neutral Bay sewer blockage service",
+    "ctaTail": "Call Blocked Drains Lower North Shore with the camera report and strata contact.",
+    "body": "<h2 id=\"secure-the-footage-and-inspection-notes\">Secure the footage and inspection notes</h2><p>Ask the technician for the full video, useful stills, the access point and the direction of the camera run. A cropped image of a crack without a location is hard to use in a repair quote. Request the measured distance and whether a locator marked the position. The report should say if the camera was stopped by an obstruction or poor visibility rather than implying the rest of the network was checked.</p><h2 id=\"map-the-lots-and-affected-fixtures\">Map the lots and affected fixtures</h2><p>In a Neutral Bay apartment block, several kitchens or bathrooms may connect to a shared branch before the main sewer. Identify which lots have symptoms and which access points are common property. Ask the strata manager for available plans, but expect older drawings to need checking on site. Do not assume the nearest wet room sits above the defect; the pipe may travel across several rooms or beneath common areas.</p><h2 id=\"clarify-repair-responsibility\">Clarify repair responsibility</h2><p>NSW <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata repairs guidance</a> explains that responsibility can differ between lot plumbing and common property. Sydney Water also distinguishes private pipes from its network in its <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">blockage guidance</a>. The scheme’s records and the actual pipe location matter. Have the manager confirm the decision path before commissioning intrusive work.</p><h2 id=\"request-a-repair-scope-tied-to-the-defect\">Request a repair scope tied to the defect</h2><p>The quote should identify the pipe segment, method, access route, expected shutdown, waste handling and making good. If a lining method is offered, ask how junctions and displaced sections will be dealt with. If excavation is proposed, ask which surface will be opened and who restores it. The camera finding should support the chosen method; a single image should not become a blanket replacement of every shared drain.</p><h2 id=\"coordinate-access-and-communication\">Coordinate access and communication</h2><p>Residents may need advance notice if water use must pause or a unit must be entered. Record who holds keys, parking conditions, safe equipment access and any vulnerable occupants needing a clear schedule. For an overflow, arrange prompt control and cleaning advice. A written plan reduces confusion about which lot is affected and whether a temporary clearing is needed before a permanent repair can be scheduled.</p><h2 id=\"close-the-loop-after-work\">Close the loop after work</h2><p>Ask for photos or footage showing the repaired section, the testing performed and any remaining defects. Keep the approval, invoice and updated pipe location with strata records. If a branch could not be inspected, record that limit for future maintenance. Share a plain-language summary with affected owners so another recurring blockage is compared against the actual repair rather than a vague memory of camera work.</p>",
+    "check": [
+      "Before booking",
+      "Collect the footage, access point, affected lot list and strata manager contact."
+    ],
+    "id": "W04-07-2",
+    "title": "A Camera Finds a Shared Drain Defect in Neutral Bay: What Should Strata Request?",
+    "slug": "a-camera-finds-a-shared-drain-defect-in-neutral-bay-what-should-strata-request",
+    "date": "2026-11-11",
+    "updatedDate": "2026-11-11",
+    "indexPath": "/blog/",
+    "path": "/blog/a-camera-finds-a-shared-drain-defect-in-neutral-bay-what-should-strata-request/",
+    "service": "/services/sewer-drain-blockages",
+    "serviceURL": "/services/sewer-drain-blockages/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "secure-the-footage-and-inspection-notes",
+        "label": "Secure the footage and inspection notes"
+      },
+      {
+        "depth": 2,
+        "id": "map-the-lots-and-affected-fixtures",
+        "label": "Map the lots and affected fixtures"
+      },
+      {
+        "depth": 2,
+        "id": "clarify-repair-responsibility",
+        "label": "Clarify repair responsibility"
+      },
+      {
+        "depth": 2,
+        "id": "request-a-repair-scope-tied-to-the-defect",
+        "label": "Request a repair scope tied to the defect"
+      },
+      {
+        "depth": 2,
+        "id": "coordinate-access-and-communication",
+        "label": "Coordinate access and communication"
+      },
+      {
+        "depth": 2,
+        "id": "close-the-loop-after-work",
+        "label": "Close the loop after work"
+      }
+    ],
+    "words": 770,
+    "image": "/images/blog-w04-07-2-featured.webp",
+    "width": 800,
+    "height": 450
   }
 ]
