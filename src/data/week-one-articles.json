@@ -1299,5 +1299,123 @@
     "image": "/images/blog-w04-07-2-featured.webp",
     "width": 800,
     "height": 450
+  },
+  {
+    "site": 6,
+    "category": "Drain repairs",
+    "serviceSlug": "drain-repairs",
+    "photo": 50,
+    "seoTitle": "Shared Sewer Relining in Mosman | Keep Junctions Open",
+    "description": "A Mosman shared sewer relining quote must identify unit connections, inspection access and completion checks. See what strata should confirm before work.",
+    "imageAlt": "Drainage junction exposed during pipe repair",
+    "caption": "Every side connection matters when a shared line is repaired or relined.",
+    "introduction": "<p>Before relining a shared Mosman sewer, strata should identify every unit branch, junction and inspection opening that connects to the proposed liner section. The quote must say how those connections will be located, kept open and checked after installation. Camera footage, a drainage plan and an agreed interruption schedule help owners understand what will be repaired without isolating a unit’s wastewater connection.</p>",
+    "takeaways": [
+      "Map every branch entering the shared segment.",
+      "Confirm how junctions will be reopened after lining.",
+      "Plan resident access and temporary water-use limits.",
+      "Keep completion footage and a connection record."
+    ],
+    "faqs": [
+      [
+        "Can a liner cover a unit connection?",
+        "Yes if junctions are not correctly identified and reopened; the scope must address them."
+      ],
+      [
+        "Should strata obtain a drainage plan?",
+        "Yes, then check it against site and camera findings."
+      ],
+      [
+        "Will every unit need access?",
+        "Only affected access points, but confirm this before scheduling."
+      ],
+      [
+        "Can the line be used during installation?",
+        "Ask for the contractor’s shutdown and reopening plan."
+      ],
+      [
+        "Does relining suit every shared pipe?",
+        "No. Suitability depends on condition, shape and connections."
+      ],
+      [
+        "How are junctions found?",
+        "Use plans, inspection footage and suitable locating methods."
+      ],
+      [
+        "What if a branch is not visible?",
+        "Record the uncertainty and investigate before lining over it."
+      ],
+      [
+        "Should inspection openings remain usable?",
+        "Yes, any required access needs a clear final arrangement."
+      ],
+      [
+        "What proves a unit branch is open?",
+        "Ask for documented post-installation checks of each identified connection."
+      ],
+      [
+        "What records should owners receive?",
+        "Plan, scope, footage, connection list and final test."
+      ]
+    ],
+    "conclusion": "The liner length is only one part of a shared sewer job. A sound Mosman strata proposal shows every connection, how each remains functional and how the result will be verified.",
+    "ctaAnchor": "Mosman drain repair service",
+    "ctaTail": "Call Blocked Drains Lower North Shore with the strata plan and camera footage.",
+    "body": "<h2 id=\"start-with-a-connection-map\">Start with a connection map</h2><p>Ask the strata manager for the drainage diagram and any earlier CCTV report. Mark which units, common facilities and inspection openings feed the proposed section. An older plan may not show later bathroom changes, so it should be tested against the route found on site. Do not accept a quote that treats a shared pipe as a simple straight length while leaving the branch connections unidentified.</p><h2 id=\"check-the-whole-proposed-liner-route\">Check the whole proposed liner route</h2><p>The camera footage should show the starting point, end point, pipe condition, bends and every visible junction. Ask whether the pipe is suitable for the method, especially if it is collapsed or badly displaced. If silt or water hides a connection, record that limit and plan further investigation. A metres-only quote cannot explain whether all affected lots will retain drainage after work.</p><h2 id=\"specify-how-branches-stay-open\">Specify how branches stay open</h2><p>A liner can cover side entries until they are reinstated using the appropriate method. The contractor should list each known branch and explain how it will be located and reopened, including the verification method. A final camera pass should document the result where possible. Ask how the team will respond if an unrecorded branch appears during the job, rather than leaving a connected unit without a usable outlet.</p><h2 id=\"coordinate-resident-access\">Coordinate resident access</h2><p>Agree which units or common spaces need entry, what water-use restrictions apply and how occupants will be notified. A shared sewer may serve kitchens, toilets and laundry points at different times. The contractor should explain the likely interruption, temporary arrangements and what to do if the line cannot be returned to service on schedule. Keep one named strata contact available for decisions and updates.</p><h2 id=\"check-responsibility-and-approvals\">Check responsibility and approvals</h2><p>NSW <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata repairs guidance</a> explains that responsibility depends on whether the relevant pipe is lot property or common property. Sydney Water’s <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">wastewater guidance</a> also distinguishes private pipes from its network. Confirm the repair boundary and required approvals before works begin. Do not rely on the location of a visible inspection cap alone to settle ownership.</p><h2 id=\"ask-for-a-connection-level-handover\">Ask for a connection-level handover</h2><p>The final report should pair the pre-work map with completion footage or tests for each identified branch, plus the repaired length and any remaining defects. Keep the contractor’s invoice, warranties and updated location sketch with strata records. If a unit later reports slow drainage, the manager should be able to see whether that branch was part of the relining and what was checked before the line was reopened.</p><h2 id=\"handle-an-unexpected-connection-carefully\">Handle an unexpected connection carefully</h2><p>If the contractor discovers a branch that was missing from the plan, the team should pause and document where it enters the shared line. Ask the strata contact to approve any necessary change to the scope and notify the affected unit. A branch hidden under old repairs can be easy to overlook when only the main pipe length is priced. The completion record should list every connection that was reopened and tested, including those discovered during installation. This also gives residents a practical way to report a problem after the job: they can identify their unit branch rather than simply saying the shared sewer seems slow again.</p>",
+    "check": [
+      "Before booking",
+      "Collect the strata drainage plan, affected-unit list and camera footage."
+    ],
+    "id": "W04-07-3",
+    "title": "Relining a Shared Sewer in Mosman: Which Unit Connections Must Stay Open?",
+    "slug": "relining-a-shared-sewer-in-mosman-which-unit-connections-must-stay-open",
+    "date": "2026-11-13",
+    "updatedDate": "2026-11-13",
+    "indexPath": "/blog/",
+    "path": "/blog/relining-a-shared-sewer-in-mosman-which-unit-connections-must-stay-open/",
+    "service": "/services/drain-repairs",
+    "serviceURL": "/services/drain-repairs/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-with-a-connection-map",
+        "label": "Start with a connection map"
+      },
+      {
+        "depth": 2,
+        "id": "check-the-whole-proposed-liner-route",
+        "label": "Check the whole proposed liner route"
+      },
+      {
+        "depth": 2,
+        "id": "specify-how-branches-stay-open",
+        "label": "Specify how branches stay open"
+      },
+      {
+        "depth": 2,
+        "id": "coordinate-resident-access",
+        "label": "Coordinate resident access"
+      },
+      {
+        "depth": 2,
+        "id": "check-responsibility-and-approvals",
+        "label": "Check responsibility and approvals"
+      },
+      {
+        "depth": 2,
+        "id": "ask-for-a-connection-level-handover",
+        "label": "Ask for a connection-level handover"
+      },
+      {
+        "depth": 2,
+        "id": "handle-an-unexpected-connection-carefully",
+        "label": "Handle an unexpected connection carefully"
+      }
+    ],
+    "words": 857,
+    "image": "/images/blog-w04-07-3-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
