@@ -1417,5 +1417,118 @@
     "image": "/images/blog-w04-07-3-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 6,
+    "category": "Blocked sinks and showers",
+    "serviceSlug": "blocked-sinks-showers",
+    "photo": 56,
+    "seoTitle": "Slow Kitchen Sink in Cremorne | Trap or Shared Waste?",
+    "description": "A slow Cremorne kitchen sink may have a local trap blockage or a shared waste-line problem. Compare fixtures and note what triggers the backup.",
+    "imageAlt": "Kitchen sink waste trap and plumbing connections",
+    "caption": "The trap is one possible restriction; other affected fixtures point further downstream.",
+    "introduction": "<p>If a Cremorne kitchen sink drains slowly, check whether the problem is confined to that sink or also affects a dishwasher, laundry or neighbouring unit. A local trap blockage may be straightforward to clear, while a shared waste line needs different access and possibly strata involvement. Avoid pouring chemicals into standing water; record when the sink backs up and arrange a plumber to locate the restriction.</p>",
+    "takeaways": [
+      "Compare the sink with other fixtures before choosing a clearing method.",
+      "A dishwasher discharge can reveal a restriction in shared waste pipework.",
+      "Do not treat a neighbour’s problem as proof of the same fault.",
+      "Tell the plumber and strata manager if a shared line may be involved."
+    ],
+    "faqs": [
+      [
+        "Can the sink trap alone cause slow drainage?",
+        "Yes. Food and grease can collect locally."
+      ],
+      [
+        "Why does the sink rise when the dishwasher runs?",
+        "The discharge may be meeting a restriction in the same waste path."
+      ],
+      [
+        "Should I pour boiling water down the sink?",
+        "Avoid extreme heat or chemicals until the pipe material and blockage are understood."
+      ],
+      [
+        "Can a neighbour’s sink affect mine?",
+        "It can if the fixtures share a branch, but the layout must be confirmed."
+      ],
+      [
+        "Should I dismantle the trap?",
+        "Only if you can do it safely and know how to reseal it; a plumber can handle uncertain connections."
+      ],
+      [
+        "Is jetting needed for every slow sink?",
+        "No. The method depends on blockage location and access."
+      ],
+      [
+        "What if water appears in another unit?",
+        "Stop using the connected fixture and notify building management promptly."
+      ],
+      [
+        "Who pays for a shared pipe repair?",
+        "Responsibility depends on strata boundaries and the actual fault location."
+      ],
+      [
+        "When is a camera useful?",
+        "When a recurring or downstream restriction needs locating in an accessible line."
+      ],
+      [
+        "What should the plumber document?",
+        "The blockage position, access used, clearing method and any remaining defect."
+      ]
+    ],
+    "body": "<h2 id=\"observe-the-pattern-before-testing\">Observe the pattern before testing</h2><p>Note whether the sink drains slowly all the time or only after a dishwasher cycle. Check whether the laundry, bathroom or second kitchen sink is affected, without running lots of water into a suspected blockage. If the problem occurs only at one bowl, the trap and immediate branch deserve attention first. If other fixtures respond or water appears elsewhere, the restriction may be further along a shared pipe.</p><h2 id=\"avoid-chemicals-in-standing-water\">Avoid chemicals in standing water</h2><p>A drain product left in a full sink can splash onto the person who opens the trap and may complicate safe clearing. If you have already used one, tell the plumber the product name and time. Do not force a cable through a flexible connector or pull apart a hard-to-reach trap without a plan to reseal it. A small leak under the sink can cause more damage than the original slow drain.</p><h2 id=\"check-accessible-fittings-and-shared-context\">Check accessible fittings and shared context</h2><p>A plumber can inspect the trap, waste connection and branch before moving to downstream equipment. In an apartment, the pipe may pass through cabinetry, a wall or common property. Give the building’s access hours, manager contact and any neighbour reports when booking. Do not assume every shared symptom has one cause; the pipe route and entry points need checking. NSW <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata guidance</a> distinguishes owner and common-property repairs.</p><h2 id=\"choose-the-clearing-method-to-fit-the-pipe\">Choose the clearing method to fit the pipe</h2><p>A local trap restriction may be removed and cleaned. A deeper branch may need a suitable cable, jetter or camera, depending on access and pipe condition. Ask the plumber where the restriction was and whether the line is safe for the proposed method. Repeatedly clearing the same grease or debris without checking the underlying route may give only a short reprieve. A camera can be useful when an accessible pipe has a recurring structural problem.</p><h2 id=\"clarify-who-authorises-shared-line-work\">Clarify who authorises shared-line work</h2><p>If an inspection points to a boundary wall, slab or shared branch, notify the strata manager before non-urgent invasive work. The NSW guidance notes that the owners corporation commonly maintains plumbing in boundary walls and under floors, while fixtures within a lot are generally an owner matter. The strata plan and the actual pipe location decide the outcome. Ask for photos and a short description that the manager can use to approve the next step.</p><h2 id=\"confirm-the-drain-is-working-after-clearing\">Confirm the drain is working after clearing</h2><p>Run the sink and dishwasher discharge under normal conditions, watching for backup or leaks at the trap and connections. Ask what material was removed and whether the plumber found a damaged or poorly graded section. Keep the report if the line serves several units. A clear handover separates a finished local clearing from a shared-pipe repair that still needs approval, preventing the same call from starting again without useful evidence.</p>",
+    "conclusion": "A slow sink can be local or shared. The quickest useful decision is to compare fixtures, protect the under-sink area and locate the restriction before booking more extensive work.",
+    "ctaAnchor": "Cremorne blocked sink service",
+    "ctaTail": "Call Blocked Drains Lower North Shore with the affected fixtures and building access details.",
+    "check": [
+      "Quick check",
+      "Does the sink back up only when the dishwasher runs, and do any other fixtures respond?"
+    ],
+    "id": "W05-07-1",
+    "title": "A Cremorne Kitchen Sink Drains Slowly: Trap or Shared Waste Line?",
+    "slug": "a-cremorne-kitchen-sink-drains-slowly-trap-or-shared-waste-line",
+    "date": "2026-11-16",
+    "updatedDate": "2026-11-16",
+    "indexPath": "/blog/",
+    "path": "/blog/a-cremorne-kitchen-sink-drains-slowly-trap-or-shared-waste-line/",
+    "service": "/services/blocked-sinks-showers",
+    "serviceURL": "/services/blocked-sinks-showers/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "observe-the-pattern-before-testing",
+        "label": "Observe the pattern before testing"
+      },
+      {
+        "depth": 2,
+        "id": "avoid-chemicals-in-standing-water",
+        "label": "Avoid chemicals in standing water"
+      },
+      {
+        "depth": 2,
+        "id": "check-accessible-fittings-and-shared-context",
+        "label": "Check accessible fittings and shared context"
+      },
+      {
+        "depth": 2,
+        "id": "choose-the-clearing-method-to-fit-the-pipe",
+        "label": "Choose the clearing method to fit the pipe"
+      },
+      {
+        "depth": 2,
+        "id": "clarify-who-authorises-shared-line-work",
+        "label": "Clarify who authorises shared-line work"
+      },
+      {
+        "depth": 2,
+        "id": "confirm-the-drain-is-working-after-clearing",
+        "label": "Confirm the drain is working after clearing"
+      }
+    ],
+    "words": 858,
+    "image": "/images/blog-w05-07-1-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
