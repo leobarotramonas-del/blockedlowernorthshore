@@ -3,12 +3,12 @@ import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { site } from '../data/site';
 import type { Project } from '../data/projects';
-interface Props { items: Project[]; title: string; intro?: string; callLabel?: string; }
-const { items, title, intro, callLabel } = Astro.props;
+interface Props { items: Project[]; title: string; intro?: string; callLabel?: string; layout?: 'field-report' | 'editorial-pair'; }
+const { items, title, intro, callLabel, layout } = Astro.props;
 const sources = import.meta.glob<{ default: ImageMetadata }>('../../public/projects/*.webp', { eager: true });
 const photo = (name: string) => sources['../../public/projects/'+name].default;
 ---
-<section class:list={['project-showcase', { 'project-showcase--single': items.length === 1, 'project-showcase--pair': items.length === 2 }]} aria-label={title}>
+<section class:list={['project-showcase', layout && 'project-showcase--'+layout, { 'project-showcase--single': items.length === 1, 'project-showcase--pair': items.length === 2 }]} aria-label={title}>
   <div class="project-heading"><h2>{title}</h2>{intro && <p>{intro}</p>}</div>
   <div class="project-media">
     {items.map(item => <figure class:list={{ 'project-film': Boolean(item.video), 'project-photo': Boolean(item.image) }}>
@@ -45,5 +45,19 @@ const photo = (name: string) => sources['../../public/projects/'+name].default;
 .project-showcase--single figure{display:block}
 .project-showcase--single figcaption{margin-top:1rem}
 }
+
+.project-showcase--field-report .project-media{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}
+.project-showcase--field-report .project-film{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,20rem) minmax(0,1fr);align-items:center;gap:2rem;padding-bottom:2rem;border-bottom:1px solid var(--line)}
+.project-showcase--field-report .project-film figcaption{max-width:48ch;margin:0}
+.project-showcase--field-report .project-photo{display:grid;grid-template-columns:minmax(0,10rem) minmax(0,1fr);gap:1rem}
+.project-showcase--field-report .project-photo figcaption{margin:0}
+.project-showcase--editorial-pair .project-media{grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem}
+.project-showcase--editorial-pair .project-film{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:1.5rem;align-items:start}
+.project-showcase--editorial-pair .project-film figcaption{margin:0}
+.project-showcase--editorial-pair .project-photo{display:grid;grid-template-columns:minmax(0,8rem) minmax(0,1fr);gap:1.5rem;border-top:1px solid var(--line);padding-top:2rem}
+.project-showcase--editorial-pair .project-photo figcaption{margin:0}
+@media(max-width:1000px){.project-showcase--editorial-pair .project-photo{display:block}.project-showcase--editorial-pair .project-photo img{max-width:10rem}.project-showcase--editorial-pair .project-photo figcaption{margin-top:1rem}.project-showcase--editorial-pair .project-film,.project-showcase--field-report .project-photo{display:block}.project-showcase--editorial-pair .project-film video{max-height:26rem}.project-showcase--editorial-pair .project-film figcaption,.project-showcase--field-report .project-photo figcaption{margin-top:1rem}}
+@media(max-width:760px){.project-showcase--field-report .project-media,.project-showcase--editorial-pair .project-media{grid-template-columns:1fr}.project-showcase--field-report .project-film{display:block;max-width:none}.project-showcase--field-report .project-film video{max-width:22rem;margin-inline:auto}.project-showcase--field-report .project-film figcaption{margin-top:1rem}.project-showcase--field-report .project-photo,.project-showcase--editorial-pair .project-photo{display:grid;grid-template-columns:minmax(0,7rem) minmax(0,1fr);gap:1rem}.project-showcase--field-report .project-photo figcaption{margin:0}.project-showcase--editorial-pair .project-film{max-width:26rem;justify-self:center}}
+@media(max-width:480px){.project-showcase--field-report .project-photo,.project-showcase--editorial-pair .project-photo{display:block}.project-showcase--field-report .project-photo img,.project-showcase--editorial-pair .project-photo img{max-width:12rem}.project-showcase--field-report .project-photo figcaption,.project-showcase--editorial-pair .project-photo figcaption{margin-top:1rem}}
 </style>
 
