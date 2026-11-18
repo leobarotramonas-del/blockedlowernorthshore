@@ -1,0 +1,34 @@
+---
+import { site } from '../data/site';
+import { localClips, type LocalAssignment } from '../data/local-projects';
+interface Props { assignment: LocalAssignment; areaName: string; }
+const { assignment, areaName } = Astro.props;
+const clips = assignment.clips.map(slug => localClips.find(clip => clip.slug === slug)!);
+---
+<section class:list={['section','local-footage','local-footage--'+assignment.layout]} aria-labelledby="local-footage-title">
+  <div class="local-footage__intro"><h2 id="local-footage-title">{assignment.title}</h2><p>{assignment.context}</p><p class="local-footage__origin">From the Antons team's work across Sydney.</p></div>
+  <div class="local-footage__media">{clips.map(clip => <figure><video controls playsinline preload="none" poster={'/projects/local/'+clip.poster} width={clip.width} height={clip.height} aria-label={clip.title}><source src={'/projects/local/'+clip.video} type="video/mp4"/><a href={'/projects/local/'+clip.video}>Watch {clip.title.toLowerCase()}</a></video><figcaption><h3>{clip.title}</h3><p>{clip.caption}</p><p class="local-footage__format">Work on site · silent excerpt</p><a href={clip.serviceHref}>{clip.serviceLabel}</a></figcaption></figure>)}</div>
+  <div class="local-footage__call"><a class="call-button" href={site.phoneHref}><span>Discuss your {areaName} drain</span><strong>{site.phoneDisplay}</strong></a></div>
+</section>
+<style>
+.local-footage{border-block:1px solid var(--line)}
+.local-footage__intro{max-width:65ch;margin-bottom:2rem}
+.local-footage__origin,.local-footage__format{font-size:.875rem}
+.local-footage__media{display:grid;gap:2rem}
+.local-footage figure{margin:0;min-width:0}
+.local-footage video{display:block;width:100%;height:auto;max-height:28rem;object-fit:contain;background:#141414}
+.local-footage figcaption{margin-top:1rem;max-width:65ch}
+.local-footage h3{font-size:1.4rem;margin:0 0 .75rem}
+.local-footage figcaption a{display:inline-flex;align-items:center;min-height:44px}
+.local-footage__call{margin-top:2rem}
+.local-footage .call-button{max-width:100%;flex-wrap:wrap;text-align:center}
+.local-footage--rail figure{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2rem;align-items:center}
+.local-footage--rail figcaption{margin:0}
+.local-footage--field-note{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:0 3rem}
+.local-footage--field-note .local-footage__call{grid-column:1/-1}
+.local-footage--pair .local-footage__media{grid-template-columns:repeat(2,minmax(0,1fr))}
+.local-footage--rows figure{display:grid;grid-template-columns:minmax(0,22rem) minmax(0,1fr);gap:2rem;align-items:center;padding-bottom:2rem;border-bottom:1px solid var(--line)}
+.local-footage--rows figcaption{margin:0}
+@media(max-width:900px){.local-footage--field-note{display:block}.local-footage--rows figure{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+@media(max-width:600px){.local-footage--rail figure,.local-footage--rows figure{display:block}.local-footage--pair .local-footage__media{grid-template-columns:1fr}.local-footage--rail figcaption,.local-footage--rows figcaption{margin-top:1rem}.local-footage .call-button{width:100%}}
+</style>

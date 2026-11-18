@@ -1,6 +1,8 @@
 ---
 import { titleCase } from "../../utils/title-case";
 import PropertyGuide from '../../components/PropertyGuide.astro';
+import LocalProjectFootage from '../../components/LocalProjectFootage.astro';
+import { localAssignments, localVideoSchema } from '../../data/local-projects';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import UndergroundExplorer from '../../components/UndergroundExplorer.astro';
@@ -10,9 +12,10 @@ import { areas, services, site } from '../../data/site';
 import { faqSchema } from '../../data/faqs';
 export function getStaticPaths(){return areas.map(area=>({params:{slug:area.slug},props:{area}}));}
 const { area } = Astro.props;
+const footage = localAssignments[area.slug];
 const relevant = services.filter(s=>area.relevantServices.includes(s.slug));
 const nearby = areas.filter(a=>area.neighbours.includes(a.slug));
-const schema = [{ '@type':'Service',name:area.title,description:area.intro,serviceType:'Blocked drain diagnosis, clearing and repair',areaServed:{'@type':'Place',name:area.name+', NSW '+area.postcode,address:{'@type':'PostalAddress',addressLocality:area.name,postalCode:area.postcode,addressRegion:'NSW',addressCountry:'AU'}}},faqSchema(area.faqs)];
+const schema = [...localVideoSchema(footage, '/service-areas/'+area.slug+'/'),{ '@type':'Service',name:area.title,description:area.intro,serviceType:'Blocked drain diagnosis, clearing and repair',areaServed:{'@type':'Place',name:area.name+', NSW '+area.postcode,address:{'@type':'PostalAddress',addressLocality:area.name,postalCode:area.postcode,addressRegion:'NSW',addressCountry:'AU'}}},faqSchema(area.faqs)];
 ---
 <BaseLayout title={area.title} description={area.description} schema={schema}>
 <PageHero label={area.name} title={area.title} intro={area.intro} image={area.image} imageAlt={area.imageAlt}/>
@@ -24,6 +27,7 @@ const schema = [{ '@type':'Service',name:area.title,description:area.intro,servi
 <div><h2>Plan Access before the Visit</h2><p>{area.access}</p><p>{area.localOrientation}</p><p>Current coverage is confirmed by full street address. Call with the symptoms and urgency to confirm the next available response.</p></div>
 </section>
 <section class="section method-panel"><div><h2>Diagnosis before a Clearing Method</h2><p>{area.diagnosis}</p><p>Restoring flow and repairing a defect are separate tasks. Where damaged joints, poor fall or a failed section are found, the evidence and proposed repair scope are explained before agreement.</p></div><div><h2>Safe First Actions</h2><ul><li>Stop using fixtures connected to a backing-up line.</li><li>Keep people and pets away from wastewater.</li><li>Avoid chemical cleaners and tell the plumber about products already used.</li><li>Stay clear of water near electrical equipment, unstable ground and heavy pit covers.</li></ul><p>Urgent calls are taken 24 hours, 7 days a week. Do not enter a pit or confined space to investigate.</p></div></section>
+<LocalProjectFootage assignment={footage} areaName={area.name}/>
 <section class="section slim-section"><h2>Explore the Clearing and Repair Options</h2><div class="service-list">{relevant.map(service=><a class="service-row" href={'/services/'+service.slug+'/'}><h3>{titleCase(service.name)}</h3><p>{service.summary}</p><span>Read the method</span></a>)}</div><p>Unsure which fits? Explore the <a href="/services/">complete drain-service guide</a> or <a href="/contact/">describe the symptoms by phone</a>.</p></section>
 <PropertyGuide area={area} relevant={relevant}/>
 <FaqSection title={area.name+' drain questions'} items={area.faqs}/>

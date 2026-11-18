@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.argv[2]||'dist';let videos=0,pages=0;const errors=[];
+const timestamp=/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;
+function visit(value,file){if(!value||typeof value!=='object')return;if(value['@type']==='VideoObject'||Array.isArray(value['@type'])&&value['@type'].includes('VideoObject')){videos++;const date=value.uploadDate;if(typeof date!=='string'||!timestamp.test(date)||!Number.isFinite(Date.parse(date)))errors.push(`${file}: ${value.name||'VideoObject'} requires a full ISO uploadDate with timezone; found ${JSON.stringify(date)}`);}for(const child of Object.values(value))if(typeof child==='object')visit(child,file);}
+function scan(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isDirectory())scan(file);else if(file.endsWith('.html')){pages++;const html=fs.readFileSync(file,'utf8');for(const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)){try{visit(JSON.parse(match[1]),file);}catch(error){errors.push(`${file}: invalid JSON-LD: ${error.message}`);}}}}}
+scan(root);if(!videos)errors.push('No VideoObject found: video schema validation did not exercise any published video.');if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`Video schema passed: ${videos} VideoObjects across ${pages} HTML pages have full timezone-qualified upload dates.`);

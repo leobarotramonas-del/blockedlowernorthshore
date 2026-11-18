@@ -13,7 +13,7 @@ export const projects: Project[] = [
   "width": 540,
   "height": 960,
   "duration": 8,
-  "uploadDate": "2026-11-17",
+  "uploadDate": "2026-11-17T15:21:45+08:00",
   "video": "hot-water-replacement.mp4",
   "poster": "hot-water-replacement.webp",
   "serviceHref": "https://antonsplumbingandgas.com.au/service/hot-water-system-replacement/",
@@ -86,6 +86,6 @@ export const serviceProjects = (slug: string): Project[] => {
 export function projectSchema(items: Project[], pagePath: string) {
   return items.map(item => {
     const base = { '@id': new URL('/projects/'+item.slug+'#media',site.url).href, name: item.title, description: item.caption, creator: { '@type': 'Organization', name: site.operator }, isPartOf: { '@id': new URL(pagePath,site.url).href+'#webpage' } };
-    return item.video ? { ...base, '@type': 'VideoObject', thumbnailUrl: new URL('/projects/'+item.poster,site.url).href, contentUrl: new URL('/projects/'+item.video,site.url).href, uploadDate: item.uploadDate ?? '2026-11-10', duration: 'PT'+item.duration+'S', encodingFormat: 'video/mp4', caption: item.caption+' Silent project excerpt.' } : { ...base, '@type': 'ImageObject', contentUrl: new URL('/projects/'+item.image,site.url).href, caption: item.caption, width: item.width, height: item.height };
+    return item.video ? { ...base, '@type': 'VideoObject', thumbnailUrl: new URL('/projects/'+item.poster,site.url).href, contentUrl: new URL('/projects/'+item.video,site.url).href, uploadDate: item.uploadDate ?? '2026-11-10T10:34:50+08:00', duration: 'PT'+item.duration+'S', encodingFormat: 'video/mp4', caption: item.caption+' Silent project excerpt.' } : { ...base, '@type': 'ImageObject', contentUrl: new URL('/projects/'+item.image,site.url).href, caption: item.caption, width: item.width, height: item.height };
   });
 }
