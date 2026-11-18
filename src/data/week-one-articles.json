@@ -1530,5 +1530,118 @@
     "image": "/images/blog-w05-07-1-featured.webp",
     "width": 800,
     "height": 800
+  },
+  {
+    "site": 6,
+    "category": "Blocked toilets",
+    "serviceSlug": "blocked-toilets",
+    "photo": 46,
+    "seoTitle": "Blocked Toilet in a Wollstonecraft Unit: Pan or Shared Line?",
+    "description": "A blocked toilet in a Wollstonecraft unit may involve the pan, branch or shared sewer. Learn what to check safely and what to tell strata.",
+    "imageAlt": "Plumber inspecting a blocked residential drain with a camera",
+    "caption": "The location of the blockage helps identify who should arrange the repair.",
+    "introduction": "<p>If a Wollstonecraft unit toilet will not flush, stop using it and check whether other fixtures in the unit are also backing up. One affected toilet may point to the pan or its branch. Wastewater rising in a shower or more than one unit suggests a wider line. Tell the strata manager early when shared plumbing may be involved, and give them the symptoms rather than guessing who owns the pipe.</p>",
+    "takeaways": [
+      "Stop flushing if the pan is rising.",
+      "Check nearby fixtures without adding more water.",
+      "Ask neighbours or strata whether other units have the same problem.",
+      "A plumber can locate the fault before responsibility is assigned."
+    ],
+    "faqs": [
+      [
+        "Should I keep flushing to clear it?",
+        "No. Repeated flushing can overflow the pan and spread wastewater."
+      ],
+      [
+        "Can I use a plunger?",
+        "A suitable toilet plunger may clear a simple pan obstruction, but stop if water rises or the problem returns."
+      ],
+      [
+        "What if the shower backs up too?",
+        "That points beyond the toilet pan and warrants a plumber’s inspection."
+      ],
+      [
+        "Who pays for the repair?",
+        "Responsibility depends on where the fault lies and the strata plan; the owners corporation should assess common property issues."
+      ],
+      [
+        "Should I contact strata first?",
+        "Tell strata promptly if a shared line or common property may be affected."
+      ],
+      [
+        "Can a camera go through the toilet?",
+        "A plumber may use an appropriate access point after removing or bypassing an obstruction."
+      ],
+      [
+        "Are chemical drain cleaners suitable?",
+        "Avoid them in a blocked toilet; they can create exposure risks for whoever clears it."
+      ],
+      [
+        "What if another unit also has a blockage?",
+        "Report both locations because a shared branch or stack becomes more likely."
+      ],
+      [
+        "Should I shut off the toilet tap?",
+        "If the cistern is running or leaking, close its isolation tap where safe to do so."
+      ],
+      [
+        "What should I photograph?",
+        "Record the water level, affected fixtures and any overflow without touching wastewater."
+      ]
+    ],
+    "body": "<h2 id=\"start-with-safe-checks-in-your-unit\">Start with safe checks in your unit</h2><p>Do not keep flushing a pan that is filling. Keep children and pets away from any overflow, and avoid touching wastewater. Check whether the basin and shower drain normally without running large amounts of water. A toilet-only problem can be local, but symptoms elsewhere help a plumber decide where to investigate. If the cistern continues to refill, turn off its nearby isolation tap if you can reach it safely.</p><h2 id=\"look-for-signs-of-a-shared-blockage\">Look for signs of a shared blockage</h2><p>Ask the building manager whether another unit has reported a slow toilet, shower backup or odour. A problem across several fixtures or levels can sit in a shared branch, stack or sewer. The symptom alone does not prove which pipe is responsible. Sydney Water’s <a href=\"https://www.sydneywater.com.au/faults-works/wastewater-blockages.html\">blockage guidance</a> explains the distinction between private pipes and its network and how investigations can locate a fault.</p><h2 id=\"tell-strata-what-has-happened\">Tell strata what has happened</h2><p>Send the strata manager a short account: when it started, which fixtures are affected, whether water overflowed and whether other units have reported trouble. Include photographs if useful. NSW guidance says an owners corporation is responsible for common property repairs, while a lot owner generally maintains their own property. The precise boundary depends on the building and strata plan, so ask for the pipe location before making a final responsibility claim.</p><h2 id=\"choose-an-inspection-that-answers-the-question\">Choose an inspection that answers the question</h2><p>A plumber can test the toilet, branch and accessible shared line, then clear or inspect as conditions allow. If the blockage recurs, CCTV evidence can help locate roots, a damaged joint or another defect. Ask the plumber to note the access point, distance, direction and any limit to visibility. A video of standing wastewater alone may not identify the repair. NSW requires appropriate licensing for drainage work.</p><h2 id=\"protect-the-home-while-help-is-arranged\">Protect the home while help is arranged</h2><p>Do not run the washing machine or shower if wastewater is backing up there. Move belongings away from the affected area and tell strata about any damage to common areas or another lot. Avoid chemical cleaners; they can leave a hazardous liquid in the line for the plumber. If sewage is escaping, treat it as urgent and request building access information so the plumber can reach the relevant inspection points.</p><h2 id=\"keep-the-repair-decision-clear\">Keep the repair decision clear</h2><p>Ask whether the obstruction was in the pan, a lot branch, a shared branch or further downstream, and what evidence supports that conclusion. Obtain the work record, camera findings and any recommendation for a permanent repair. NSW’s <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata repair guidance</a> gives a useful starting point for discussing common property. The location report helps everyone decide the next step.</p>",
+    "conclusion": "A blocked toilet in a unit needs a calm first check and a clear location finding. Reporting the right symptoms to strata can speed up access and prevent repeat overflow.",
+    "ctaAnchor": "Wollstonecraft blocked toilet service",
+    "ctaTail": "Call Blocked Drains Lower North Shore and tell us which fixtures and units are affected so we can plan the right inspection.",
+    "check": [
+      "Before calling",
+      "Note the affected fixtures, first symptom, any overflow and whether another unit has the same issue."
+    ],
+    "id": "W05-07-2",
+    "title": "Blocked Toilet in a Wollstonecraft Unit: What to Check Before Calling Strata",
+    "slug": "blocked-toilet-in-a-wollstonecraft-unit-what-to-check-before-calling-strata",
+    "date": "2026-11-18",
+    "updatedDate": "2026-11-18",
+    "indexPath": "/blog/",
+    "path": "/blog/blocked-toilet-in-a-wollstonecraft-unit-what-to-check-before-calling-strata/",
+    "service": "/services/blocked-toilets",
+    "serviceURL": "/services/blocked-toilets/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-with-safe-checks-in-your-unit",
+        "label": "Start with safe checks in your unit"
+      },
+      {
+        "depth": 2,
+        "id": "look-for-signs-of-a-shared-blockage",
+        "label": "Look for signs of a shared blockage"
+      },
+      {
+        "depth": 2,
+        "id": "tell-strata-what-has-happened",
+        "label": "Tell strata what has happened"
+      },
+      {
+        "depth": 2,
+        "id": "choose-an-inspection-that-answers-the-question",
+        "label": "Choose an inspection that answers the question"
+      },
+      {
+        "depth": 2,
+        "id": "protect-the-home-while-help-is-arranged",
+        "label": "Protect the home while help is arranged"
+      },
+      {
+        "depth": 2,
+        "id": "keep-the-repair-decision-clear",
+        "label": "Keep the repair decision clear"
+      }
+    ],
+    "words": 849,
+    "image": "/images/blog-w05-07-2-featured.webp",
+    "width": 800,
+    "height": 1067
   }
 ]
