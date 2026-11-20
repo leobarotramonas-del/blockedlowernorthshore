@@ -1643,5 +1643,118 @@
     "image": "/images/blog-w05-07-2-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 6,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 49,
+    "seoTitle": "Mosman Drain Cleaning: What a Follow-Up Camera Should Show",
+    "description": "After a Mosman drain cleaning, a follow-up camera check can show whether the pipe is clear and whether roots or damage remain.",
+    "imageAlt": "Drain cleaning work at a Sydney property",
+    "caption": "The follow-up recording should show the cleaned section and any remaining fault.",
+    "introduction": "<p>After a Mosman drain has been cleaned, a follow-up camera check should show the pipe wall clearly enough to confirm the obstruction is gone and identify any defect that could cause another blockage. Ask for the access point, travel direction and distance to any remaining roots, crack or open joint. A clear drain today is useful; a record of why it blocked helps decide whether further repair is needed.</p>",
+    "takeaways": [
+      "Footage is most useful after debris no longer hides the pipe wall.",
+      "Ask what length was inspected and where the camera stopped.",
+      "A recurring blockage needs a reason, not another generic clean.",
+      "The recording should support any proposed repair method."
+    ],
+    "faqs": [
+      [
+        "Why inspect after cleaning?",
+        "A clearer pipe can reveal cracks, open joints or root entry hidden by debris."
+      ],
+      [
+        "Does clear water prove the pipe is sound?",
+        "No. Flow can return while a structural fault remains."
+      ],
+      [
+        "Can CCTV show every part of the drain?",
+        "Only accessible sections the camera can pass and see."
+      ],
+      [
+        "Should the video include a distance?",
+        "Yes, with its access point and travel direction."
+      ],
+      [
+        "Can a camera identify roots?",
+        "It can show visible root growth or entry in an inspected section."
+      ],
+      [
+        "Does every crack require relining?",
+        "No. Suitability depends on the defect, pipe condition and access."
+      ],
+      [
+        "What if visibility is poor?",
+        "The report should record that limit rather than claim a complete assessment."
+      ],
+      [
+        "Can a locator mark the fault?",
+        "A compatible locator can help relate the camera position to the surface."
+      ],
+      [
+        "Should I keep the footage?",
+        "Yes, especially if repair or strata approval may follow."
+      ],
+      [
+        "What should a repair quote reference?",
+        "The visible fault, location, proposed method, access and testing."
+      ]
+    ],
+    "body": "<h2 id=\"confirm-what-the-cleaning-achieved\">Confirm what the cleaning achieved</h2><p>Ask what material was removed and whether water now runs through the affected line. Grease, roots and building debris point to different next steps. The plumber should explain whether cleaning reached the full problem section or stopped at a hard obstruction. A renewed flow is welcome, but it does not by itself prove the pipe has no break, offset joint or root entry.</p><h2 id=\"film-the-pipe-when-the-wall-is-visible\">Film the pipe when the wall is visible</h2><p>The camera should travel through the cleaned section slowly enough to show joints and changes in pipe condition. Standing water, residue or a tight bend can limit what is visible. Ask for a summary of the inspected length and the reason the camera stopped if it could not reach the connection. A short, clear clip of the relevant fault can be more useful than a long recording of murky water.</p><h2 id=\"locate-a-continuing-defect\">Locate a continuing defect</h2><p>If a crack, open joint, roots or displaced section appears, record its distance from a named access point and the camera direction. A surface locator may help mark the spot, but the location should be checked against the pipe route before digging. The <a href=\"https://www.sydneywater.com.au/build-develop/plumbing/wastewater-investigation-guide.html\">Sydney Water wastewater investigation guide</a> shows why clear fault location matters when responsibility may involve the network.</p><h2 id=\"separate-cleaning-from-repair\">Separate cleaning from repair</h2><p>Jetting or mechanical cleaning removes a blockage; it does not seal a joint. Some defects can be monitored, some may suit a local repair, and some require broader work. Ask what the footage actually supports and whether the pipe remains structurally suitable for the suggested method. A relining recommendation should address junctions, bends and access rather than rely only on the fact that the drain blocked twice.</p><h2 id=\"keep-evidence-for-a-property-decision\">Keep evidence for a property decision</h2><p>Save the recording, still images, findings and limits, especially if a property manager or strata committee must approve work. Include dates of earlier cleanings and what returned. NSW guidance requires appropriate licensing for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">drainage work</a>. A clear record lets you compare repair quotes without paying for the same investigation again.</p><h2 id=\"ask-what-to-watch-next\">Ask what to watch next</h2><p>If no defect is found, ask which section was inspected and what signs would justify further work. Keep an eye on slow drainage, gurgling or another backup. If a known defect remains, get a repair scope that includes access, the treatment of connected branches and how success will be checked. That turns the follow-up camera visit into a practical decision instead of simply another video.</p>",
+    "conclusion": "A good follow-up camera check in Mosman confirms what was cleared, shows any remaining defect and records the limits of the inspection. Use those findings to decide whether cleaning was enough.",
+    "ctaAnchor": "Mosman CCTV drain inspection service",
+    "ctaTail": "Call Blocked Drains Lower North Shore with your cleaning history and the question the camera needs to answer.",
+    "check": [
+      "Ask for",
+      "The access point, inspected distance, key fault image and a written recommendation."
+    ],
+    "id": "W05-07-3",
+    "title": "Drain Cleaning in Mosman: What Should a Follow-Up Camera Check Show?",
+    "slug": "drain-cleaning-in-mosman-what-should-a-follow-up-camera-check-show",
+    "date": "2026-11-20",
+    "updatedDate": "2026-11-20",
+    "indexPath": "/blog/",
+    "path": "/blog/drain-cleaning-in-mosman-what-should-a-follow-up-camera-check-show/",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "confirm-what-the-cleaning-achieved",
+        "label": "Confirm what the cleaning achieved"
+      },
+      {
+        "depth": 2,
+        "id": "film-the-pipe-when-the-wall-is-visible",
+        "label": "Film the pipe when the wall is visible"
+      },
+      {
+        "depth": 2,
+        "id": "locate-a-continuing-defect",
+        "label": "Locate a continuing defect"
+      },
+      {
+        "depth": 2,
+        "id": "separate-cleaning-from-repair",
+        "label": "Separate cleaning from repair"
+      },
+      {
+        "depth": 2,
+        "id": "keep-evidence-for-a-property-decision",
+        "label": "Keep evidence for a property decision"
+      },
+      {
+        "depth": 2,
+        "id": "ask-what-to-watch-next",
+        "label": "Ask what to watch next"
+      }
+    ],
+    "words": 780,
+    "image": "/images/blog-w05-07-3-featured.webp",
+    "width": 800,
+    "height": 1067
   }
 ]
