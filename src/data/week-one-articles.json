@@ -1756,5 +1756,118 @@
     "image": "/images/blog-w05-07-3-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 6,
+    "category": "Blocked sinks and showers",
+    "serviceSlug": "blocked-sinks-showers",
+    "photo": "blog-content/week-06/illustrations/cafe-sinks.svg",
+    "seoTitle": "Crows Nest Café Sink Backs Up | Trap or Waste Line?",
+    "description": "A Crows Nest café sink repeatedly backs up? Compare one sink with nearby fixtures and identify whether the trap or shared waste line needs attention.",
+    "imageAlt": "Diagram showing two café sinks joining one shared waste line",
+    "caption": "Which fixtures back up helps locate a commercial kitchen restriction.",
+    "introduction": "<p>If a Crows Nest café sink backs up repeatedly, stop running water into it and check whether nearby sinks or floor wastes are affected. One sink can have a local trap or branch restriction; several fixtures backing up suggests the shared waste line or grease-management arrangement needs checking. Record when the problem happens during service and book a drain specialist before another rush pushes water onto the floor.</p>",
+    "takeaways": [
+      "Compare all nearby fixtures before assuming one trap is at fault.",
+      "A busy service period can reveal a partial blockage.",
+      "Keep waste food and grease out of the sink while the problem is assessed.",
+      "Ask which section was cleared and how the result was tested."
+    ],
+    "faqs": [
+      [
+        "Does one slow sink mean the grease trap is full?",
+        "Not necessarily. A local trap or branch can also restrict flow."
+      ],
+      [
+        "Why does it back up only during a rush?",
+        "Higher simultaneous flow can expose a partial restriction."
+      ],
+      [
+        "Should staff keep using another sink?",
+        "Only if it drains normally and does not feed the affected branch."
+      ],
+      [
+        "Can coffee grounds block the line?",
+        "They can add to buildup; keep solids out of the waste."
+      ],
+      [
+        "Will a plunger solve it?",
+        "It may shift a small obstruction but not diagnose repeated backups."
+      ],
+      [
+        "Should I use a chemical cleaner?",
+        "Avoid it, especially where staff or a contractor may handle the drain."
+      ],
+      [
+        "When should the grease system be checked?",
+        "When multiple kitchen fixtures are affected or servicing is overdue."
+      ],
+      [
+        "Is a camera always needed?",
+        "No. Use it when clearing fails, the route is uncertain or the blockage recurs."
+      ],
+      [
+        "What should the contractor know?",
+        "Which fixtures are affected, peak-time pattern and grease-system service history."
+      ],
+      [
+        "How is the repair confirmed?",
+        "Test normal flow through the affected fixtures and explain the cleared section."
+      ]
+    ],
+    "body": "<h2 id=\"map-the-affected-fixtures\">Map the affected fixtures</h2><p>List the hand-wash, preparation and wash-up sinks, plus any nearby floor waste. Note which one fills first and whether water rises in another when the first sink empties. This is more useful than saying “the kitchen drains are blocked”. One isolated sink points toward its trap or short branch. Backflow at several fixtures points farther downstream. Keep staff off a wet floor and avoid running more water merely to prove the problem during a busy service.</p><h2 id=\"record-the-service-time-pattern\">Record the service-time pattern</h2><p>A line with a partial restriction may cope with one basin but fail when several taps and a dishwasher discharge together. Note whether the backup appears at breakfast, lunch or clean-up, and whether it clears slowly overnight. These details help a specialist reproduce the flow condition and locate the likely shared section. If a recent grease-system service, equipment change or renovation preceded the problem, mention it. A timing pattern is evidence, not proof of one particular component.</p><h2 id=\"check-simple-access-without-opening-fixed-pipework\">Check simple access without opening fixed pipework</h2><p>Clear loose food from the sink strainer and note whether a removable basket is full. Keep grease, oil, coffee grounds and food scraps out of the waste. Do not undo a trap full of unknown cleaner or pour another chemical down a commercial sink. Staff may be exposed when a fitting is opened. If an appliance is connected to the branch, note its discharge cycle. The specialist can inspect accessible traps and waste connections with the right controls.</p><h2 id=\"separate-the-trap-from-the-shared-line\">Separate the trap from the shared line</h2><p>A local trap can be cleaned or repaired, but a recurring backup at several points calls for a wider investigation. The contractor may trace the branch to a grease-management device or downstream connection, then clear the affected line. A camera is useful when the route is unclear or a blockage returns; a clean image after clearing may reveal a broken or poorly graded pipe. NSW requires the appropriate licence or certificate for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">draining work</a>.</p><h2 id=\"plan-around-food-service\">Plan around food service</h2><p>Tell the contractor your access hours, whether a sink must stay available and whether the premises are in a shared building. Ask which fixtures need to be shut down while the line is opened and how the work area will be left clean. If the shared drain or grease arrangement belongs to a landlord or building manager, notify them early. A short planned interruption is easier to manage than an unplanned overflow during service.</p><h2 id=\"require-a-clear-result\">Require a clear result</h2><p>Ask the specialist to name the section cleared, what material was found and whether any pipe defect remains. Test the affected fixtures under normal flow before reopening the station. A maintenance suggestion should fit the actual cause: a damaged line will not be fixed by more frequent surface cleaning, while poor waste handling can quickly re-block a sound pipe. Keep the report with the café maintenance records so the next recurrence can be compared.</p>",
+    "conclusion": "The quickest route to a durable fix is to map which fixtures share the problem, then inspect and clear the right section before normal service resumes.",
+    "ctaAnchor": "Crows Nest commercial sink drain clearing",
+    "ctaTail": "Call Blocked Drains Lower North Shore with the affected fixtures and peak-time pattern to arrange a practical inspection.",
+    "check": [
+      "Fixture map",
+      "Tick the sinks and floor wastes that slow or back up together. One point suggests a local fault; several suggest a shared line."
+    ],
+    "id": "W06-07-1",
+    "title": "A Crows Nest Café Sink Keeps Backing Up: Grease Trap or Waste Line?",
+    "slug": "a-crows-nest-cafe-sink-keeps-backing-up-grease-trap-or-waste-line",
+    "date": "2026-11-23",
+    "updatedDate": "2026-11-23",
+    "indexPath": "/blog/",
+    "path": "/blog/a-crows-nest-cafe-sink-keeps-backing-up-grease-trap-or-waste-line/",
+    "service": "/services/blocked-sinks-showers",
+    "serviceURL": "/services/blocked-sinks-showers/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "map-the-affected-fixtures",
+        "label": "Map the affected fixtures"
+      },
+      {
+        "depth": 2,
+        "id": "record-the-service-time-pattern",
+        "label": "Record the service-time pattern"
+      },
+      {
+        "depth": 2,
+        "id": "check-simple-access-without-opening-fixed-pipework",
+        "label": "Check simple access without opening fixed pipework"
+      },
+      {
+        "depth": 2,
+        "id": "separate-the-trap-from-the-shared-line",
+        "label": "Separate the trap from the shared line"
+      },
+      {
+        "depth": 2,
+        "id": "plan-around-food-service",
+        "label": "Plan around food service"
+      },
+      {
+        "depth": 2,
+        "id": "require-a-clear-result",
+        "label": "Require a clear result"
+      }
+    ],
+    "words": 878,
+    "image": "/images/blog-w06-07-1-featured.webp",
+    "width": 960,
+    "height": 640
   }
 ]
