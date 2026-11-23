@@ -1,0 +1,36 @@
+{
+  "/": {
+    "description": "Lower North Shore blocked-drain help, from CCTV inspections and jetting to pipe repair advice. Call Antons with the symptoms. Urgent calls taken 24/7."
+  },
+  "/services/blocked-toilets": {
+    "description": "Blocked toilet on the Lower North Shore? We assess rising water, slow drainage and overflows, then explain clearing options. Call with the symptoms."
+  },
+  "/services/high-pressure-water-jetting": {
+    "description": "Water jetting on the Lower North Shore for suitable grease, roots and drain deposits. Discuss pipe condition and access with Antons before booking."
+  },
+  "/about": {
+    "description": "Meet the licensed Antons team serving the Lower North Shore. See how drain inspection, suitable equipment and clear advice guide our work.",
+    "title": "About Our Lower North Shore Drain Team | Antons"
+  },
+  "/services/cctv-drain-inspections": {
+    "description": "Find the cause of recurring Lower North Shore drain problems with CCTV inspection. We assess accessible lines for roots, damage and displaced joints."
+  },
+  "/services/tree-root-blockages": {
+    "description": "Root removal and drain inspection across the Lower North Shore. Identify where roots enter and discuss repairs when damaged pipes cause repeat blockages."
+  },
+  "/services/drain-repairs": {
+    "description": "Lower North Shore drain repairs for broken or displaced pipes. Discuss inspection findings, excavation access and replacement options with Antons."
+  },
+  "/services/blocked-sinks-showers": {
+    "description": "Slow sink, shower or laundry drain on the Lower North Shore? Antons assesses the symptoms and explains suitable clearing options. Call to enquire."
+  },
+  "/services/sewer-drain-blockages": {
+    "description": "Lower North Shore sewer drain help for wastewater backups and overflowing gullies. Call Antons to discuss clearing, inspection and property access."
+  },
+  "/services/stormwater-drains": {
+    "description": "Slow pits, pooling water or overflowing downpipes on the Lower North Shore? Arrange stormwater drain assessment and suitable clearing with Antons."
+  },
+  "/services": {
+    "description": "Explore Lower North Shore drain clearing, CCTV inspection, jetting, root removal and pipe repairs. Call Antons to discuss the right next step."
+  }
+}

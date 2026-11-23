@@ -43,7 +43,7 @@ for (const file of htmlFiles) {
   try {
     const scripts = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
     const nodes = scripts.flatMap((m) => { const data = JSON.parse(m[1]); return data['@graph'] ?? [data]; });
-    for (const type of ['WebPage', 'WebSite', 'Plumber']) if (nodes.filter((node) => [node['@type']].flat().includes(type)).length !== 1) errors.push(`${relative}: expected one ${type} schema node`);
+    for (const type of ['WebPage', 'WebSite', 'Organization']) if (nodes.filter((node) => [node['@type']].flat().includes(type)).length !== 1) errors.push(`${relative}: expected one ${type} schema node`);
     const pageNode = nodes.find((node) => [node['@type']].flat().includes('WebPage'));
     if (pageNode?.['@id'] !== `${expected}#webpage` || pageNode?.url !== expected) errors.push(`${relative}: page schema does not match canonical URL`);
     if (pageSchemaIds.has(pageNode?.['@id'])) errors.push(`${relative}: duplicate page schema ID`);
