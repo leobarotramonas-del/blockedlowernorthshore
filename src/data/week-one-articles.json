@@ -1869,5 +1869,118 @@
     "image": "/images/blog-w06-07-1-featured.webp",
     "width": 960,
     "height": 640
+  },
+  {
+    "site": 6,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 52,
+    "seoTitle": "Artarmon Basement Drain Rises | Strata First Checks",
+    "description": "Water rises at an Artarmon basement drain? A strata manager can record the affected area, limit further flow and request the right drain inspection.",
+    "imageAlt": "Drain pit being cleared during a plumbing inspection",
+    "caption": "A basement drain inspection starts with the affected level, access points and water path.",
+    "introduction": "<p>Water rising from an Artarmon basement drain needs a quick safety and source check before strata orders repeated clearing. Keep people out of the wet area, avoid electrical hazards and stop using connected fixtures if wastewater may be involved. Record which drain rises first, whether rain is falling and which levels or tenancies are affected. A drain specialist can then test the relevant branch or shared line and use a camera if the defect remains unclear.</p>",
+    "takeaways": [
+      "Keep occupants away from water near electrical equipment.",
+      "Record whether the water appears during rain or fixture use.",
+      "Confirm whether the affected line is private, shared or part of a larger system.",
+      "Ask for a located finding before approving repeat or major works."
+    ],
+    "faqs": [
+      [
+        "Is a basement overflow always stormwater?",
+        "No. Fixture use and water character may point to a different line."
+      ],
+      [
+        "Should residents stop using fixtures?",
+        "If wastewater may be backing up, ask affected occupants to pause use."
+      ],
+      [
+        "Can strata authorise clearing first?",
+        "Yes when flow must be restored, with the cause documented afterward."
+      ],
+      [
+        "Does one wet drain identify the blocked branch?",
+        "Not necessarily; connected lines need tracing."
+      ],
+      [
+        "When is a camera useful?",
+        "After access and clearing allow a readable view of the pipe."
+      ],
+      [
+        "What should be photographed?",
+        "The first rising point, water level, nearby pits and affected equipment."
+      ],
+      [
+        "Can a pump alone solve it?",
+        "Pumping may remove water, but does not explain why it rose."
+      ],
+      [
+        "Who needs the report?",
+        "Strata manager, affected occupants and the party responsible for the line."
+      ],
+      [
+        "What if rain is not falling?",
+        "Check recent rainfall, fixture discharge and other possible sources."
+      ],
+      [
+        "What should the report include?",
+        "Line identity, blockage location, tests, footage and next action."
+      ]
+    ],
+    "body": "<h2 id=\"make-the-basement-safe-first\">Make the basement safe first</h2><p>Keep people out of standing water, especially near switchboards, outlets, lift equipment or plant rooms. Do not wade through water to lift a grate. If sewage is possible, reduce use of connected fixtures and arrange prompt attendance. A building manager can document the water level from a safe point and notify affected residents or businesses. Do not assume that a small puddle is harmless: water can move through a low-level service area before it appears at the visible drain.</p><h2 id=\"use-the-timing-to-identify-the-likely-system\">Use the timing to identify the likely system</h2><p>Record whether the rise follows rainfall, a laundry cycle, bathroom use or a period when the building is quiet. A stormwater pit that surges during rain needs a different trace from a sewer gully that rises when upper floors discharge. Water appearance and odour can help, but they do not prove a source. Note nearby pumps, tanks and floor wastes. Give the drain specialist a simple timeline so the first test targets the most likely connected line.</p><h2 id=\"trace-connections-and-responsibility\">Trace connections and responsibility</h2><p>In a strata building, a basement drain may connect to a common line, a tenancy branch, a pump system or an external network. The nearest grate is not necessarily the point of failure. Ask for the line route, access points and responsibility to be identified before allocating major costs. Existing plans are useful but may not reflect alterations. Record which lots or common areas are affected and who can authorise access. The diagnosis should be about the actual pipe, not only the building’s legal boundary.</p><h2 id=\"clear-flow-and-inspect-the-pipe\">Clear flow and inspect the pipe</h2><p>If water is actively rising, clearing or pumping may be needed before a camera can show anything useful. Once flow is restored, a camera can inspect for debris, roots, an offset joint, a broken section or standing water. Ask the operator to record the measured distance and a surface location when possible. A camera clip through opaque water or a solid blockage is limited evidence. If a pump or non-gravity system is involved, that equipment needs its own qualified assessment.</p><h2 id=\"give-strata-a-decision-ready-report\">Give strata a decision-ready report</h2><p>A useful report states what line was tested, the access point, the method used, whether flow was restored and what defect remains. Include video stills, distance markers and a recommendation linked to the finding. Distinguish emergency clean-up from permanent repair and any drying or electrical work. NSW requires an appropriate <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">licence or certificate for drainage work</a>. Keep the evidence with the work order so repeat overflows can be compared rather than investigated from scratch.</p><h2 id=\"prevent-the-next-uncontrolled-rise\">Prevent the next uncontrolled rise</h2><p>After the immediate issue, review whether nearby pits and grates need regular clearing, whether access is maintained and whether a known defect needs repair. Do not promise that one jetting pass prevents recurrence if a pipe is damaged. When booking in Artarmon, send the timing, level affected, photographs and any prior reports. Ask which parts of the system the contractor can test on the visit and what additional access might be needed. A clear scope helps strata make a timely, defensible decision.</p>",
+    "conclusion": "A basement overflow needs safety control, a timeline and a located drainage finding. The drain’s visible position alone does not identify the blocked shared line.",
+    "ctaAnchor": "Artarmon CCTV drain inspection",
+    "ctaTail": "Give Drains Lower North Shore the affected level and earlier reports so we can plan the appropriate drain trace.",
+    "check": [
+      "Basement overflow log",
+      "Did the water rise with rain, fixture discharge or pump operation? Note the first affected point without entering the wet area."
+    ],
+    "id": "W06-07-2",
+    "title": "Water Rises at an Artarmon Basement Drain: What Should Strata Check First?",
+    "slug": "water-rises-at-an-artarmon-basement-drain-what-should-strata-check-first",
+    "date": "2026-11-25",
+    "updatedDate": "2026-11-25",
+    "indexPath": "/blog/",
+    "path": "/blog/water-rises-at-an-artarmon-basement-drain-what-should-strata-check-first/",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections/",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "make-the-basement-safe-first",
+        "label": "Make the basement safe first"
+      },
+      {
+        "depth": 2,
+        "id": "use-the-timing-to-identify-the-likely-system",
+        "label": "Use the timing to identify the likely system"
+      },
+      {
+        "depth": 2,
+        "id": "trace-connections-and-responsibility",
+        "label": "Trace connections and responsibility"
+      },
+      {
+        "depth": 2,
+        "id": "clear-flow-and-inspect-the-pipe",
+        "label": "Clear flow and inspect the pipe"
+      },
+      {
+        "depth": 2,
+        "id": "give-strata-a-decision-ready-report",
+        "label": "Give strata a decision-ready report"
+      },
+      {
+        "depth": 2,
+        "id": "prevent-the-next-uncontrolled-rise",
+        "label": "Prevent the next uncontrolled rise"
+      }
+    ],
+    "words": 894,
+    "image": "/images/blog-w06-07-2-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
